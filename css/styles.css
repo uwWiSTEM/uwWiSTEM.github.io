@@ -140,6 +140,7 @@ header {
   color: #4A4A4A;
   opacity: 0.8;
 }
+
 .facebook-event,.facebook-event:focus, .facebook-event:active {
   font-size: 14px;
   color: #54BEAD;
@@ -153,6 +154,10 @@ header {
 
 .event-button {
   margin-bottom: 56px;
+}
+
+.member-photo {
+  height: 280px;
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:focus {
