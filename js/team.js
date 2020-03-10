@@ -15,7 +15,32 @@ var members = [{
     position: "Secretary",
     program: "2B Physics and Astronomy",
     image: "img/tamara_khalaf.png"
-}]
+},
+{
+    name: "Margret Su",
+    position: "Conference Coordinator",
+    program: "1A Pharmacy",
+    image: "img/margret_su.png"
+},
+{
+    name: "Catherine Chen",
+    position: "Marketing Coordinator",
+    program: "1B Computer Engineering",
+    image: "img/catherine_chen.png"
+},
+{
+    name: "Kaidi Shi",
+    position: "Event Coordinator",
+    program: "3A Science and Business",
+    image: "img/kaidi_shi.png"
+},
+{
+    name: "Riley Zhou",
+    position: "Web Developer",
+    program: "3A Software Engineering",
+    image: "img/riley_zhou.png"
+}
+]
 
 function display() {
     populateMembersOnIndex();
