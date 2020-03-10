@@ -17,16 +17,17 @@ var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title
 var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
 
 var events = {
-    upcomingevents: [{
+    upcomingevents: [],
+    pastevents: [
+        {
             title: "WiCS x WiSTEM Coffee Chats",
             date: "March 4 2020",
             time: "7:30pm – 8:30pm",
             location: "E2 - 1732",
-            description: "Join WiCS and WiSTEM for a casual time to network, drink some coffee and eat some good snacks while developing connections with women in STEM and CS, fuelling good conversations and building relationships! ",
+            description: "Join WiCS and WiSTEM for a casual time to network, drink some coffee and eat some good snacks while developing connections with women in STEM and CS! ",
             link: "https://www.facebook.com/events/1600304690134428/",
             image: "img/coffeehouse.png"
-            }],
-    pastevents: [
+        },
         {
             title: "Valentine's Day Booth",
             date: "Feburary 12 - 13 2020",
