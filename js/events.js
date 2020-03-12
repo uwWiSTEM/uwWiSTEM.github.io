@@ -17,7 +17,15 @@ var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title
 var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
 
 var events = {
-    upcomingevents: [],
+    upcomingevents: [{
+        title: "WiSTEM x Konrad: Design Thinking Workshop",
+        date: "March 26 2020",
+        time: "5:30pm – 6:30pm",
+        location: "TBD",
+        description: "Come out and join WiSTEM for an evening of design thinking with special host KONRAD!",
+        link: "https://www.facebook.com/events/194682061836398/",
+        image: "img/think_design.jpg"
+    }],
     pastevents: [
         {
             title: "WiCS x WiSTEM Coffee Chats",
