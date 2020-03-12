@@ -46,6 +46,15 @@ var events = {
             image: "img/val_wistem.png"
         },
         {
+            title: "Virtual Resume Critique",
+            date: "By Feb 1 2020",
+            time: "",
+            location: "",
+            description: "Power-up your resume with WiSTEM's Virtual Resume Critique!",
+            link: "",
+            image: "img/resume_critique.png"
+        },
+        {
             title: "Shrink Plastic Workshop",
             date: "March 20 2019",
             time: "6:30pm - 8:30pm",
@@ -306,7 +315,9 @@ function replaceEventsWithHTML() {
         event.description = HTMLEventDescription.replace("%data%", event.description);
         event.image = HTMLEventImage.replace("%data%", event.image);
         event.link = HTMLImageDiv.replace("%data%", event.link);
-        event.time = HTMLEventTime.replace("%data%", event.time + " in " + event.location);
+        if (event.location != "") {
+            event.time = HTMLEventTime.replace("%data%", event.time + " in " + event.location);
+        }
     });
     events.upcomingevents.forEach(function (event) {
         event.title = HTMLUpcomingEventTitle.replace("%data%", event.title);
@@ -314,7 +325,10 @@ function replaceEventsWithHTML() {
         event.description = HTMLEventDescription.replace("%data%", event.description);
         event.image = HTMLEventImage.replace("%data%", event.image);
         event.link = HTMLImageDiv.replace("%data%", event.link);
-        event.time = HTMLEventTime.replace("%data%", event.time + " in " + event.location);
+        if (event.location != "") {
+            event.time = HTMLEventTime.replace("%data%", event.time + " in " + event.location);
+        }
+            
     });
 }
 
