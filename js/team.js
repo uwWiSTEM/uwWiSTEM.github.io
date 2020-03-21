@@ -1,4 +1,4 @@
-var HTMLMemberName = '<div class="event-description"><h5 class="event-title">%data%</h5>';
+var HTMLMemberName = '<div class="event-description"><h5 class="event-title">%data%</h5><div class="small-divider"></div>';
 var HTMLPhoto = '<div class="col-md-4 event-container"><div class="event"><div class="member-photo" style="background-image:url(%data%); background-size: cover;border-radius: 20px 20px 0 0;"></div>';
 var HTMLPosition = '<h5 class="event-time">%data%</h5>';
 var HTMLProgram = '<h5 class="event-time">%data%</h5></div></div></div>';

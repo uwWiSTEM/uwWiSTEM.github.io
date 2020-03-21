@@ -70,6 +70,13 @@ a:hover {
   height: 1px;
 
 }
+.short-divider {
+  width: 50%;
+  margin: 12px auto 56px;
+  background-color: #9B9B9B;
+  opacity: 0.2;
+  height: 1px;
+}
 
 .white-line {
   background-color: white;
@@ -108,7 +115,9 @@ header {
 }
 
 .event-date, .event-month {
-  color: white;
+  color: black;
+  opacity: 0.4;
+  text-shadow: 2px 2px #9B9B9B;
   font-size: 32px;
   display: inline-block;
   margin-top: 24px;
