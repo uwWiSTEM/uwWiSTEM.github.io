@@ -1,5 +1,5 @@
 var HTMLMemberName = '<div class="member-description"><h5 class="member-name">%data%</h5><div class="short-divider"></div>';
-var HTMLPhoto = '<div class="col-md-4 event-container"><div class="event"><div class="member-photo" style="background-image:url(%data%); background-size: cover;border-radius: 20px 20px 0 0;"></div>';
+var HTMLPhoto = '<div class="col-md-4 event-container"><div class="event"><div class="member-photo" style="background-image:url(%data%); background-size: cover;border-radius: 0px 0px 0 0;"></div>';
 var HTMLPosition = '<h5 class="event-time">%data%</h5>';
 var HTMLProgram = '<h5 class="event-time">%data%</h5></div></div></div>';
 
