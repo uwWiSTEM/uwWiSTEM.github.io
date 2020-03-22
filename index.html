@@ -160,27 +160,52 @@
         </form>
       </div>
     </div>
+  </div>
 
+  <div class="row emailus">
+    <div>
+      <h2 class="title text-center black">Email Us</h2>
+      <h4 class="description text-center black">Got any questions? Just send us a message through Email!</h4>
+      <div class="divider"></div>
+      <form class="emailus-form validate-form" action="mail.php" method="POST">
+        <div class="wrap-input1 validate-input" data-validate = "Name is required">
+					<input class="input1" type="text" name="name" placeholder="Name">
+					<!-- <span class="shadow-input"></span> -->
+        </div>
+        
+        <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input class="input1" type="text" name="email" placeholder="Email">
+					<!-- <span class="shadow-input"></span> -->
+        </div>
+
+        <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+					<input class="input1" type="text" name="subject" placeholder="Subject">
+					<!-- <span class="shadow-input"></span> -->
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Message is required">
+					<textarea class="input1" name="message" placeholder="Message"></textarea>
+					<!-- <span class="shadow-input"></span> -->
+				</div>
+        
+        <div class="container-contact1-form-btn">
+					<button class="contact1-form-btn">
+						<span>
+							Send Email
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</span>
+					</button>
+        </div>
+      </form>
+    </div>
   </div>
 
   <div class="row contact" id="contact">
     <div class="col-md-12">
       <h2 class="title text-center white">Contact Us</h2>
-      <h4 class="description text-center white">Got any questions? Just send us a message through Facebook or Email.</h4>
+      <h4 class="description text-center white">Get in touch with us on social media!</h4>
       <div class="divider white-line"></div>
-      <div class="col-sm-3"></div>
-      <div class="col-sm-1 text-center">
-        <a href="mailto:uwwistem@gmail.com">
-          <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
-        </a>
-        <h6 class="white">Email Us</h6>
-      </div>
-      <div class="col-sm-1 text-center">
-        <a href="mailto:uwwistem@gmail.com">
-          <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
-        </a>
-        <h6 class="white">Email Us</h6>
-      </div>
+      <div class="col-sm-4"></div>
       <div class="col-sm-1 text-center">
         <a href="https://www.facebook.com/UWWiSTEM/?fref=ts" target="_blank">
           <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
@@ -199,7 +224,19 @@
         </a>
         <h6 class="white">Follow Us</h6>
       </div>
-      <div class="col-sm-3"></div>
+      <!-- <div class="col-sm-1 text-center">
+        <a href="mailto:uwwistem@gmail.com">
+          <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
+        </a>
+        <h6 class="white">Email Us</h6>
+      </div> -->
+      <div class="col-sm-1 text-center">
+        <a href="https://www.linkedin.com/in/uwwistem/">
+          <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+        </a>
+        <h6 class="white">Connect Us</h6>
+      </div>
+      <div class="col-sm-4"></div>
 
 
     </div>
@@ -222,6 +259,8 @@
   <script src="js/events.js"></script>
 
   <script src="js/team.js"></script>
+
+  <script src="js/validate.js"></script>
 
 </body>
 
