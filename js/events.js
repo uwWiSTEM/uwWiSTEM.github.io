@@ -12,7 +12,7 @@ var HTMLEventImage = '<div class="eventp-image" style="background-image: url(%da
 var mostRecentEvents = [];
 var HTMLIndexEventStart = '<div class="col-md-4 event-container"><a href="%data%" target="_blank"><div class="event">';
 var HTMLIndexEventPhoto = '<div class="event-photo" style="background-image:url(%data%); background-size: cover;border-radius: 20px 20px 0 0;">';
-var HTMLIndexEventDate = '<h3 class="event-month">%data%</h3></div>';
+var HTMLIndexEventDate = '<h3 class="event-month"></h3></div>'; //TODO: REMOVE
 var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title">%data%</h5>';
 var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
 
