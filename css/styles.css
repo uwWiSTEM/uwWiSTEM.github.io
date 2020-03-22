@@ -292,7 +292,7 @@ header {
 .subscribe {
   background-size: cover;
   background-color: #54BEAD;
-  background-image: url("../img/robot-bg.svg");
+  background-image: url("../img/bacteria.svg");
   padding-bottom: 5em;
 
 }
@@ -306,7 +306,7 @@ header {
 }
 
 .contact {
-  background-image: url("../img/bacteria.svg");
+  background-image: url("../img/robot-bg.svg");
   background-size: cover;
   padding-bottom: 5em;
 }
@@ -317,7 +317,8 @@ header {
 }
 
 .fa:hover {
-  color: #F27678;
+  color: #54BEAD;
+  /* color: #F27678; */
 }
 
 
