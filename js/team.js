@@ -39,6 +39,12 @@ var members = [{
     position: "Web Developer",
     program: "3A Software Engineering",
     image: "img/riley_zhou.png"
+},
+{
+    name: "Jayanjali Bodavula",
+    position: "Treasurer",
+    program: "2B Biomedical Sciences",
+    image: "img/jayanjali_bodavula.png"
 }
 ]
 
