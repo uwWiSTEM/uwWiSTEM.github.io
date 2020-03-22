@@ -1,8 +1,8 @@
 <?php
 if(isset( $_POST['name']))
 $name = $_POST['name'];
-if(isset( $_POST['email']))
-$email = $_POST['email'];
+if(isset( $_POST['sender']))
+$email = $_POST['sender'];
 if(isset( $_POST['message']))
 $message = $_POST['message'];
 if(isset( $_POST['subject']))
