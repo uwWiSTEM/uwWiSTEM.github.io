@@ -236,8 +236,10 @@ header {
 
 .lp-solid:hover {
   text-decoration: none;
-  opacity: 0.8;
-  color: white;
+  border: 1px solid white;
+  color: #F27678;
+  /* opacity: 0.8; */
+  background-color: white;
 }
 
 /* make this responsive*/
