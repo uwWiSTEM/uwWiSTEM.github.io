@@ -52,10 +52,13 @@ a:hover {
   opacity: 0.3;
 }
 
+
 .description {
   font-size: 14px;
   color: gray;
   font-style: italic;
+  margin-left: 5em;
+  margin-right:5em;
 }
 .values-image {
   max-height: 100px;
