@@ -17,15 +17,16 @@ a:hover {
 
 .banner {
   width: 100%;
-  height: 30px;
+  height: 100%;
   background-color: rgb(181, 71, 71);
-  overflow: hidden;
+  overflow: auto;
 }
 
 .banner-text{
   color: white;
   padding-top: 3px;
   padding-left: 20px;
+  margin-bottom: 0px;
 }
 
 
