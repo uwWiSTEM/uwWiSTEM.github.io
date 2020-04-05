@@ -517,12 +517,16 @@ header {
 
 .email-button {
   background-color: white;
-  color: #F27678;
+  color: #54BEAD;
   border-radius: 0 20px 20px 0;
-  border: 2px solid white;
-  height: 2.5em;
-  width: 13em;
+  border: 1px solid white;
+  height: 2.6em;
+  width: 10em;
   margin-left: -4px;
+}
+
+.email-button:hover {
+  color: #F27678;
 }
 
 ::-webkit-input-placeholder {
