@@ -5,50 +5,56 @@ var HTMLProgram = '<h5 class="event-time">%data%</h5></div></div></div>';
 
 var executives = [];
 var members = [{
-    name: "Aditi Lohtia",
+    name: "Aditi",
     position: "Event Coordinator",
     program: "2A Computer Engineering",
     image: "img/aditi_lohtia.png"
 },
 {
-    name: "Tamara Khalaf",
+    name: "Tamara",
     position: "Secretary",
     program: "2B Physics and Astronomy",
     image: "img/tamara_khalaf.png"
 },
 {
-    name: "Margret Su",
+    name: "Margret",
     position: "Conference Coordinator",
     program: "1A Pharmacy",
     image: "img/margret_su.png"
 },
 {
-    name: "Catherine Chen",
+    name: "Catherine",
     position: "Marketing Coordinator",
     program: "1B Computer Engineering",
     image: "img/catherine_chen.png"
 },
 {
-    name: "Kaidi Shi",
+    name: "Kaidi",
     position: "Event Coordinator",
     program: "3A Science and Business",
     image: "img/kaidi_shi.png"
 },
 {
-    name: "Riley Zhou",
+    name: "Riley",
     position: "Web Developer",
     program: "3A Software Engineering",
     image: "img/riley_zhou.png"
 },
 {
-    name: "Jayanjali Bodavula",
+    name: "Jayanjali",
     position: "Treasurer",
     program: "2B Biomedical Sciences",
     image: "img/jayanjali_bodavula.png"
 },
 {
-    name: "Aubrey, Janah, Aksharh (from left to right)",
-    position: "Co-Leads",
+    name: "Helena",
+    position: "Social Media Communication Coordinator",
+    program: "1B Biomedical Sciences",
+    image: "img/helena_lee.png"
+},
+{
+    name: "Aubrey, Janah, Aksharh",
+    position: "Coleaders",
     program: "",
     image: "img/coleads.png"
 }
