@@ -508,8 +508,8 @@ header {
 
 .email {
   border-radius: 20px 0 0 20px;
-  border: 2px solid white;
-  background-color: transparent;
+  border: 2.2px solid white;
+  background-color: #54BEAD; /*transparent;*/
   height: 2.5em;
   width: 20em;
   padding: 1em;
@@ -519,7 +519,7 @@ header {
   background-color: white;
   color: #54BEAD;
   border-radius: 0 20px 20px 0;
-  border: 1px solid white;
+  /* border: 0px solid white; */
   height: 2.6em;
   width: 10em;
   margin-left: -4px;
@@ -529,7 +529,7 @@ header {
   color: #F27678;
 }
 
-::-webkit-input-placeholder {
+/* ::-webkit-input-placeholder {
   color: white;
 }
 ::-moz-placeholder {
@@ -540,7 +540,7 @@ header {
 }
 :-moz-placeholder {
   color: white;
-}
+} */
 
 .emailus {
   padding-bottom: 5em;
