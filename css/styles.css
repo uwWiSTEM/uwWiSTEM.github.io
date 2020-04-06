@@ -507,13 +507,35 @@ header {
 }
 
 input.email {
+  height: 2.5em;
+  border-radius: 25px;
+  padding: 0 30px;
+}
+input.email {
   border-radius: 20px 0 0 20px;
+}
+
+.wrap-email {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.email {
+  width: 20em;
+  background: rgb(235, 234, 234);
+  /* font-size: 15px; */
+  /* line-height: 1.5; */
+}
+
+/* input.email { */
   /* border: 2.2px solid white;
   background-color: transparent; */
   /* height: 2.5em;
   width: 20em;
   padding: 1em; */
-}
+/* } */
 
 .email {
   width: 20em;
