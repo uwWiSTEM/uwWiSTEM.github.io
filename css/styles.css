@@ -510,14 +510,20 @@ input.email {
   border-radius: 20px 0 0 20px;
   /* border: 2.2px solid white;
   background-color: transparent; */
-  height: 2.5em;
+  /* height: 2.5em;
   width: 20em;
-  padding: 1em;
+  padding: 1em; */
 }
 
 .email {
+  width: 20em;
+  height: 2.5em;
+  /* background: rgb(235, 234, 234);
+  font-size: 15px;
+  line-height: 1.5; */
   background: rgb(235, 234, 234);
-  font-size: 14.5px;
+  /* font-size: 14.5px; */
+  padding: 1em;
   /* line-height: 1.5; */
 }
 
