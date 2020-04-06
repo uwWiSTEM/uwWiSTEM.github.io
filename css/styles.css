@@ -506,10 +506,10 @@ header {
   display: inline-block;
 }
 
-.email {
+input.email {
   border-radius: 20px 0 0 20px;
   border: 2.2px solid white;
-  background-color: #54BEAD; /*transparent;*/
+  background-color: transparent;
   height: 2.5em;
   width: 20em;
   padding: 1em;
