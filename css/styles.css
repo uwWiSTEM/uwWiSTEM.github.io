@@ -507,12 +507,9 @@ header {
 }
 
 input.email {
-  height: 2.5em;
-  border-radius: 25px;
-  padding: 0 30px;
-}
-input.email {
+  height: 35px;
   border-radius: 20px 0 0 20px;
+  padding: 0 30px;
 }
 
 .wrap-email {
@@ -523,7 +520,7 @@ input.email {
 }
 
 .email {
-  width: 20em;
+  width: 300px;
   background: rgb(235, 234, 234);
   /* font-size: 15px; */
   /* line-height: 1.5; */
@@ -537,17 +534,17 @@ input.email {
   padding: 1em; */
 /* } */
 
-.email {
+/* .email {
   width: 20em;
-  height: 2.5em;
+  height: 2.5em; */
   /* background: rgb(235, 234, 234);
   font-size: 15px;
   line-height: 1.5; */
-  background: rgb(235, 234, 234);
+  /* background: rgb(235, 234, 234); */
   /* font-size: 14.5px; */
-  padding: 1em;
+  /* padding: 10px; */
   /* line-height: 1.5; */
-}
+/* } */
 
 .email-button {
   background-color: white;
