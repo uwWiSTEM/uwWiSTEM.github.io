@@ -549,8 +549,7 @@ input.email {
 .email-button {
   background-color: white;
   color: #54BEAD;
-  border-radius: 0 20px 20px 0;
-  /* border: 0px solid white; */
+  border-radius: 20px 20px 20px 20px;
   height: 2.6em;
   width: 10em;
   margin-left: -4px;
@@ -582,10 +581,10 @@ input.email {
   margin: 0 auto;
 }
 
-input {
+/* input {
 	outline: none;
 	border: none;
-}
+} */
 
 textarea {
   outline: none;
