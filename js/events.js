@@ -64,6 +64,33 @@ var events = {
             image: "img/shrink_plastic.png"
         },
         {
+            title: "Introduction to Python Workshop",
+            date: "Nov 28 2019",
+            time: "5:30pm - 7:00pm",
+            location: "PHY 145",
+            description: "Come and learn a new programming language and enjoy FREE bubble tea!",
+            link: "",
+            image: "img/pyws.png"
+        },
+        {
+            title: "Bake Sale",
+            date: "Nov 15 2019",
+            time: "",
+            location: "SLC",
+            description: "Meet us on Friday @SLC for Bake Sale! Everything under $2!",
+            link: "",
+            image: "img/bake.png"
+        },
+        {
+            title: "Virtual Resume Critique",
+            date: "By Nov 15 2019",
+            time: "",
+            location: "",
+            description: "Tune up your resume with WiSTEM's Virtual Resume Critique!",
+            link: "",
+            image: "img/vrc.png"
+        },
+        {
         title: "Intro To Programming: Python",
         date: "July 3 2018",
         time: "5:30pm - 7:30pm",
