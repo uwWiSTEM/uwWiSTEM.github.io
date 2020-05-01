@@ -1,10 +1,35 @@
 a:hover {
   text-decoration: none;
 }
+
 .title {
   margin-top: 76px;
   font-size: 32px;
   color: #0E1A41;
+}
+
+.subtitle-rd {
+  margin-top: 76px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #F27678;
+  padding-bottom: 20px;
+}
+.subtitle-gr {
+  margin-top: 76px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #54BEAD;
+  padding-bottom: 20px;
+}
+
+.ss-description {
+  font-size: 17px;
+  color: #4A4A4A;
+  opacity: 0.8;
+  line-height: 17px;
+  margin-bottom: 20px;
+  padding: 0 48px;
 }
 
 .navbar-default.affix .nav>li>a:focus:hover, .navbar-default.affix .nav>li>a:hover {
@@ -230,6 +255,34 @@ header {
   background-color: white;
 }
 
+.lp-outline-gr, .lp-outline-gr:active, .lp-outline-gr:focus {
+  padding: 10px 33px;
+  border-radius: 100px;
+  border: 1px solid #54BEAD;
+  color: #54BEAD;
+  margin-right: 24px;
+}
+
+.lp-outline-gr:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #54BEAD;
+}
+
+.lp-outline-rd, .lp-outline-rd:active, .lp-outline-rd:focus {
+  padding: 10px 33px;
+  border-radius: 100px;
+  border: 1px solid #F27678;
+  color: #F27678;
+  margin-right: 24px;
+}
+
+.lp-outline-rd:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #F27678;
+}
+
 .lp-solid, .lp-solid:active, .lp-solid:focus {
   padding: 10px 33px;
   border-radius: 100px;
@@ -244,6 +297,20 @@ header {
   color: #F27678;
   background-color: white;
 }
+
+/* .lp-outline, .lp-outline:active, .lp-outline:focus {
+  padding: 10px 33px;
+  border-radius: 100px;
+  border: 1px solid white;
+  color: white;
+  margin-right: 24px;
+}
+
+.lp-outline:hover {
+  text-decoration: none;
+  color: #54BEAD;
+  background-color: white;
+} */
 
 /* make this responsive*/
 .buttons-lp {
