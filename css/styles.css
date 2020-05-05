@@ -11,7 +11,7 @@ a:hover {
 .subtitle-rd {
   margin-top: 76px;
   font-size: 32px;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #F27678;
   padding-bottom: 20px;
 }
@@ -38,6 +38,11 @@ a:hover {
 
 .navbar-default.affix .navbar-header .navbar-brand:hover {
   color: #F27678;
+}
+
+.dropdown-menu > .active > a,.dropdown-menu > .active > a:hover.dropdown-menu > .active > a:focus {
+  color: #555555!important; 
+  background-color: #e7e7e7!important;
 }
 
 .banner {
