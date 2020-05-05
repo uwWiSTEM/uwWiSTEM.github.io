@@ -59,8 +59,15 @@
           <li>
             <a class="page-scroll" href="#about">About Us</a>
           </li>
-          <li>
-            <a class="page-scroll" href="#events">Events</a>
+          <!-- Dropdown -->
+          <li class="dropdown">
+            <a class="dropdown-toggle page-scroll" data-toggle="dropdown" id="dropdownMenu1" aria-haspopup="true" aria-expanded="true">Events
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a class="dropdown-item page-scroll" href="#events">More Events</a></li>
+              <li><a class="dropdown-item page-scroll" href="#stepIntoSTEM">Step into STEM</a></li>
+            </ul>
           </li>
           <li>
             <a class="page-scroll" href="#team">Our Team</a>
@@ -128,8 +135,8 @@
     </div>
   </div>
 
-  <div class="row events" id="events">
-    <div class="col-md-12">
+  <div class="row events">
+    <div class="col-md-12" id="events">
       <h2 class="title text-center">Our Events</h2>
       <h4 class="description text-center">We run a variety of events ranging from socializing to workshops.</h4>
       <div class="divider"></div>
@@ -139,7 +146,7 @@
         <a href="events.html" class="lp-solid">See More Events</a>
       </div>
     </div>
-    <div class="col-md-12">
+    <div class="col-md-12" id="stepIntoSTEM">
       <div class="divider"></div>
       <h2 class="subtitle-rd text-center">STEP INTO <span class="subtitle-gr">STEM</span></h2>
       <p class="ss-description text-center">An annual conference hosted by UW WiSTEM to educate high school students and provide them with the resources and opportunities available in STEM.</p>
