@@ -63,6 +63,12 @@ a:hover {
 .landing {
   margin-top: 15%;
 }
+
+.step-landing {
+  margin-top: 15%;
+  margin-right: 15%;
+}
+
 .wistem-title {
   font-size: 5em;
 }
@@ -80,7 +86,6 @@ a:hover {
   margin: 8px auto;
   opacity: 0.3;
 }
-
 
 .description {
   font-size: 14px;
@@ -134,8 +139,12 @@ header {
   background-color: #54BEAD;
 }
 
-.navbar-default {
+.navbar-main {
   background-color: #54BEAD;
+}
+
+.navbar-step {
+  background-color: rgb(77, 159, 240);
 }
 
 .events {
@@ -676,32 +685,44 @@ textarea.input1 + .shadow-input1 {
 }
 
 /* step into stem 2018 */
-.past-conf-page {
+.content-container {
   background-color: #F8F8F8;
   padding: 200px;
   margin-bottom: 35px;
 
 }
-.past-conf-page .fa {
-  color: blue;
+.content-container .fa {
+  color: rgb(110, 181, 251);
 }
 
 header.past-conference {
   background: none;
-  background-size: auto;
+  background-size: cover;
   background-color: white;
+  background-image: url(../img/step_2018.png);
+  opacity: 0.8;
 }
 
 h1.step-title {
   font-size: 5em;
   font-weight: 600;
-  color: rgb(0, 119, 255);
+  color: white;
+}
+
+h1.step-year {
+  font-size: 5em;
+  font-weight: 900;
+  color: #fdcc52;
 }
 
 .past-conference h5{
-  color: rgb(0, 119, 255);
+  color: white;;
 }
 
+.sponsor-image {
+  margin: 4px auto;
+  max-width: 150px;
+}
 
 /* responsiveness */
 
@@ -713,6 +734,12 @@ h1.step-title {
   .landing-divider {
     width: 50%;
   }
+
+  .step-landing {
+    margin-top: 25%;
+    margin-right: 20%;
+  }
+
   .whitespace {
     display: none;
   }
@@ -735,6 +762,11 @@ h1.step-title {
     margin-top: 25%;
   }
 
+  .step-landing {
+    margin-top: 28%;
+    margin-right: 20%;
+  }
+
   .partnership-image {
     height: 400px;
   }
@@ -744,6 +776,11 @@ h1.step-title {
 @media (max-width: 750px) {
   .landing {
     margin-top: 25%;
+  }
+
+  .step-landing {
+    margin-top: 28%;
+    margin-right: 20%;
   }
 
   .partnership-image {
