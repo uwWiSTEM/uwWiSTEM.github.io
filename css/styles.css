@@ -11,7 +11,6 @@ a:hover {
 .subtitle-rd {
   margin-top: 76px;
   font-size: 32px;
-  /* font-weight: bold; */
   color: #F27678;
   padding-bottom: 20px;
 }
@@ -74,7 +73,6 @@ a:hover {
 }
 
 /*make responsive*/
-
 .landing-divider {
   width: 700px;
   height: 1px;
@@ -303,20 +301,6 @@ header {
   background-color: white;
 }
 
-/* .lp-outline, .lp-outline:active, .lp-outline:focus {
-  padding: 10px 33px;
-  border-radius: 100px;
-  border: 1px solid white;
-  color: white;
-  margin-right: 24px;
-}
-
-.lp-outline:hover {
-  text-decoration: none;
-  color: #54BEAD;
-  background-color: white;
-} */
-
 /* make this responsive*/
 .buttons-lp {
   margin-top: 48px;
@@ -393,14 +377,23 @@ header {
   padding-bottom: 5em;
 }
 
+.page-contact {
+  background-image: url("../img/bacteria.svg");
+  background-size: cover;
+  padding-bottom: 5em;
+}
 
 .fa {
   color: white;
 }
 
-.fa:hover {
+.contact .fa:hover {
   color: #54BEAD;
   /* color: #F27678; */
+}
+.page-contact .fa:hover {
+  /* color: #54BEAD; */
+  color: #F27678;
 }
 
 
@@ -477,94 +470,6 @@ header {
   line-height: 2;
 }
 
-/* all event photos */
-/* 
-#fword, #letstalk, #synbio101, #wisdom, #wise, #defense, #you, #dessert, #beattheheat, #fightlikeagirl, #paintyourpinky, #programworkshop, #springdance, #synbiopanel, #hiphopclass{
-  background-size: cover;
-  border-radius: 20px 20px 0 0;
-}
-
-#fword {
-  background-image: url("../img/fword.png");
-}
-
-#letstalk {
-  background-image: url("../img/letstalk.png");
-}
-
-#synbio101 {
-  background-image: url("../img/synbio101.png");
-}
-
-#wisdom {
-  background-image: url("../img/wisdom.png");
-}
-
-#wise{
-  background-image: url("../img/wise.png");
-}
-
-#defense{
-  background-image: url("../img/defense.png");
-}
-
-#you{
-  background-image: url("../img/you.png");
-}
-
-#dessert{
-  background-image: url("../img/dessert.png");
-}
-
-#beattheheat {
-  background-image: url("../img/beattheheat.jpg");
-}
-
-#fightlikeagirl {
-  background-image: url("../img/fightlikeagirl.jpg");
-}
-
-#paintyourpinky {
-  background-image: url("../img/paintyourpinky.jpg");
-}
-
-#programworkshop {
-  background-image: url("../img/programworkshop.jpg");
-}
-
-#springdance {
-  background-image: url("../img/springdance.jpg");
-}
-
-#synbiopanel {
-  background-image: url("../img/synbiopanel.jpg");
-}
-
-#hiphopclass {
-  background-image: url("../img/hip hop class.png");
-} */
-
-/* OVERLAY images */
-
-/* #fword.event-photo  {
-  background-image: url("../img/fword-overlay.png");
-}
-#letstalk.event-photo  {
-  background-image: url("../img/letstalk-overlay.png");
-}
-#synbio101.event-photo {
-  background-image: url("../img/synthbio-overlay.png");
-}
-#synbiopanel.event-photo  {
-  background-image: url("../img/synbiopanel-overlay.jpg");
-}
-#fightlikeagirl.event-photo  {
-  background-image: url("../img/fightlikeagirl-overlay.jpg");
-}
-#programworkshop.event-photo {
-  background-image: url("../img/programworkshop-overlay.jpg");
-} */
-
 
 /* Mailchimp Styles */
 
@@ -594,29 +499,7 @@ input.email {
 .email {
   width: 300px;
   background: rgb(235, 234, 234);
-  /* font-size: 15px; */
-  /* line-height: 1.5; */
 }
-
-/* input.email { */
-  /* border: 2.2px solid white;
-  background-color: transparent; */
-  /* height: 2.5em;
-  width: 20em;
-  padding: 1em; */
-/* } */
-
-/* .email {
-  width: 20em;
-  height: 2.5em; */
-  /* background: rgb(235, 234, 234);
-  font-size: 15px;
-  line-height: 1.5; */
-  /* background: rgb(235, 234, 234); */
-  /* font-size: 14.5px; */
-  /* padding: 10px; */
-  /* line-height: 1.5; */
-/* } */
 
 .email-button {
   background-color: white;
@@ -631,19 +514,6 @@ input.email {
   color: #F27678;
 }
 
-/* ::-webkit-input-placeholder {
-  color: white;
-}
-::-moz-placeholder {
-  color: white;
-}
-:-ms-input-placeholder {
-  color: white;
-}
-:-moz-placeholder {
-  color: white;
-} */
-
 .emailus {
   padding-bottom: 5em;
 }
@@ -652,11 +522,6 @@ input.email {
   width: 40%;
   margin: 0 auto;
 }
-
-/* input {
-	outline: none;
-	border: none;
-} */
 
 textarea {
   outline: none;
@@ -808,6 +673,33 @@ textarea.input1 + .shadow-input1 {
 .alert-validate:hover:before {
   visibility: visible;
   opacity: 1;
+}
+
+/* step into stem 2018 */
+.past-conf-page {
+  background-color: #F8F8F8;
+  padding: 200px;
+  margin-bottom: 35px;
+
+}
+.past-conf-page .fa {
+  color: blue;
+}
+
+header.past-conference {
+  background: none;
+  background-size: auto;
+  background-color: white;
+}
+
+h1.step-title {
+  font-size: 5em;
+  font-weight: 600;
+  color: rgb(0, 119, 255);
+}
+
+.past-conference h5{
+  color: rgb(0, 119, 255);
 }
 
 
