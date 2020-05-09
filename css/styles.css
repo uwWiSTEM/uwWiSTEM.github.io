@@ -685,14 +685,25 @@ textarea.input1 + .shadow-input1 {
 }
 
 /* step into stem 2018 */
-.content-container {
+.quote-container {
   background-color: #F8F8F8;
   padding: 200px;
   margin-bottom: 35px;
 
 }
-.content-container .fa {
+
+.quote-container blockquote {
+  padding: 50px
+}
+.quote-container .fa {
   color: rgb(110, 181, 251);
+}
+
+.gallery {
+  background-color: white;
+  padding: 100px;
+  margin-bottom: 35px;
+
 }
 
 header.past-conference {
