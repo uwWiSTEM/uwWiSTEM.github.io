@@ -49,7 +49,7 @@ var members = [{
 {
     name: "Helena",
     position: "Social Media Communication Coordinator",
-    program: "1B Biomedical Sciences",
+    program: "1B Science and Business",
     image: "img/helena_lee.png"
 },
 {
