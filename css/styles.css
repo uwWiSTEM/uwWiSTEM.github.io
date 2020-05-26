@@ -130,15 +130,7 @@ a:hover {
   height: 1px;
 }
 
-.menu-divider-1 {
-  width: 100%;
-  margin: 3px auto 3px;
-  background-color: #686868;
-  opacity: 0.2;
-  height: 1px;
-}
-
-.menu-divider-2 {
+.menu-divider {
   width: 80%;
   margin: 3px auto 3px;
   background-color: #919191;
@@ -346,8 +338,26 @@ header {
 
 .lp-solid:hover {
   text-decoration: none;
-  border: 1px solid white;
+  border: 1px solid #f27678;
   color: #f27678;
+  background-color: white;
+}
+
+.lp-solid-gr,
+.lp-solid-gr:active,
+.lp-solid-gr:focus {
+  padding: 10px 33px;
+  margin-right: 24px;
+  border-radius: 100px;
+  border: 1px solid #54bead;
+  background-color: #54bead;
+  color: white;
+}
+
+.lp-solid-gr:hover {
+  text-decoration: none;
+  border: 1px solid #54bead;
+  color: #54bead;
   background-color: white;
 }
 
