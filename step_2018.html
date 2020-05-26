@@ -27,45 +27,57 @@
 
 </head>
 <body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-step navbar-fixed-top">
-        <div class="banner">
-          <p class="banner-text">Due to unforseen circumstances and the rise in COVID-19, all upcoming events will be cancelled until further notice.</p>
-        </div>
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span> Menu
-              <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top"> WiSTEM</a>
-          </div>
-    
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a class="page-scroll" href="index.html#about">About Us</a>
-              </li>
-              <!-- Dropdown -->
-              <li class="dropdown">
-                <a class="dropdown-toggle page-scroll" data-toggle="dropdown" id="dropdownMenu1" aria-haspopup="true" aria-expanded="true">Events
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li><a class="dropdown-item page-scroll" href="index.html#events">Our Events</a></li>
-                  <li><a class="dropdown-item page-scroll" href="index.html#stepintoSTEM">Step into STEM</a></li>
+  <nav id="mainNav" class="navbar navbar-default navbar-step navbar-fixed-top">
+    <div class="banner">
+      <p class="banner-text">Due to unforseen circumstances and the rise in COVID-19, all upcoming events will be cancelled until further notice.</p>
+    </div>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span> Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="index.html#page-top"> WiSTEM</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="page-scroll" href="#about">About Us</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="fa fa-caret-down"></span></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle page-scroll" href="index.html#events">Our Events  <span class="fa fa-caret-right"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="page-scroll" href="index.html#events">Recent Events</a></li>
+                    <li><a href="events.html">More Events</a></li>
                 </ul>
               </li>
-              <li>
-                <a class="page-scroll" href="index.html#team">Our Team</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="index.html#contact">Contact Us</a>
+              <li role="separator" class="menu-divider-2"></li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle page-scroll" href="index.html#stepintoSTEM">Step into STEM  <span class="fa fa-caret-right"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="step_2018.html">Step into STEM 2018</a></li>
+                    <li><a href="#">Step into STEM 2020</a></li>
+                    <li role="separator" class="menu-divider-2"></li>
+                    <li><a href="#">Sponsor Us ♡</a></li>
+                </ul>
               </li>
             </ul>
-          </div>
-        </div>
-    </nav>
-
+          </li>
+          <li>
+            <a class="page-scroll" href="#team">Our Team</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <header class="past-conference" style="overflow:hidden">
         <div class="row">
           <div class="col-md-12">
@@ -178,6 +190,8 @@
       <script src="js/team.js"></script>
     
       <script src="js/validate.js"></script>
+
+      <script src="js/dropdown.js"></script>
 
     </body>
 </html>

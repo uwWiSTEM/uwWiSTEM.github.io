@@ -5,43 +5,45 @@ a:hover {
 .title {
   margin-top: 76px;
   font-size: 32px;
-  color: #0E1A41;
+  color: #0e1a41;
 }
 
 .subtitle-rd {
   margin-top: 76px;
   font-size: 32px;
-  color: #F27678;
+  color: #f27678;
   padding-bottom: 20px;
 }
 .subtitle-gr {
   margin-top: 76px;
   font-size: 32px;
   font-weight: bold;
-  color: #54BEAD;
+  color: #54bead;
   padding-bottom: 20px;
 }
 
 .ss-description {
   font-size: 17px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   opacity: 0.8;
   line-height: 17px;
   margin-bottom: 20px;
   padding: 0 48px;
 }
 
-.navbar-default.affix .nav>li>a:focus:hover, .navbar-default.affix .nav>li>a:hover {
-  color: #F27678;
+.navbar-default.affix .nav > li > a:focus:hover,
+.navbar-default.affix .nav > li > a:hover {
+  color: #f27678;
 }
 
 .navbar-default.affix .navbar-header .navbar-brand:hover {
-  color: #F27678;
+  color: #f27678;
 }
 
-.dropdown-menu > .active > a,.dropdown-menu > .active > a:hover.dropdown-menu > .active > a:focus {
-  color: #555555!important; 
-  background-color: #e7e7e7!important;
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover.dropdown-menu > .active > a:focus {
+  color: #555555 !important;
+  background-color: #e7e7e7 !important;
 }
 
 .banner {
@@ -51,13 +53,12 @@ a:hover {
   overflow: auto;
 }
 
-.banner-text{
+.banner-text {
   color: white;
   padding-top: 3px;
   padding-left: 20px;
   margin-bottom: 0px;
 }
-
 
 /* make responsive */
 .landing {
@@ -92,7 +93,7 @@ a:hover {
   color: gray;
   font-style: italic;
   margin-left: 5em;
-  margin-right:5em;
+  margin-right: 5em;
 }
 .values-image {
   max-height: 100px;
@@ -101,31 +102,59 @@ a:hover {
 
 .values {
   font-size: 24px;
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
 .value-description {
   font-size: 14px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   opacity: 0.8;
   line-height: 22px;
   margin-bottom: 88px;
   padding: 0 48px;
 }
+
 .divider {
   width: 50%;
   margin: 12px auto 56px;
-  background-color: #9B9B9B;
+  background-color: #9b9b9b;
   opacity: 0.2;
   height: 1px;
-
 }
+
 .short-divider {
   width: 50%;
   left: margin 10;
-  background-color: #9B9B9B;
+  background-color: #9b9b9b;
   opacity: 0.2;
   height: 1px;
+}
+
+.menu-divider-1 {
+  width: 100%;
+  margin: 3px auto 3px;
+  background-color: #686868;
+  opacity: 0.2;
+  height: 1px;
+}
+
+.menu-divider-2 {
+  width: 80%;
+  margin: 3px auto 3px;
+  background-color: #919191;
+  opacity: 0.2;
+  height: 1px;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+  width: 200px;
 }
 
 .white-line {
@@ -136,11 +165,11 @@ header {
   background: none;
   background-image: url(../img/landing-bg.png);
   background-size: cover;
-  background-color: #54BEAD;
+  background-color: #54bead;
 }
 
 .navbar-main {
-  background-color: #54BEAD;
+  background-color: #54bead;
 }
 
 .navbar-step {
@@ -148,7 +177,7 @@ header {
 }
 
 .events {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding: 0 36px;
   padding-bottom: 36px;
 }
@@ -168,16 +197,16 @@ header {
   height: 250px;
 }
 
-.event-date, .event-month {
+.event-date,
+.event-month {
   color: black;
   opacity: 0.4;
-  text-shadow: 2px 2px #9B9B9B;
+  text-shadow: 2px 2px #9b9b9b;
   font-size: 32px;
   display: inline-block;
   margin-top: 24px;
   margin-left: 24px;
   margin-bottom: 0;
-
 }
 
 .event-date {
@@ -194,24 +223,26 @@ header {
 
 .event-title {
   font-size: 16px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   height: 34px;
 }
 
 .event-time {
   font-size: 14px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   opacity: 0.8;
 }
 
-.facebook-event,.facebook-event:focus, .facebook-event:active {
+.facebook-event,
+.facebook-event:focus,
+.facebook-event:active {
   font-size: 14px;
-  color: #54BEAD;
+  color: #54bead;
   text-decoration: none;
 }
 
 .facebook-event:hover {
-  color: #F27678;
+  color: #f27678;
   text-decoration: none;
 }
 
@@ -232,12 +263,14 @@ header {
 
 .member-name {
   font-size: 16px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   height: 15px;
 }
 
-.btn-primary, .btn-primary:active, .btn-primary:focus {
-  background-color: #F27678;
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #f27678;
   color: white;
   font-size: 12px;
   padding: 8px 16px;
@@ -248,12 +281,14 @@ header {
 }
 
 .btn-primary:hover {
-  background-color: #54BEAD;
+  background-color: #54bead;
   color: white;
   border: none;
 }
 
-.lp-outline, .lp-outline:active, .lp-outline:focus {
+.lp-outline,
+.lp-outline:active,
+.lp-outline:focus {
   padding: 10px 33px;
   border-radius: 100px;
   border: 1px solid white;
@@ -263,50 +298,56 @@ header {
 
 .lp-outline:hover {
   text-decoration: none;
-  color: #54BEAD;
+  color: #54bead;
   background-color: white;
 }
 
-.lp-outline-gr, .lp-outline-gr:active, .lp-outline-gr:focus {
+.lp-outline-gr,
+.lp-outline-gr:active,
+.lp-outline-gr:focus {
   padding: 10px 33px;
   border-radius: 100px;
-  border: 1px solid #54BEAD;
-  color: #54BEAD;
+  border: 1px solid #54bead;
+  color: #54bead;
   margin-right: 24px;
 }
 
 .lp-outline-gr:hover {
   text-decoration: none;
   color: white;
-  background-color: #54BEAD;
+  background-color: #54bead;
 }
 
-.lp-outline-rd, .lp-outline-rd:active, .lp-outline-rd:focus {
+.lp-outline-rd,
+.lp-outline-rd:active,
+.lp-outline-rd:focus {
   padding: 10px 33px;
   border-radius: 100px;
-  border: 1px solid #F27678;
-  color: #F27678;
+  border: 1px solid #f27678;
+  color: #f27678;
   margin-right: 24px;
 }
 
 .lp-outline-rd:hover {
   text-decoration: none;
   color: white;
-  background-color: #F27678;
+  background-color: #f27678;
 }
 
-.lp-solid, .lp-solid:active, .lp-solid:focus {
+.lp-solid,
+.lp-solid:active,
+.lp-solid:focus {
   padding: 10px 33px;
   border-radius: 100px;
-  border: 1px solid #F27678;
-  background-color: #F27678;
+  border: 1px solid #f27678;
+  background-color: #f27678;
   color: white;
 }
 
 .lp-solid:hover {
   text-decoration: none;
   border: 1px solid white;
-  color: #F27678;
+  color: #f27678;
   background-color: white;
 }
 
@@ -331,7 +372,7 @@ header {
   padding-bottom: 100px;
 }
 .partnership-image {
-  background-image: url("../img/partners-image.png");
+  background-image: url('../img/partners-image.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 578px;
@@ -344,27 +385,28 @@ header {
   position: absolute;
   bottom: 0;
   font-size: 14px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   padding: 0 16px;
   line-height: 2.5;
 }
 
-.learn-more, .learn-more:active, .learn-more:focus {
-  color: #5AB8AF;
+.learn-more,
+.learn-more:active,
+.learn-more:focus {
+  color: #5ab8af;
   text-decoration: none;
 }
 
 .learn-more:hover {
-  color: #F27678;
+  color: #f27678;
   text-decoration: none;
 }
 
 .subscribe {
   background-size: cover;
-  background-color: #54BEAD;
-  background-image: url("../img/bacteria.svg");
+  background-color: #54bead;
+  background-image: url('../img/bacteria.svg');
   padding-bottom: 5em;
-
 }
 
 .white {
@@ -376,39 +418,38 @@ header {
 }
 
 .positions {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding-bottom: 5em;
 }
 
 .contact {
-  background-image: url("../img/robot-bg.svg");
+  background-image: url('../img/robot-bg.svg');
   background-size: cover;
   padding-bottom: 5em;
 }
 
 .page-contact {
-  background-image: url("../img/bacteria.svg");
+  background-image: url('../img/bacteria.svg');
   background-size: cover;
   padding-bottom: 5em;
 }
 
-.fa {
+.fa.fa-3x {
   color: white;
 }
 
 .contact .fa:hover {
-  color: #54BEAD;
+  color: #54bead;
   /* color: #F27678; */
 }
 .page-contact .fa:hover {
   /* color: #54BEAD; */
-  color: #F27678;
+  color: #f27678;
 }
-
 
 /* EVENT PAGE */
 .event-page {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding: 36px;
 }
 
@@ -433,7 +474,7 @@ header {
 
 .eventp-date-container {
   height: 32px;
-  background-color: #F27678;
+  background-color: #f27678;
   border-radius: 0 0 10px 10px;
 }
 .eventp-date {
@@ -450,35 +491,36 @@ header {
 
 .eventp-title {
   font-size: 24px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   margin: 0;
 }
-.eventp-fb, .eventp-fb:active {
-  padding:0;
+.eventp-fb,
+.eventp-fb:active {
+  padding: 0;
   margin: 0;
-  color: #54BEAD;
+  color: #54bead;
   font-size: 16px;
   text-decoration: none;
 }
 
-.eventp-fb:hover, .eventp-fb:focus {
+.eventp-fb:hover,
+.eventp-fb:focus {
   text-decoration: none;
-  color: #F27678;
+  color: #f27678;
 }
 
 .eventp-time {
   font-size: 14px;
-  color: #6E6E6E;
+  color: #6e6e6e;
   margin: 8px 0;
 }
 
 .eventp-description {
   font-size: 14px;
   margin: 16px 0 8px 0;
-  color: #6E6E6E;
+  color: #6e6e6e;
   line-height: 2;
 }
-
 
 /* Mailchimp Styles */
 
@@ -512,7 +554,7 @@ input.email {
 
 .email-button {
   background-color: white;
-  color: #54BEAD;
+  color: #54bead;
   border-radius: 20px 20px 20px 20px;
   height: 2.6em;
   width: 10em;
@@ -520,7 +562,7 @@ input.email {
 }
 
 .email-button:hover {
-  color: #F27678;
+  color: #f27678;
 }
 
 .emailus {
@@ -589,7 +631,7 @@ textarea.input1 + .shadow-input1 {
   min-width: 193px;
   height: 50px;
   border-radius: 25px;
-  background: #54BEAD;
+  background: #54bead;
   font-size: 15px;
   line-height: 1.5;
   color: white;
@@ -665,7 +707,7 @@ textarea.input1 + .shadow-input1 {
 }
 
 .alert-validate::after {
-  content: "\f06a";
+  content: '\f06a';
   display: block;
   position: absolute;
   color: #c80000;
@@ -686,14 +728,13 @@ textarea.input1 + .shadow-input1 {
 
 /* step into stem 2018 */
 .quote-container {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding: 200px;
   margin-bottom: 35px;
-
 }
 
 .quote-container blockquote {
-  padding: 50px
+  padding: 50px;
 }
 .quote-container .fa {
   color: rgb(110, 181, 251);
@@ -703,7 +744,6 @@ textarea.input1 + .shadow-input1 {
   background-color: white;
   padding: 100px;
   margin-bottom: 35px;
-
 }
 
 header.past-conference {
@@ -726,8 +766,8 @@ h1.step-year {
   color: #fdcc52;
 }
 
-.past-conference h5{
-  color: white;;
+.past-conference h5 {
+  color: white;
 }
 
 .sponsor-image {
@@ -762,7 +802,7 @@ h1.step-year {
   .partnership-description {
     position: relative;
     font-size: 14px;
-    color: #4A4A4A;
+    color: #4a4a4a;
     padding: 0 16px;
     line-height: 2.5;
   }
@@ -781,7 +821,6 @@ h1.step-year {
   .partnership-image {
     height: 400px;
   }
-
 }
 
 @media (max-width: 750px) {
@@ -801,6 +840,4 @@ h1.step-year {
   .partnership-description {
     bottom: auto;
   }
-
-
 }
