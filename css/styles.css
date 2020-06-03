@@ -80,6 +80,14 @@ a:hover {
 }
 
 /*make responsive*/
+
+#anouncement {
+  background-color: #f9e3b568;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  font-style: italic;
+}
+
 .landing-divider {
   width: 700px;
   height: 1px;
@@ -770,7 +778,13 @@ h1.step-title {
   color: white;
 }
 
-h1.step-year {
+h1.step-title span {
+  font-size: 1em;
+  font-weight: 900;
+  color: #fdcc52;
+}
+
+.step-year {
   font-size: 5em;
   font-weight: 900;
   color: #fdcc52;
@@ -783,6 +797,13 @@ h1.step-year {
 .sponsor-image {
   margin: 4px auto;
   max-width: 150px;
+}
+
+.sis-2020 {
+  /* padding-top: 8px; */
+  padding-left: 100px;
+  padding-bottom: 60px;
+  background-color: #54bead;
 }
 
 /* responsiveness */
