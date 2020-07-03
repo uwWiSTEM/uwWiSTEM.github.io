@@ -384,6 +384,7 @@ header {
   height: 150px;
   margin-left: 24px;
   display: inline-block;
+  overflow-wrap: break-word;
 }
 
 .eventp-title {
