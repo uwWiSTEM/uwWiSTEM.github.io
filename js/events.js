@@ -38,8 +38,8 @@ var events = {
       time: '',
       location: '',
       description:
-        'WiSTEM is hosing mock interviews starting from May 29! Check out the registration form here: https://docs.google.com/forms/d/e/1FAIpQLScn1oHt6qu4_jXZ6RTfFnMnxITPstGKtxe5U5BfmW9UGMD_ZQ/viewform',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLScn1oHt6qu4_jXZ6RTfFnMnxITPstGKtxe5U5BfmW9UGMD_ZQ/viewform',
+        'WiSTEM is hosing mock interviews starting from May 29! Check out the registration form here: https://forms.gle/1cwdgzQRPYkf4FbT9',
+      link: 'https://forms.gle/1cwdgzQRPYkf4FbT9',
       image: 'img/mock_interview.jpeg'
     },
     {
