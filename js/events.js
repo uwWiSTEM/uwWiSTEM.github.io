@@ -449,7 +449,11 @@ function replaceIndexEventsWithHTML() {
     event.date = event.date.substring(0, event.date.length - 4);
     event.date = HTMLIndexEventDate.replace('%data%', event.date);
     event.title = HTMLIndexEventTitle.replace('%data%', event.title);
-    event.time = HTMLIndexEventTime.replace('%data%', event.time + ' in ' + event.location);
+    if (event.location != '') {
+      event.time = HTMLIndexEventTime.replace('%data%', event.time + ' in ' + event.location);
+    } else {
+      event.time = HTMLIndexEventTime.replace('%data%', event.time + ' online');
+    }
     event.link = HTMLIndexEventStart.replace('%data%', event.link);
     $('#mostrecentevents').append(event.link + event.image + event.date + event.title + event.time);
   });
