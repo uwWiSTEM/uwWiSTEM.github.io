@@ -23,16 +23,6 @@ var events = {
   upcomingevents: [],
   pastevents: [
     {
-      title: 'Trivia Night',
-      date: 'June 17 2020',
-      time: '8:30pm - 10:00pm',
-      location: '',
-      description:
-        'Put your thinking caps on and be prepared to answer fun questions about general STEM facts for a chance to win a Skip the Dishes gift card!',
-      link: 'https://www.facebook.com/events/1258794867660345/',
-      image: 'img/trivia_night.jpeg'
-    },
-    {
       title: 'Mock Interview',
       date: 'Starting from May 29',
       time: '',
@@ -41,6 +31,26 @@ var events = {
         'WiSTEM is hosing mock interviews starting from May 29! Check out the registration form here: https://forms.gle/1cwdgzQRPYkf4FbT9',
       link: 'https://forms.gle/1cwdgzQRPYkf4FbT9',
       image: 'img/mock_interview.jpeg'
+    },
+    {
+      title: 'Coding Workshop',
+      date: 'July 14 2020',
+      time: '7:00pm - 9:00pm',
+      location: '',
+      description:
+        'Join WiSTEM’s Coding Workshop on July 14th! We’ll showing showing you the tips and tricks on how to build a website using HTML + CSS!',
+      link: 'https://www.facebook.com/events/917064908791146/',
+      image: 'img/web-workshop.png'
+    },
+    {
+      title: 'Trivia Night',
+      date: 'June 17 2020',
+      time: '8:30pm - 10:00pm',
+      location: '',
+      description:
+        'Put your thinking caps on and be prepared to answer fun questions about general STEM facts for a chance to win a Skip the Dishes gift card!',
+      link: 'https://www.facebook.com/events/1258794867660345/',
+      image: 'img/trivia_night.jpeg'
     },
     {
       title: 'Instagram Takeover',
