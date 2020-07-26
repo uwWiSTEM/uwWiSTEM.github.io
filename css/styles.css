@@ -335,6 +335,13 @@ header {
   padding-bottom: 5em;
 }
 
+.contact-green {
+  background-size: cover;
+  background-color: #54bead;
+  background-image: url('../img/bacteria.svg');
+  padding-bottom: 5em;
+}
+
 .fa {
   color: white;
 }
@@ -342,6 +349,12 @@ header {
 .fa:hover {
   color: #54bead;
   /* color: #F27678; */
+}
+
+/* APPLICATION PAGE */
+.app-page {
+  background-color: #f8f8f8;
+  padding: 36px;
 }
 
 /* EVENT PAGE */
