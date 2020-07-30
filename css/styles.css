@@ -269,6 +269,10 @@ header {
   margin-top: 86px;
 }
 
+.partners-lp img {
+  width: 100px;
+}
+
 .partners-image {
   margin: 4px auto;
   max-width: 278px;
