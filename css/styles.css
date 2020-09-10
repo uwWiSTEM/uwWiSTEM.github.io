@@ -361,6 +361,11 @@ header {
   padding: 36px;
 }
 
+/* MENTORSHIP PAGE*/
+.text-important {
+  color: #f27678
+}
+
 /* EVENT PAGE */
 .event-page {
   background-color: #f8f8f8;
