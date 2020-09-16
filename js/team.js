@@ -4,7 +4,101 @@ var HTMLPosition = '<h5 class="event-time">%data%</h5>';
 var HTMLProgram = '<h5 class="event-time">%data%</h5></div></div></div>';
 
 var executives = [];
-var members = [{
+var members = [
+{
+    name: "Sophia",
+    position: "President",
+    program: "",
+    image: ""
+},
+{
+    name: "Janah",
+    position: "Vice President",
+    program: "",
+    image: ""
+},
+{
+    name: "Jayanjali",
+    position: "Vice President Internal",
+    program: "",
+    image: ""
+},
+{
+    name: "Margaret",
+    position: "Vice President External",
+    program: "",
+    image: ""
+},
+{
+    name: "Martha",
+    position: "Treasurer",
+    program: "",
+    image: ""
+},
+{
+    name: "Diana",
+    position: "Administration",
+    program: "",
+    image: ""
+},
+{
+    name: "Catherine",
+    position: "Graphic Designer",
+    program: "",
+    image: ""
+},
+{
+    name: "Richa",
+    position: "Graphic Designer",
+    program: "",
+    image: ""
+},
+{
+    name: "Angela",
+    position: "Web Developer",
+    program: "2B Software Engineering",
+    image: "img/angela_dietz.png"
+},
+{
+    name: "Andreea",
+    position: "Event Coordinator",
+    program: "",
+    image: "img/andreea.png"
+},
+{
+    name: "Tong Yin", //CHECK THIS IS CORRECT
+    position: "Event Coordinator",
+    program: "",
+    image: ""
+},
+{
+    name: "Helena",
+    position: "Marketing",
+    program: "",
+    image: ""
+},
+{
+    name: "Toni",
+    position: "Marketing",
+    program: "",
+    image: ""
+},
+{
+    name: "Alicia",
+    position: "External Affairs",
+    program: "",
+    image: ""
+},
+{
+    name: "Yvone",
+    position: "External Affairs",
+    program: "",
+    image: ""
+}
+]
+
+
+/*
     name: "Aditi",
     position: "Event Coordinator",
     program: "2A Computer Engineering",
@@ -58,7 +152,7 @@ var members = [{
     program: "",
     image: "img/coleads.png"
 }
-]
+]*/
 
 function display() {
     populateMembersOnIndex();
