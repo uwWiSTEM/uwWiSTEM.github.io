@@ -10,7 +10,7 @@ var HTMLImageDiv = '<div class="eventp-image-container"><a href="%data%" target=
 var HTMLEventDescriptionContainer = '<div class="eventp-description-container">';
 var HTMLEventLocation = '';
 var HTMLEventImage =
-  '<div class="eventp-image" style="background-image: url(%data%); background-size: cover; border-radius: 20px 20px 0 0;"></div>';
+  '<div class="eventp-image" style="background-image: url(%data%); background-position-x: center; background-size: cover; border-radius: 20px 20px 0 0;"></div>';
 var mostRecentEvents = [];
 var HTMLIndexEventStart = '<div class="col-md-4 event-container"><a href="%data%" target="_blank"><div class="event">';
 var HTMLIndexEventPhoto =
@@ -20,7 +20,16 @@ var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title
 var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
 
 var events = {
-  upcomingevents: [],
+  upcomingevents: [{
+    title: 'Mentorship',
+    date: 'Fall 2020',
+    time: '',
+    location: '',
+    description:
+      'WiSTEM\'s mentorship program focuses on connecting first-year students with upper-years to get helpful uni advice, connection tips and more, guiding students to successfully manage this virtual term!',
+    link: 'http://uwwistem.com/mentorship',
+    image: 'img/mentorship.png'
+  }],
   pastevents: [
     {
       title: 'Mock Interview',

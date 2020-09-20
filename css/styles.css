@@ -133,6 +133,9 @@ header {
 }
 
 .event-photo {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
   height: 250px;
 }
 
@@ -412,7 +415,7 @@ header {
 .eventp-title {
   font-size: 24px;
   color: #4a4a4a;
-  margin: 0;
+  margin: auto;
 }
 .eventp-fb,
 .eventp-fb:active {
