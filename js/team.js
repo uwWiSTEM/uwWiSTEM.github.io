@@ -14,8 +14,8 @@ var members = [
 {
     name: "Janah",
     position: "Vice President",
-    program: "",
-    image: ""
+    program: "4A Biomedical Science",
+    image: "img/janah.jpeg"
 },
 {
     name: "Jayanjali",
@@ -32,19 +32,19 @@ var members = [
 {
     name: "Martha",
     position: "Treasurer",
-    program: "",
-    image: ""
+    program: "3A Mathematics/Chartered Professional Accountancy",
+    image: "img/martha_zhu.jpeg"
 },
 {
     name: "Diana",
     position: "Administration",
-    program: "",
-    image: ""
+    program: "3B Computer Science with a Minor in Statistics",
+    image: "img/diana_surducan.jpeg"
 },
 {
     name: "Catherine",
     position: "Graphic Designer",
-    program: "",
+    program: "2A Computer Engineering",
     image: ""
 },
 {
@@ -57,102 +57,45 @@ var members = [
     name: "Angela",
     position: "Web Developer",
     program: "2B Software Engineering",
-    image: "img/angela_dietz.png"
+    image: "img/angela.jpeg"
 },
 {
     name: "Andreea",
     position: "Event Coordinator",
-    program: "",
-    image: "img/andreea.png"
+    program: "4A Biomedical Sciences ",
+    image: "img/andreea.jpeg"
 },
 {
-    name: "Tong Yin", //CHECK THIS IS CORRECT
+    name: "Tong Yin",
     position: "Event Coordinator",
-    program: "",
-    image: ""
+    program: "1A Systems Design Engineering",
+    image: "img/tong_yin_han.jpeg"
 },
 {
     name: "Helena",
     position: "Marketing",
-    program: "",
-    image: ""
+    program: "2B Science and Business",
+    image: "img/helena_seung-min_lee.png"
 },
 {
     name: "Toni",
     position: "Marketing",
-    program: "",
-    image: ""
+    program: "2A Science and Business",
+    image: "img/toni.jpeg"
 },
 {
     name: "Alicia",
     position: "External Affairs",
-    program: "",
-    image: ""
+    program: "1A Mathematics",
+    image: "img/alicia_lin.jpeg"
 },
 {
     name: "Yvone",
     position: "External Affairs",
-    program: "",
-    image: ""
+    program: "2A Management Engineering",
+    image: "img/yvone_yang.png"
 }
 ]
-
-
-/*
-    name: "Aditi",
-    position: "Event Coordinator",
-    program: "2A Computer Engineering",
-    image: "img/aditi_lohtia.png"
-},
-{
-    name: "Tamara",
-    position: "Secretary",
-    program: "2B Physics and Astronomy",
-    image: "img/tamara_khalaf.png"
-},
-{
-    name: "Margret",
-    position: "Conference Coordinator",
-    program: "1A Pharmacy",
-    image: "img/margret_su.png"
-},
-{
-    name: "Catherine",
-    position: "Marketing Coordinator",
-    program: "1B Computer Engineering",
-    image: "img/catherine_chen.png"
-},
-{
-    name: "Kaidi",
-    position: "Event Coordinator",
-    program: "3A Science and Business",
-    image: "img/kaidi_shi.png"
-},
-{
-    name: "Riley",
-    position: "Web Developer",
-    program: "3A Software Engineering",
-    image: "img/riley_zhou.png"
-},
-{
-    name: "Jayanjali",
-    position: "Treasurer",
-    program: "2B Biomedical Sciences",
-    image: "img/jayanjali_bodavula.png"
-},
-{
-    name: "Helena",
-    position: "Social Media Communication Coordinator",
-    program: "1B Science and Business",
-    image: "img/helena_lee.png"
-},
-{
-    name: "Aubrey, Janah, Aksharh",
-    position: "Coleaders",
-    program: "",
-    image: "img/coleads.png"
-}
-]*/
 
 function display() {
     populateMembersOnIndex();
