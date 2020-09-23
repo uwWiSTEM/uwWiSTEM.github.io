@@ -32,6 +32,16 @@ var events = {
   }],
   pastevents: [
     {
+      title: 'Yext Info Session',
+      date: 'September 21 2020',
+      time: '7:00pm-8:00pm',
+      location: '',
+      description:
+        'Learn more about Yext - a New York-based tech company focused on helping organizations to grow and deliver official answers everywhere people search.',
+      link: 'https://www.facebook.com/UWWiSTEM/posts/1409212739279213',
+      image: 'img/yext_info_session.png'
+    },
+    {
       title: 'Mock Interview',
       date: 'Starting from May 29',
       time: '',
