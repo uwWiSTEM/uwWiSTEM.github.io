@@ -20,7 +20,17 @@ var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title
 var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
 
 var events = {
-  upcomingevents: [{
+  upcomingevents: [
+    {
+      title: 'WiSTEM x Amex: Career Success in the Digital Age',
+      date: 'September 30 2020',
+      time: '12:00pm-1:00pm',
+      location: '',
+      description: 'This panel event will feature professionals from Amex Canada’s Women in Technology network who will dive in to building a successful career in this new virtual world! Registration closes Monday, September 29, 3pm.',
+      link: 'https://www.facebook.com/events/616636495881584/',
+      image: 'img/amex_event.png'
+    },
+    {
     title: 'Mentorship',
     date: 'Fall 2020',
     time: '',
