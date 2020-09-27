@@ -3,11 +3,19 @@ var HTMLPhoto = '<div class="col-md-4 event-container"><div class="event"><div c
 var HTMLPosition = '<h5 class="event-time">%data%</h5>';
 var HTMLProgram = '<h5 class="event-time">%data%</h5></div></div></div>';
 
-var executives = [];
+var leadershipTeam = [];
+var internalTeam = [];
+var externalTeam =[];
+
+var leadershipRoles = ["President", "Senior Vice President"];
+var internalRoles = ["Vice President Internal", "Treasurer", "Administration", "Graphic Designer", "Web Developer"];
+var externalRoles =  ["Vice President External", "Marketing", "Event Coordinator", "External Affairs"];
+
 var members = [
 {
     name: "Sophia",
     position: "President",
+    subteam: "Leadership",
     program: "",
     image: ""
 },
@@ -20,8 +28,8 @@ var members = [
 {
     name: "Jayanjali",
     position: "Vice President Internal",
-    program: "",
-    image: ""
+    program: "3A Biomedical Science",
+    image: "img/jayanjali.jpeg"
 },
 {
     name: "Margaret",
@@ -101,13 +109,39 @@ function display() {
     populateMembersOnIndex();
 }
 
+function isRoleInternal(role){
+    for (i = 0; i < internalRoles.length; i++){
+        if (role == internalRoles[i]){
+            return true;
+        }
+    }
+    return false;
+}
+
+function isRoleExternal(role){
+    for (i = 0; i < externalRoles.length; i++){
+        if (role == externalRoles[i]){
+            return true;
+        }
+    }
+    return false;
+}
+
 function replaceMembersWithHTML() {
     executives.forEach(function(member) {
         member.name = HTMLMemberName.replace("%data%", member.name);
         member.position = HTMLPosition.replace("%data%", member.position);
         member.program = HTMLProgram.replace("%data%", member.program);
         member.image = HTMLPhoto.replace("%data%", member.image);
-        $("#executives").append(member.image + member.name + member.position + member.program);
+        if (isRoleInternal(member.position)){
+            $("#internal").append(member.image + member.name + member.position + member.program);
+        }
+        else if (isRoleExternal(member.position)){
+            $("#external").append(member.image + member.name + member.position + member.program);
+        }
+        else{
+            $("#leadership").append(member.image + member.name + member.position + member.program);
+        }
     })
 }
 
