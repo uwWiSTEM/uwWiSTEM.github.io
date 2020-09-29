@@ -331,6 +331,18 @@ header {
   background-color: rgb(255, 255, 255);
 }
 
+.subteam {
+  vertical-align: middle;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.subteam-member {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .positions {
   background-color: #f8f8f8;
   padding-bottom: 5em;
