@@ -1,6 +1,54 @@
 a:hover {
   text-decoration: none;
 }
+
+@font-face {
+  font-family: 'clear-sans';
+  src: url('../fonts/clear-sans/EOT/ClearSans-Regular.eot');
+  src: url('../fonts/clear-sans/SVG/ClearSans-Regular.svg')format('svg'),
+       url('../fonts/clear-sans/WOFF/ClearSans-Regular.woff')format('woff'),
+       url('../fonts/clear-sans/TTF/ClearSans-Regular.ttf')format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lovelo';
+  src: url('../fonts/lovelo/Lovelo Black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'glacial-indifference';
+  src: url('../fonts/glacial-indifference/GlacialIndifference-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+  font-family: 'clear-sans';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+h2,
+h3 {
+  font-family: 'lovelo', 'Comic Sans MS', 'cursive', 'sans-serif';
+  /*font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';*/
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+h4,
+h5,
+h6 {
+  font-family: 'glacial-indifference', 'Comic Sans MS', 'cursive', 'sans-serif';
+  /*font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';*/
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
 .title {
   margin-top: 76px;
   font-size: 32px;

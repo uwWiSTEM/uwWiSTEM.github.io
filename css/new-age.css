@@ -4,7 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .heading-font {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  /*font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';*/
+  font-family: 'clear-sans';
   font-weight: 200;
   letter-spacing: 1px;
 }
