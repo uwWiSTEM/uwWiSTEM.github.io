@@ -18,99 +18,99 @@ var members = [
     name: "Sophia T.",
     position: "President",
     subteam: "Leadership",
-    program: "2B Biology - Biotechnology Specialization",
+    program: "Biology - Biotechnology Specialization",
     image: "img/sophia_tan.jpeg",
     linkedin: "https://www.linkedin.com/in/sophia-tan1"
 },
 {
     name: "Jayanjali B.",
     position: "Vice President Internal",
-    program: "3A Biomedical Science",
+    program: "Biomedical Science",
     image: "img/jayanjali.jpeg",
     linkedin: ""
 },
 {
     name: "Margaret S.",
     position: "Vice President External",
-    program: "2A Pharmacy",
+    program: "Pharmacy",
     image: "img/margaret_su.png",
     linkedin: "https://www.linkedin.com/in/margaretsu/"
 },
 {
     name: "Martha Z.",
     position: "Treasurer",
-    program: "3A Mathematics/Chartered Professional Accountancy",
+    program: "Mathematics/Chartered Professional Accountancy",
     image: "img/martha_zhu.jpeg",
     linkedin: "https://www.linkedin.com/in/martha-zhu/"
 },
 {
     name: "Diana S.",
     position: "Administration",
-    program: "3B Computer Science - Statistics Minor",
+    program: "Computer Science - Statistics Minor",
     image: "img/diana_surducan.jpeg",
     linkedin: "https://www.linkedin.com/in/diana-surducan"
 },
 {
     name: "Catherine C.",
     position: "Graphic Designer",
-    program: "2A Computer Engineering",
+    program: "Computer Engineering",
     image: "img/wistem_icon.png",
     linkedin: "https://www.linkedin.com/in/catherinejjchen/"
 },
 {
     name: "Richa P.",
     position: "Graphic Designer",
-    program: "2B Honours Science",
+    program: "Honours Science",
     image: "img/richa_patel.jpeg",
     linkedin: "https://www.linkedin.com/in/richa-patel-8301/"
 },
 {
     name: "Angela D.",
     position: "Web Developer",
-    program: "2B Software Engineering",
+    program: "Software Engineering",
     image: "img/angela.jpeg",
     linkedin: "https://www.linkedin.com/in/angela-dietz/"
 },
 {
     name: "Andreea P.",
     position: "Event Coordinator",
-    program: "4A Biomedical Science",
+    program: "Biomedical Science",
     image: "img/andreea2.jpeg",
     linkedin: "https://www.linkedin.com/in/andreeapalage/"
 },
 {
     name: "Tong Yin H.",
     position: "Event Coordinator",
-    program: "1A Systems Design Engineering",
+    program: "Systems Design Engineering",
     image: "img/tong_yin.jpeg",
     linkedin: "https://www.linkedin.com/in/tongyin-han/"
 },
 {
     name: "Helena L.",
     position: "Marketing",
-    program: "2B Science and Business - Biochemistry Specialization",
+    program: "Science and Business - Biochemistry Specialization",
     image: "img/helena_seung-min_lee.png",
     linkedin: "https://www.linkedin.com/in/helenasmlee/"
 },
 {
     name: "Toni O.",
     position: "Marketing",
-    program: "2A Science and Business - Biotechnology Specialization",
+    program: "Science and Business - Biotechnology Specialization",
     image: "img/toni.jpeg",
-    linkedin: "https://www.linkedin.com/in/tongyin-han/"
+    linkedin: "https://www.linkedin.com/in/toni-oguntunde-74a096194"
 },
 {
     name: "Alicia L.",
     position: "External Affairs",
-    program: "1A Honours Mathematics",
+    program: "Honours Mathematics",
     image: "img/alicia_lin.jpeg",
     linkedin: "http://www.linkedin.com/in/aliciajlin"
 },
 {
     name: "Yvone Y.",
     position: "External Affairs",
-    program: "2A Management Engineering",
-    image: "img/yvone_yang.png",
+    program: "Management Engineering",
+    image: "img/yvone_yang.jpeg",
     linkedin: "https://www.linkedin.com/in/yvone-yang/"
 }
 ]
