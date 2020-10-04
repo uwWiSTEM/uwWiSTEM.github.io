@@ -19,8 +19,20 @@ var HTMLIndexEventDate = '<h3 class="event-month"></h3></div>'; //TODO: REMOVE
 var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title">%data%</h5>';
 var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
 
+
+
 var events = {
   upcomingevents: [
+    {
+      title: 'STEM Trivia Night',
+      date: 'October 8 2020',
+      time: '8:00pm-9:00pm',
+      location: '',
+      description: 'Join us for a fun-filled night where you can de-stress, meet new people, and have a chance to win prizes. Sign up now!',
+      link: 'https://bit.ly/3imaQfY',
+      image: 'img/trivia_night_f20.png'
+    }],
+  pastevents: [
     {
       title: 'WiSTEM x Amex: Career Success in the Digital Age',
       date: 'September 30 2020',
@@ -39,8 +51,7 @@ var events = {
       'WiSTEM\'s mentorship program focuses on connecting first-year students with upper-years to get helpful uni advice, connection tips and more, guiding students to successfully manage this virtual term!',
     link: 'http://uwwistem.com/mentorship',
     image: 'img/mentorship.png'
-  }],
-  pastevents: [
+  },
     {
       title: 'Yext Info Session',
       date: 'September 21 2020',
