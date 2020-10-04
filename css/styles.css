@@ -204,8 +204,8 @@ header {
 }
 
 .member-name {
-  font-size: 16px;
-  color: #4a4a4a;
+  font-size: 18px;
+  color: #0e1a41;
   height: 15px;
 }
 
@@ -329,6 +329,18 @@ header {
 
 .team {
   background-color: rgb(255, 255, 255);
+}
+
+.subteam {
+  vertical-align: middle;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.subteam-member {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .positions {
