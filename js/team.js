@@ -1,5 +1,5 @@
 var HTMLMemberName = '<div class="member-description"><h5 class="member-name">%data%%linkedin_data%</h5><div class="short-divider"></div>';
-var HTMLLinkedInIcon = '&nbsp<img src="img/linkedin.svg" alt="LinkedIn" onclick="window.open(\'%data%\',\'mywindow\');" style="cursor: pointer; vertical-align: 0px;" width="18" height="18"/>'
+var HTMLLinkedInIcon = '&nbsp<img src="img/linkedin.svg" alt="LinkedIn" onclick="window.open(\'%data%\',\'mywindow\');" style="cursor: pointer; vertical-align: 0px;" width="16" height="16"/>'
 var HTMLPhoto = '<div class="col-md-4 event-container subteam-member event"><div class="event"><div class="member-photo" style="background-image:url(%data%); background-position: center; background-size: cover;border-radius: 0px 0px 0 0;"></div>';
 var HTMLPosition = '<h5 class="event-time">%data%</h5>';
 var HTMLProgram = '<h5 class="event-time">%data%</h5></div></div></div>';
@@ -33,7 +33,7 @@ var members = [
     name: "Margaret S.",
     position: "Vice President External",
     program: "2A Pharmacy",
-    image: "img/margret_su.jpeg",
+    image: "img/margaret_su.png",
     linkedin: "https://www.linkedin.com/in/margaretsu/"
 },
 {
@@ -75,18 +75,18 @@ var members = [
     name: "Andreea P.",
     position: "Event Coordinator",
     program: "4A Biomedical Science",
-    image: "img/andreea.jpeg",
+    image: "img/andreea2.jpeg",
     linkedin: "https://www.linkedin.com/in/andreeapalage/"
 },
 {
     name: "Tong Yin H.",
     position: "Event Coordinator",
     program: "1A Systems Design Engineering",
-    image: "img/tong_yin_han.jpeg",
+    image: "img/tong_yin.jpeg",
     linkedin: "https://www.linkedin.com/in/tongyin-han/"
 },
 {
-    name: "Helena S.L.",
+    name: "Helena L.",
     position: "Marketing",
     program: "2B Science and Business - Biochemistry Specialization",
     image: "img/helena_seung-min_lee.png",
