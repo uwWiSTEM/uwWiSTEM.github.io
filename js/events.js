@@ -23,16 +23,16 @@ var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></di
 
 var events = {
   upcomingevents: [
-    {
-      title: 'STEM Trivia Night',
-      date: 'October 8 2020',
-      time: '8:00pm-9:00pm',
-      location: '',
-      description: 'Join us for a fun-filled night where you can de-stress, meet new people, and have a chance to win prizes. Sign up now!',
-      link: 'https://bit.ly/3imaQfY',
-      image: 'img/trivia_night_f20.png'
-    }],
-  pastevents: [
+    ],
+  pastevents: [{
+    title: 'STEM Trivia Night',
+    date: 'October 8 2020',
+    time: '8:00pm-9:00pm',
+    location: '',
+    description: 'Join us for a fun-filled night where you can de-stress, meet new people, and have a chance to win prizes. Sign up now!',
+    link: 'https://bit.ly/3imaQfY',
+    image: 'img/trivia_night_f20.png'
+  },
     {
       title: 'WiSTEM x Amex: Career Success in the Digital Age',
       date: 'September 30 2020',
