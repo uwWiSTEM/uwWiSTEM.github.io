@@ -22,7 +22,15 @@ var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></di
 
 
 var events = {
-  upcomingevents: [
+  upcomingevents: [{
+    title: 'WiSTEM x WiCS: Co-op Bootcamp',
+    date: 'October 19 2020',
+    time: '5:30pm',
+    location: '',
+    description: 'WiSTEM has teamed up with WiCS to bring you this awesome workshop which will consist of resume critiques, mock interviews, and the chance to engage in helpful discussions from experienced panelists. Register now!',
+    link: 'https://bit.ly/2GZlb4t',
+    image: 'img/co-op_bootcamp.png'
+  }
     ],
   pastevents: [{
     title: 'STEM Trivia Night',
