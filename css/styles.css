@@ -89,16 +89,22 @@ h6 {
 
 .landing-description {
   font-size: 1.25em;
+  color: black;
   opacity: 0.8;
 }
 
 /*make responsive*/
 
 #anouncement {
-  background-color: #f9e3b568;
+  /* background-color: #ffbace; */
+  background-color: #ffdee7;
   padding-top: 36px;
   padding-bottom: 36px;
-  font-style: italic;
+}
+
+.announcement-text {
+  font-size: 24px;
+  color: #b6003a;
 }
 
 .landing-divider {
@@ -112,7 +118,6 @@ h6 {
 .description {
   font-size: 14px;
   color: gray;
-  font-style: italic;
   margin-left: 5em;
   margin-right: 5em;
 }
@@ -161,7 +166,7 @@ header {
 }
 
 .navbar-default {
-  background-color: #54bead;
+  background-color: #3eccd3;
 }
 
 .events {
