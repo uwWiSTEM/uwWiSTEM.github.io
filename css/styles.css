@@ -272,7 +272,15 @@ header {
   margin-top: 86px;
 }
 
-.partners-lp img {
+.partners-lp-gold img {
+  width: 200px;
+}
+
+.partners-lp-silver img {
+  width: 130px;
+}
+
+.partners-lp-bronze img {
   width: 100px;
 }
 
