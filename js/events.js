@@ -23,6 +23,16 @@ var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></di
 
 var events = {
   upcomingevents: [{
+    title: 'Code Your First Game Technical Workshop',
+    date: 'November 10 2020',
+    time: '7:00pm-8:30pm',
+    location: '',
+    description: 'Interested in coding? Ever wanted to create your own game? Come to our Technical Workshop where you’ll learn how to create your own game with Python. No programming experience necessary!',
+    link: 'https://bit.ly/2TRSEkn',
+    image: 'img/technical_workshop.png'
+  }
+    ],
+  pastevents: [{
     title: 'WiSTEM x Intuit: Networking & Careers Panel Workshop',
     date: 'October 29 2020',
     time: '5:30pm-7:00pm',
@@ -30,9 +40,8 @@ var events = {
     description: 'WiSTEM is collaborating with Intuit Canada to provide you a 3-part networking workshop! Join us on October 29th from 5:30-7PM EST, to learn how to network, write cold emails, reach out to employers, and foster new connections!',
     link: 'https://www.facebook.com/UWWiSTEM/posts/1440389426161544',
     image: 'img/intuit_event.png'
-  }
-    ],
-  pastevents: [{
+  },
+  {
     title: 'WiSTEM x WiCS: Co-op Bootcamp',
     date: 'October 19 2020',
     time: '5:30pm',
