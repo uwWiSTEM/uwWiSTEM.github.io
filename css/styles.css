@@ -287,15 +287,15 @@ header {
 .lp-outline:focus {
   padding: 10px 33px;
   border-radius: 100px;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #3eccd3;
+  color: #3eccd3;
   margin-right: 24px;
 }
 
 .lp-outline:hover {
   text-decoration: none;
-  color: #54bead;
-  background-color: white;
+  color: white;
+  background-color: #3eccd3;
 }
 
 .lp-solid,
@@ -303,15 +303,15 @@ header {
 .lp-solid:focus {
   padding: 10px 33px;
   border-radius: 100px;
-  border: 1px solid #f27678;
-  background-color: #f27678;
+  border: 1px solid #d45174;
+  background-color: #d45174;
   color: white;
 }
 
 .lp-solid:hover {
   text-decoration: none;
   border: 1px solid white;
-  color: #f27678;
+  color: #d45174;
   background-color: white;
 }
 
