@@ -54,7 +54,7 @@ var members = [
     name: "Catherine C.",
     position: "Graphic Designer",
     program: "Computer Engineering",
-    image: "img/wistem_icon.png",
+    image: "img/catherine.jpeg",
     linkedin: "https://www.linkedin.com/in/catherinejjchen/"
 },
 {
