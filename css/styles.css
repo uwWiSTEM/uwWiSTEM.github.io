@@ -264,7 +264,7 @@ header {
 /* make this responsive*/
 .buttons-lp {
   margin-top: 48px;
-  margin-bottom: 144px;
+  margin-bottom: 110px;
 }
 
 .partners-lp {
@@ -274,14 +274,17 @@ header {
 
 .partners-lp-gold img {
   width: 200px;
+  margin-bottom: 12px;
 }
 
 .partners-lp-silver img {
   width: 130px;
+  margin-bottom: 12px;
 }
 
 .partners-lp-bronze img {
   width: 100px;
+  margin-bottom: 12px;
 }
 
 .partners-image {
