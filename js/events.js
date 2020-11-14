@@ -15,14 +15,16 @@ var mostRecentEvents = [];
 var HTMLIndexEventStart = '<div class="col-md-4 event-container"><a href="%data%" target="_blank"><div class="event">';
 var HTMLIndexEventPhoto =
   '<div class="event-photo" style="background-image:url(%data%); background-position-x: center; background-size: cover;border-radius: 20px 20px 0 0;">';
-var HTMLIndexEventDate = '<h3 class="event-month"></h3></div>'; //TODO: REMOVE
+var HTMLIndexEventDate = '<h5 class="event-time">%data%</h5>'; //TODO: REMOVE
 var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title">%data%</h5>';
 var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
 
 
 
 var events = {
-  upcomingevents: [{
+  upcomingevents: [
+    ],
+  pastevents: [{
     title: 'Code Your First Game Technical Workshop',
     date: 'November 10 2020',
     time: '7:00pm-8:30pm',
@@ -30,9 +32,8 @@ var events = {
     description: 'Interested in coding? Ever wanted to create your own game? Come to our Technical Workshop where you’ll learn how to create your own game with Python. No programming experience necessary!',
     link: 'https://bit.ly/2TRSEkn',
     image: 'img/technical_workshop.png'
-  }
-    ],
-  pastevents: [{
+  },
+  {
     title: 'WiSTEM x Intuit: Networking & Careers Panel Workshop',
     date: 'October 29 2020',
     time: '5:30pm-7:00pm',
@@ -522,16 +523,15 @@ function replaceEventsWithHTML() {
 function replaceIndexEventsWithHTML() {
   mostRecentEvents.forEach(function (event) {
     event.image = HTMLIndexEventPhoto.replace('%data%', event.image);
-    event.date = event.date.substring(0, event.date.length - 4);
-    event.date = HTMLIndexEventDate.replace('%data%', event.date);
+    event.date = event.date.substring(0, event.date.length - 5);
     event.title = HTMLIndexEventTitle.replace('%data%', event.title);
     if (event.location != '') {
       event.time = HTMLIndexEventTime.replace('%data%', event.time + ' in ' + event.location);
     } else {
-      event.time = HTMLIndexEventTime.replace('%data%', event.time + ' online');
+      event.time = HTMLIndexEventTime.replace('%data%', event.date +', ' + event.time + ', online');
     }
     event.link = HTMLIndexEventStart.replace('%data%', event.link);
-    $('#mostrecentevents').append(event.link + event.image + event.date + event.title + event.time);
+    $('#mostrecentevents').append(event.link + event.image + HTMLClosingDiv + event.title + event.time);
   });
 }
 events.display();
