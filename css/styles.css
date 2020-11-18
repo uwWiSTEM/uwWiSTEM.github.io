@@ -273,17 +273,17 @@ header {
 }
 
 .partners-lp-gold img {
-  width: 200px;
+  height: 75px;
   margin-bottom: 12px;
 }
 
 .partners-lp-silver img {
-  width: 130px;
+  height: 35px;
   margin-bottom: 12px;
 }
 
 .partners-lp-bronze img {
-  width: 100px;
+  height: 30px;
   margin-bottom: 12px;
 }
 
