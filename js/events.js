@@ -24,7 +24,17 @@ var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></di
 var events = {
   upcomingevents: [
     ],
-  pastevents: [{
+  pastevents: [
+    {
+      title: 'IBM x WiSTEM: Artificial Intelligence 101',
+      date: 'November 25 2020',
+      time: '6:00pm-7:30pm',
+      location: '',
+      description: 'In this workshop, you’ll get to learn a variety of information ranging from building your first neural network to ML algorithms. IBM\'s Data and Analytics team will be discussing the A to Z’s of AI, along with answering YOUR AI-related questions!',
+      link: 'https://www.facebook.com/events/219327676251605',
+      image: 'img/artificial_intelligence_101.png'
+    },
+    {
     title: 'Code Your First Game Technical Workshop',
     date: 'November 10 2020',
     time: '7:00pm-8:30pm',
