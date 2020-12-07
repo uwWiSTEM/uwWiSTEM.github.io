@@ -167,6 +167,24 @@ h6 {
   border: 4px solid #162C52;
 }
 
+.mission-image {
+  max-height: 848px;
+  max-width: 615px;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+}
+
+.mission-description {
+  font-size: 14px;
+  color: #4a4a4a;
+  opacity: 0.8;
+  line-height: 22px;
+  margin-bottom: 88px;
+}
+
 .values {
   font-size: 24px;
   color: #4a4a4a;
