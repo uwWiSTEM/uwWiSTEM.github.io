@@ -229,9 +229,8 @@ header {
   color: black;
 }
 
-
 .events {
-  background-color: #f8f8f8;
+  background-color: #F2EEEE;
   padding: 0 36px;
   padding-bottom: 36px;
 }
@@ -322,6 +321,23 @@ header {
   font-size: 18px;
   color: #0e1a41;
   height: 15px;
+}
+
+.resources {
+  background-color: #F2EEEE;
+  padding: 0 36px;
+  padding-bottom: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.resources-image {
+  max-height: 600px;
+  display: flex;
+}
+
+.resources-description {
+  margin-left: 50px;
 }
 
 .btn-primary,
