@@ -170,6 +170,7 @@ h6 {
 .mission-image {
   max-height: 848px;
   max-width: 615px;
+  margin-bottom: 40px;
 }
 
 .mission {
@@ -183,6 +184,7 @@ h6 {
   opacity: 0.8;
   line-height: 22px;
   margin-bottom: 88px;
+  margin-right: 88px;
 }
 
 .values {
