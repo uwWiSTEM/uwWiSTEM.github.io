@@ -23,6 +23,8 @@ var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></di
 
 var events = {
   upcomingevents: [
+    ],
+  pastevents: [
     {
       title: 'End of Term - Among Us',
       date: 'December 8 2020',
@@ -31,9 +33,7 @@ var events = {
       description: 'Join us for a game of Among Us to destress from a busy term! Our Among Us Discord server will be available on Dec. 7th on our Facebook. To win 1 of 3 gift cards, make sure to register for an account and keep an eye out for updates!',
       link: 'https://www.facebook.com/events/423002768892115',
       image: 'img/eot_among_us.png'
-    }
-    ],
-  pastevents: [
+    },
     {
       title: 'IBM x WiSTEM: Artificial Intelligence 101',
       date: 'November 25 2020',
