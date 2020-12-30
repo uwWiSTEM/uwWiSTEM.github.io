@@ -390,7 +390,7 @@ header {
 .lp-solid:hover {
   text-decoration: none;
   border: 1px solid white;
-  color: #d45174;
+  color: #162C52;
   background-color: white;
 }
 
@@ -461,6 +461,44 @@ header {
   text-decoration: none;
 }
 
+.landing .social {
+  display: flex !important;
+  margin-top: 5rem;
+  align-items: center;
+  float: right;
+}
+.landing .social a {
+  text-align: center;
+  height: 5rem;
+  width: 5rem;
+  /* background: #DE6985; */
+  border-radius: 100%;
+  line-height: 6rem;
+  /* color: white; */
+}
+.landing .social a:hover {
+  background: #A82242;
+  color:rgba(255, 255, 255, 0.9);
+}
+.landing .social a:active {
+  background: #fff;
+}
+
+.dark {
+  background: #DE6985;
+  color: white;
+}
+
+.light {
+  background: #FFC1D0;
+  color: white;
+}
+
+.social-icon {
+  margin-left: 1rem;
+  margin-left: 1rem;
+}
+
 .subscribe {
   background-size: cover;
   background-color: #54bead;
@@ -508,11 +546,6 @@ header {
 
 .fa {
   color: white;
-}
-
-.fa:hover {
-  color: #54bead;
-  /* color: #F27678; */
 }
 
 /* APPLICATION PAGE */
@@ -775,8 +808,7 @@ input.email {
 }
 
 .emailus-form {
-  width: 40%;
-  margin: 0 auto;
+  width: 80%;
 }
 
 /* input {
@@ -834,14 +866,14 @@ textarea.input1 + .shadow-input1 {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 .contact1-form-btn {
-  min-width: 193px;
   height: 50px;
-  border-radius: 25px;
-  background: #54bead;
+  border-radius: 10px;
+  border: 2px solid #162C52;
+  background: #162C52;
   font-size: 15px;
   line-height: 1.5;
   color: white;
