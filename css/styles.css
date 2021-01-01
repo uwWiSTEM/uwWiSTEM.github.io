@@ -397,12 +397,12 @@ header {
 /* make this responsive*/
 .buttons-lp {
   margin-top: 48px;
-  margin-bottom: 110px;
+  margin-bottom: 60px;
 }
 
 .partners-lp {
   font-size: 14px;
-  margin-top: 86px;
+  margin-top: 24px;
   color: black;
 }
 
@@ -806,18 +806,24 @@ input.email {
   padding-bottom: 5em;
 }
 
+.emailus-content {
+  padding-left: 3em;
+}
+
 .emailus-form {
   width: 80%;
 }
 
-/* input {
-	outline: none;
-	border: none;
-} */
+.emailus-description {
+  font-size: 14px;
+  color: #4a4a4a;
+  opacity: 0.8;
+  line-height: 22px;
+  margin-bottom: 24px;
+  margin-right: 88px;
+}
 
 textarea {
-  outline: none;
-  border: none;
   resize: none;
 }
 
@@ -827,20 +833,14 @@ textarea:focus {
 
 input.input1 {
   height: 45px;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 0 30px;
-}
-input.input1 + .shadow-input1 {
-  border-radius: 25px;
 }
 
 textarea.input1 {
   min-height: 150px;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 12px 30px;
-}
-textarea.input1 + .shadow-input1 {
-  border-radius: 25px;
 }
 
 .wrap-input1 {
@@ -856,6 +856,9 @@ textarea.input1 + .shadow-input1 {
   background: rgb(235, 234, 234);
   font-size: 15px;
   line-height: 1.5;
+  border-style: solid;
+  border-color: #4A4A4A !important;
+  border-width: 2px !important;
 }
 
 .container-contact1-form-btn {
