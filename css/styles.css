@@ -308,6 +308,83 @@ header {
   margin-bottom: 56px;
 }
 
+.team-member {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  /* background-position: center; */
+  /* background-size: cover; */
+}
+
+.team-member-container {
+  height: 300px;
+  padding: 16px 16px;
+  /* margin-bottom: 20px; */
+}
+
+
+/* TODO: remove px values here and instead use %, and remove duplication between contianer and photo */
+.core-team-container,
+.core-team-container:focus,
+.core-team-container:active {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-position: center;
+  align-content: center;
+  position: relative;
+}
+
+.core-team-photo,
+.core-team-photo:focus,
+.core-team-photo:active {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-position: center;
+  align-content: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.team-member-info {
+  color: #162C52;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.team-member-name {
+  font-size: 20px;
+}
+
+.team-member-position {
+  font-size: 16px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 50%;
+  transition: .5s ease;
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+.core-team-container:hover .overlay {
+  opacity: 1;
+}
+
 .member-photo {
   height: 280px;
 }

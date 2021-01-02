@@ -1,11 +1,14 @@
-var HTMLMemberName = '<div class="member-description"><h5 class="member-name">%data%%linkedin_data%</h5><div class="short-divider"></div>';
+// var HTMLMemberName = '<div class="member-description"><h5 class="member-name">%data%%linkedin_data%</h5><div class="short-divider"></div>';
 var HTMLLinkedInIcon = '&nbsp<img src="img/linkedin.svg" alt="LinkedIn" onclick="window.open(\'%data%\',\'mywindow\');" style="cursor: pointer; vertical-align: 0px;" width="16" height="16"/>'
-var HTMLPhoto = '<div class="col-md-4 event-container"><div class="event"><div class="member-photo" style="background-image:url(%data%); background-position: center; background-size: cover;border-radius: 0px 0px 0 0;"></div>';
-var HTMLPosition = '<h5 class="event-time">%data%</h5>';
+// var HTMLPhoto = '<div class="col-md-4 event-container"><div class="team-member"><img src="%data%"></div>';
+// var HTMLPhoto = '<div class="col-md-4 event-container"><div class="event"><div class="core-team-container center-block" style="background-image:url(%data%);"></div>';
+var HTMLPhoto = '<div class="col-md-4 team-member-container"><div class="core-team-container center-block"><img class="core-team-photo" style="background-image:url(%data%);">'; //src=%data% class="core-team-photo"></div>';
+var HTMLOverlayText = '<div class="overlay"><div class="team-member-info">%data%</div></div>';
+var HTMLMemberName = '<div class="team-member-name">%data%</div>';
+// var HTMLPosition = '<h5 class="event-time">%data%</h5>';
+var HTMLPosition = '<div class="team-member-position">%data%</div>';
 var HTMLProgram = '<h5 class="event-time">%data%</h5></div></div></div>';
 var HTMLClosingDiv = '</div>';
-
-// TODO: CENTER IMAGES AND MAKE SURE THEY LOOK NICE IN WIERD VIEWS
 
 var executives = [];
 
@@ -142,12 +145,12 @@ function replaceMemberWithHTML(member) {
     member.program = HTMLProgram.replace("%data%", member.program);
     member.image = HTMLPhoto.replace("%data%", member.image);
     member.name = HTMLMemberName.replace("%data%", member.name);
-    if (member.linkedin !== ""){
-        member.name = member.name.replace("%linkedin_data%", HTMLLinkedInIcon.replace("%data%", member.linkedin));
-    }
-    else{
-        member.name = member.name.replace("%linkedin_data%", "");
-    }
+    // if (member.linkedin !== ""){
+    //     member.name = member.name.replace("%linkedin_data%", HTMLLinkedInIcon.replace("%data%", member.linkedin));
+    // }
+    // else{
+    //     member.name = member.name.replace("%linkedin_data%", "");
+    // }
 }
 
 function replaceMembersWithHTML() {
@@ -164,13 +167,13 @@ function replaceMembersWithHTML() {
             team = "#leadership";
         }
 
-        if (member.linkedin == ""){
-            hasLinkedin = false;
-        }
-        else hasLinkedin = true;
+        // if (member.linkedin == ""){
+        //     hasLinkedin = false;
+        // }
+        // else hasLinkedin = true;
 
         replaceMemberWithHTML(member);
-        $(team).append(member.image + member.name + member.position + member.program);
+        $(team).append(member.image + HTMLOverlayText.replace("%data%", member.name + member.position) + HTMLClosingDiv + HTMLClosingDiv);
     })
 }
 
