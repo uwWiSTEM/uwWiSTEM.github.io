@@ -12,14 +12,11 @@ var HTMLEventLocation = '';
 var HTMLEventImage =
   '<div class="eventp-image" style="background-image: url(%data%); background-position-x: center; background-size: cover; border-radius: 20px 20px 0 0;"></div>';
 var mostRecentEvents = [];
-var HTMLIndexEventStart = '<div class="col-md-4 event-container"><a href="%data%" target="_blank"><div class="event">';
+var HTMLIndexEventStart = '<div class="col-md-4 event-container"><div class="event"><a href="%data%" target="_blank">';
 var HTMLIndexEventPhoto =
-  '<div class="event-photo" style="background-image:url(%data%); background-position-x: center; background-size: cover;border-radius: 20px 20px 0 0;">';
-var HTMLIndexEventDate = '<h5 class="event-time">%data%</h5>'; //TODO: REMOVE
-var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title">%data%</h5>';
-var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
-
-
+  '<div class="event-photo" style="background-image:url(%data%);">';
+// var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title">%data%</h5>';
+// var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
 
 var events = {
   upcomingevents: [
@@ -542,15 +539,15 @@ function replaceEventsWithHTML() {
 function replaceIndexEventsWithHTML() {
   mostRecentEvents.forEach(function (event) {
     event.image = HTMLIndexEventPhoto.replace('%data%', event.image);
-    event.date = event.date.substring(0, event.date.length - 5);
-    event.title = HTMLIndexEventTitle.replace('%data%', event.title);
-    if (event.location != '') {
-      event.time = HTMLIndexEventTime.replace('%data%', event.time + ' in ' + event.location);
-    } else {
-      event.time = HTMLIndexEventTime.replace('%data%', event.date +', ' + event.time + ', online');
-    }
+    // event.date = event.date.substring(0, event.date.length - 5);
+    // event.title = HTMLIndexEventTitle.replace('%data%', event.title);
+    // if (event.location != '') {
+    //   event.time = HTMLIndexEventTime.replace('%data%', event.time + ' in ' + event.location);
+    // } else {
+    //   event.time = HTMLIndexEventTime.replace('%data%', event.date +', ' + event.time + ', online');
+    // }
     event.link = HTMLIndexEventStart.replace('%data%', event.link);
-    $('#mostrecentevents').append(event.link + event.image + HTMLClosingDiv + event.title + event.time);
+    $('#mostrecentevents').append(event.link + event.image + HTMLClosingDiv);
   });
 }
 events.display();
