@@ -12,7 +12,7 @@ var HTMLEventLocation = '';
 var HTMLEventImage =
   '<div class="eventp-image" style="background-image: url(%data%); background-position-x: center; background-size: cover; border-radius: 20px 20px 0 0;"></div>';
 var mostRecentEvents = [];
-var HTMLIndexEventStart = '<div class="col-md-4 event-container"><div class="event"><a href="%data%" target="_blank">';
+var HTMLIndexEventStart = '<div class="col-md-4 event-container"><div class="event-border-container"><div class="event-offset-border"></div></div><div class="event"><a href="%data%" target="_blank">';
 var HTMLIndexEventPhoto =
   '<div class="event-photo" style="background-image:url(%data%);">';
 // var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title">%data%</h5>';
