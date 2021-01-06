@@ -4,17 +4,27 @@ var HTMLLinkedInIcon = '&nbsp<img src="img/linkedin.svg" alt="LinkedIn" onclick=
 // var HTMLPhoto = '<div class="col-md-4 event-container"><div class="event"><div class="core-team-container center-block" style="background-image:url(%data%);"></div>';
 var HTMLPhoto = '<div class="col-md-4 team-member-container"><div class="core-team-container center-block"><img class="core-team-photo" style="background-image:url(%data%);">'; //src=%data% class="core-team-photo"></div>';
 var HTMLOverlayText = '<div class="overlay"><div class="team-member-info">%data%</div></div>';
-var HTMLMemberName = '<div class="team-member-name">%data%</div>';
+// var HTMLMemberName = '<div class="team-member-name">%data%</div>';
 // var HTMLPosition = '<h5 class="event-time">%data%</h5>';
-var HTMLPosition = '<div class="team-member-position">%data%</div>';
+// var HTMLPosition = '<div class="team-member-position">%data%</div>';
 var HTMLProgram = '<h5 class="event-time">%data%</h5></div></div></div>';
 var HTMLClosingDiv = '</div>';
+
+var HTMLHexTeamMember = '<li class="hex"><div class="hexIn"><div class="hexLink">';
+var HTMLHexImage = '<img src="%data%" alt="" />';
+var HTMLMemberName = '<h1>%data%</h1>';
+var HTMLMemberPosition = '<p>%data%</p>';
+var HTMLHexEnd = '</div></div></li>';
 
 var executives = [];
 
 var leadershipRoles = ["President", "Vice President Internal", "Vice President External"];
 var internalRoles = ["Treasurer", "Administration", "Graphic Designer", "Web Developer"];
 var externalRoles =  ["Marketing", "Event Coordinator", "External Affairs"];
+
+var leadershipHTML = '';
+var internalHTML = '';
+var externalHTML = '';
 
 var members = [
 {
@@ -119,7 +129,31 @@ var members = [
 ]
 
 function display() {
+    initializeSubteams();
     populateMembersOnIndex();
+    finalizeSubteams();
+    updateHTMLTeams();
+}
+
+function initializeSubteams(){
+    // console.log("first");
+    leadershipHTML = '<ul id="hexGrid">';
+    internalHTML = '<ul id="hexGrid">';
+    externalHTML = '<ul id="hexGrid">';
+}
+
+function finalizeSubteams(){
+    // console.log("last");
+    leadershipHTML = leadershipHTML.concat('</ul>');
+    internalHTML = internalHTML.concat('</ul>');
+    externalHTML = externalHTML.concat('</ul>');
+}
+
+function updateHTMLTeams() {
+    console.log('here');
+    $("#leadership").append(leadershipHTML);
+    $("#internal").append(internalHTML);
+    $("#external").append(externalHTML);
 }
 
 function isRoleInternal(role){
@@ -141,9 +175,9 @@ function isRoleExternal(role){
 }
 
 function replaceMemberWithHTML(member) {
-    member.position = HTMLPosition.replace("%data%", member.position);
+    member.position = HTMLMemberPosition.replace("%data%", member.position);
     member.program = HTMLProgram.replace("%data%", member.program);
-    member.image = HTMLPhoto.replace("%data%", member.image);
+    member.image = HTMLHexImage.replace("%data%", member.image);
     member.name = HTMLMemberName.replace("%data%", member.name);
     // if (member.linkedin !== ""){
     //     member.name = member.name.replace("%linkedin_data%", HTMLLinkedInIcon.replace("%data%", member.linkedin));
@@ -157,14 +191,18 @@ function replaceMembersWithHTML() {
     var team;
     var hasLinkedin = true;
     executives.forEach(function(member) {
+        replaceMemberWithHTML(member);
+        var memberHTML = HTMLHexTeamMember + member.image + member.name + member.position + HTMLHexEnd;
         if (isRoleInternal(member.position)){
-            team = "#internal";
+            // team = "#internal";
+            internalHTML = internalHTML.concat(memberHTML);
         }
         else if (isRoleExternal(member.position)){
-            team = "#external";
+            // team = "#external";
+            externalHTML = externalHTML.concat(memberHTML);
         }
         else{
-            team = "#leadership";
+            leadershipHTML = leadershipHTML.concat(memberHTML);
         }
 
         // if (member.linkedin == ""){
@@ -172,12 +210,14 @@ function replaceMembersWithHTML() {
         // }
         // else hasLinkedin = true;
 
-        replaceMemberWithHTML(member);
-        $(team).append(member.image + HTMLOverlayText.replace("%data%", member.name + member.position) + HTMLClosingDiv + HTMLClosingDiv);
+        // $(team).append(member.image + HTMLOverlayText.replace("%data%", member.name + member.position) + HTMLClosingDiv + HTMLClosingDiv);
+        // $(team).append(HTMLHexTeamMember + member.image + member.name + member.position + HTMLHexEnd);
     })
+
 }
 
 function populateMembersOnIndex() {
+    console.log("second");
     var i = 0;
     while (i < members.length) {
         let temp = {
@@ -191,6 +231,7 @@ function populateMembersOnIndex() {
         i++;
     }
     replaceMembersWithHTML();
+    // finalizeSubteams();
 }
 
 display();
