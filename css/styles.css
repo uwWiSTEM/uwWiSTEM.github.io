@@ -783,7 +783,7 @@ header {
 
 .landing .social {
   display: flex !important;
-  margin-top: 5rem;
+  margin-top: 18%;
   align-items: center;
   float: right;
 }
@@ -791,10 +791,8 @@ header {
   text-align: center;
   height: 5rem;
   width: 5rem;
-  /* background: #DE6985; */
   border-radius: 100%;
   line-height: 6rem;
-  /* color: white; */
 }
 .landing .social a:hover {
   background: #A82242;
@@ -819,9 +817,16 @@ header {
   color: white;
 }
 
-.social-icon {
-  margin-left: 1rem;
-  margin-left: 1rem;
+.landing .social-icon {
+  margin-left: 3rem;
+  margin-left: 3rem;
+}
+
+@media (max-width: 400px) {
+  .landing .social-icon {
+    margin-left: 1rem;
+    margin-left: 1rem;
+  }
 }
 
 .subscribe {
@@ -1376,4 +1381,9 @@ footer .social a:hover {
 }
 footer .social a:active {
   background: #fff;
+}
+
+footer .social-icon {
+  margin-left: 1rem;
+  margin-left: 1rem;
 }
