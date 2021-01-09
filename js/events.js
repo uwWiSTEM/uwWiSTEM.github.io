@@ -1,20 +1,22 @@
 var HTMLUpcomingEventTitle = '<h2 class="eventp-title"><strong>Coming Soon:</strong> %data%</h2>';
 var HTMLPastEventTitle = '<h2 class="eventp-title">%data%</h2>';
-var HTMLEventDate =
-  '<div class="eventp-date-container text-center"><h5 class="eventp-date">%data%</h5></a></div></div>';
+// var HTMLEventDate =
+//   '<div class="eventp-date-container text-center"><h5 class="eventp-date">%data%</h5></a></div></div>';
+  var HTMLEventDate =
+    '<div class="eventp-date-container text-center"><h5 class="eventp-date">%data%</h5></a></div>';
 var HTMLEventTime = '<h6 class="eventp-time">%data%</h6>';
 var HTMLEventDescription = '<h6 class="eventp-description">%data%</h6><br>';
-var HTMLEventRow = '<div class="row eventp">';
+var HTMLEventRow = '<div class="col-md-6"><div class="eventp-container"><div class="eventp">';
 var HTMLClosingDiv = '</div>';
-var HTMLImageDiv = '<div class="eventp-image-container"><a href="%data%" target="_blank">';
+// var HTMLImageDiv = '<div class="eventp-image-container"><a href="%data%" target="_blank">';
+var HTMLImageDiv = '<a href="%data%" target="_blank">';
 var HTMLEventDescriptionContainer = '<div class="eventp-description-container">';
 var HTMLEventLocation = '';
 var HTMLEventImage =
-  '<div class="eventp-image" style="background-image: url(%data%); background-position-x: center; background-size: cover; border-radius: 20px 20px 0 0;"></div>';
+  '<div class="eventp-image" style="background-image: url(%data%)"></div>';
 var mostRecentEvents = [];
 var HTMLIndexEventStart = '<div class="col-md-4 event-container"><div class="event-border-container"><div class="event-offset-border"></div></div><div class="event"><a href="%data%" target="_blank">';
-var HTMLIndexEventPhoto =
-  '<div class="event-photo" style="background-image:url(%data%);">';
+var HTMLIndexEventPhoto = '<div class="event-photo" style="background-image:url(%data%);">';
 // var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title">%data%</h5>';
 // var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
 
@@ -487,11 +489,14 @@ var events = {
         HTMLEventRow +
           event.link +
           event.image +
-          event.date +
+          '</a>' +
+          // event.date +
           HTMLEventDescriptionContainer +
           event.title +
           event.time +
           event.description +
+          HTMLClosingDiv +
+          HTMLClosingDiv +
           HTMLClosingDiv +
           HTMLClosingDiv
       );
@@ -521,7 +526,7 @@ function replaceEventsWithHTML() {
     event.image = HTMLEventImage.replace('%data%', event.image);
     event.link = HTMLImageDiv.replace('%data%', event.link);
     if (event.location != '') {
-      event.time = HTMLEventTime.replace('%data%', event.time + ' in ' + event.location);
+      event.time = HTMLEventTime.replace('%data%', event.date + ' @' + event.time + ' in ' + event.location);
     }
   });
   events.upcomingevents.forEach(function (event) {

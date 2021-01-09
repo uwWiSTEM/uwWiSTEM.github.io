@@ -895,52 +895,80 @@ header {
 
 /* EVENT PAGE */
 .event-page {
-  background-color: #f8f8f8;
+  background-color: #eeeeee;
   padding: 36px;
 }
 
-.eventp {
-  height: 208px;
-  background-color: white;
-  width: 780px;
-  margin: 0 auto 24px;
-  border-radius: 10px;
+@media (min-width: 1201px) {
+  .eventp-container {
+    height: 260px;
+  }
 }
-.eventp-image-container {
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .eventp-container {
+    width: 550px;
+  }
+}
+@media (max-width: 990px) {
+  .eventp-container {
+    height: 260px;
+  }
+}
+
+.eventp-container {
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.eventp {
+  height: 100%;
+  background-color: white;
+  /* width: 50%; */
+  /* margin: 0 20px 24px; */
+  padding-right: 2%;
+  border-radius: 20px;
+}
+/* .eventp-image-container {
   width: 160px;
   height: 160px;
   margin: 24px 0 0 24px;
   display: inline-block;
   float: left;
-}
+} */
 
 .eventp-image {
-  height: 128px;
-  border-radius: 10px 10px 0 0;
+  position: relative;
+  height: 260px;
+  width: 260px;
+  border-radius: 20px;
+  margin-right: 2%;
+  background-position-x: center;
+  background-size: cover;
+  float: left;
 }
 
-.eventp-date-container {
+/* .eventp-date-container {
   height: 32px;
   background-color: #f27678;
   border-radius: 0 0 10px 10px;
-}
+} */
 .eventp-date {
   color: white;
   display: inline-block;
 }
 
 .eventp-description-container {
-  width: 548px;
-  height: 150px;
-  margin-left: 24px;
-  margin-top: 24px;
-  display: inline-block;
+  /* width: 548px;
+  height: 150px; */
+  margin: 5%;
+  display: inline;
   overflow-wrap: break-word;
 }
 
 .eventp-title {
-  font-size: 24px;
-  color: #4a4a4a;
+  font-size: 16px;
+  color: black;
   margin: auto;
 }
 .eventp-fb,
@@ -966,9 +994,9 @@ header {
 
 .eventp-description {
   font-size: 14px;
-  margin: 16px 0 8px 0;
+  margin: 16px 0 8px 10px;
   color: #6e6e6e;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 /* all event photos */
