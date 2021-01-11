@@ -489,6 +489,14 @@ var events = {
   ],
   display: function () {
     populateEventsOnIndex();
+
+    if (events.upcomingevents.length > 0){
+      $('#upcomingevents').append('<h2 class="col-md-12" style="text-align: center;">Upcoming Events</h2><br />');
+    }
+    if (events.pastevents.length > 0){
+      $('#pastevents').append('<h2 class="col-md-12" style="text-align: center;">Past Events</h2><br />');
+    }
+
     events.upcomingevents.forEach(function (event) {
       $('#upcomingevents').append(
         event.link +
