@@ -10,22 +10,13 @@ var HTMLUpcomingEventStart = '<div class="col-md-4 eventp-upcoming-container"><d
 var HTMLUpcomingEventPhoto = '<div class="event-photo-upcoming" style="background-image:url(%data%);"></div>';
 var HTMLEventDescriptionContainer = '<div class="eventp-description-container">';
 
-// HTML for past events
-var HTMLPastEventTitle = '<h2 class="eventp-title">%data%</h2>';
-var HTMLEventRow = '<div class="col-md-6"><div class="eventp-container"><div class="eventp">';
-var HTMLImageDiv = '<a href="%data%" target="_blank">';
-var HTMLEventImage ='<div class="eventp-image" style="background-image: url(%data%)"></div>';
-
 // HTML for all events on event page
 var HTMLEventTime = '<h6 class="eventp-time">%data%</h6>';
 var HTMLEventDescription = '<h6 class="eventp-description">%data%</h6><br>';
 var HTMLClosingDiv = '</div>';
 var HTMLClosingLink = '</a>';
 
-
-
 var mostRecentEvents = [];
-
 
 var events = {
   upcomingevents: [
@@ -508,20 +499,21 @@ var events = {
     });
     events.pastevents.forEach(function (event) {
       $('#pastevents').append(
-        HTMLEventRow +
-          event.link +
-          event.image +
-          event.date +
-          HTMLEventDescriptionContainer +
-          event.title +
-          event.time +
-          event.description +
-          HTMLClosingDiv +
-          HTMLClosingDiv
+        event.link +
+        event.image +
+        HTMLClosingLink +
+        HTMLEventDescriptionContainer +
+        event.title +
+        event.time +
+        event.description +
+        HTMLClosingDiv +
+        HTMLClosingDiv
       );
     });
   }
 };
+
+events.display();
 
 function initializeSubheadings(){
   if (events.upcomingevents.length > 0){
@@ -534,21 +526,11 @@ function initializeSubheadings(){
 
 function replaceEventsWithHTML() {
   events.pastevents.forEach(function (event) {
-
     event.title = HTMLUpcomingEventTitle.replace('%data%', event.title);
     event.description = HTMLEventDescription.replace('%data%', event.description);
     event.time = HTMLEventTime.replace('%data%', event.date + ' @ ' + event.time);
     event.image = HTMLUpcomingEventPhoto.replace('%data%', event.image);
     event.link = HTMLUpcomingEventStart.replace('%data%', event.link);
-
-    // horizontal deisgn
-    // event.title = HTMLPastEventTitle.replace('%data%', event.title);
-    // event.description = HTMLEventDescription.replace('%data%', event.description);
-    // event.image = HTMLEventImage.replace('%data%', event.image);
-    // event.link = HTMLImageDiv.replace('%data%', event.link);
-    // if (event.location != '') {
-    //   event.time = HTMLEventTime.replace('%data%', event.date + ' @ ' + event.time + ' in ' + event.location);
-    // }
   });
   events.upcomingevents.forEach(function (event) {
     event.title = HTMLUpcomingEventTitle.replace('%data%', event.title);
@@ -566,7 +548,7 @@ function replaceIndexEventsWithHTML() {
     $('#mostrecentevents').append(event.link + event.image + HTMLClosingLink+ HTMLClosingDiv);
   });
 }
-events.display();
+
 function populateEventsOnIndex() {
   var i = 0;
   while (i < 3 && i < events.upcomingevents.length) {
