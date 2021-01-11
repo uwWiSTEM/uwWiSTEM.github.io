@@ -907,7 +907,7 @@ header {
 
 @media (min-width: 991px) and (max-width: 1200px) {
   .eventp-container {
-    width: 550px;
+    width: 500px;
   }
 }
 @media (max-width: 990px) {
@@ -959,10 +959,7 @@ header {
 }
 
 .eventp-description-container {
-  /* width: 548px;
-  height: 150px; */
   margin: 5%;
-  display: inline;
   overflow-wrap: break-word;
 }
 
@@ -988,15 +985,89 @@ header {
 
 .eventp-time {
   font-size: 14px;
-  color: #6e6e6e;
-  margin: 8px 0;
+  color: black;
+  margin: 2px 5%;
 }
 
 .eventp-description {
   font-size: 14px;
   margin: 16px 0 8px 10px;
   color: #6e6e6e;
-  line-height: 1.5;
+  line-height: 1.3;
+}
+
+.eventp-upcoming-container {
+  height: 600px;
+  padding: 16px 48px;
+  margin-bottom: 48px;
+  align-content: center;
+}
+
+.eventp-upcoming {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 30px;
+  z-index: 10;
+}
+
+.event-photo-upcoming {
+  position: relative;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  background-position-x: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.event-photo-upcoming:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.eventp-upcoming .eventp-title {
+  padding: 0 5%;
+}
+
+.eventp-upcoming .eventp-description {
+  margin: 2% 5%;
+}
+
+.eventp-border-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin:-16px -48px;
+  padding: 16px 48px;
+}
+
+.eventp-offset-border-upcoming {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  height: 100%;
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 30px;
+  top: 32px;
+  left: 32px;
+  z-index: 1;
+}
+
+@media (max-width: 375px) {
+  .eventp-upcoming-container {
+    height: 580px;
+    padding: 16px 36px;
+  }
+  .eventp-border-container {
+    margin:-16px -36px;
+    padding: 16px 36px;
+  }
 }
 
 /* all event photos */
