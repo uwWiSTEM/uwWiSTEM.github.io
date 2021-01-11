@@ -34,8 +34,7 @@ h1{
 
 h2,
 h3 {
-  font-family: 'lovelo', 'cursive', 'sans-serif';
-  /*font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';*/
+  font-family: 'lovelo', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -43,8 +42,7 @@ h3 {
 h4,
 h5,
 h6 {
-  font-family: 'glacial-indifference', 'Comic Sans MS', 'cursive', 'sans-serif';
-  /*font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';*/
+  font-family: 'glacial-indifference', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -133,7 +131,6 @@ h6 {
 }
 
 /*make responsive*/
-
 #anouncement {
   /* background-color: #ffbace; */
   background-color: #ffdee7;
@@ -626,6 +623,23 @@ header {
   font-size: 18px;
   color: #0e1a41;
   height: 15px;
+}
+
+.member-linkedin {
+  margin-top: 10px !important;
+  cursor: pointer;
+  vertical-align: 0px;
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.hex .member-linkedin {
+  margin-top: 30px !important;
+  top: 50%;
+  padding-bottom:50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 
 @media (min-width: 990px) {

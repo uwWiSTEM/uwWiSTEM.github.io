@@ -1,5 +1,5 @@
 // var HTMLMemberName = '<div class="member-description"><h5 class="member-name">%data%%linkedin_data%</h5><div class="short-divider"></div>';
-var HTMLLinkedInIcon = '&nbsp<img src="img/linkedin.svg" alt="LinkedIn" onclick="window.open(\'%data%\',\'mywindow\');" style="cursor: pointer; vertical-align: 0px;" width="16" height="16"/>'
+var HTMLLinkedInIcon = '<img src="img/linkedin.svg" alt="LinkedIn" onclick="window.open(\'%data%\',\'mywindow\');" class="member-linkedin"/>'
 // var HTMLPhoto = '<div class="col-md-4 event-container"><div class="team-member"><img src="%data%"></div>';
 // var HTMLPhoto = '<div class="col-md-4 event-container"><div class="event"><div class="core-team-container center-block" style="background-image:url(%data%);"></div>';
 var HTMLPhoto = '<div class="col-md-4 team-member-container"><div class="core-team-container center-block"><img class="core-team-photo" style="background-image:url(%data%);">'; //src=%data% class="core-team-photo"></div>';
@@ -23,7 +23,7 @@ var internalRoles = ["Treasurer", "Administration", "Graphic Designer", "Web Dev
 var externalRoles =  ["Marketing", "Event Coordinator", "External Affairs"];
 
 var leadershipHTML = '';
-var internalHTML = '';
+var executiveHTML = '';
 var externalHTML = '';
 
 var members = [
@@ -135,35 +135,23 @@ function display() {
 }
 
 function initializeSubteams(){
-    internalHTML = '<ul id="hexGrid">';
+    executiveHTML = '<ul id="hexGrid">';
     externalHTML = '<ul id="hexGrid">';
 }
 
 function finalizeSubteams(){
-    internalHTML = internalHTML.concat('</ul>');
+    executiveHTML = executiveHTML.concat('</ul>');
     externalHTML = externalHTML.concat('</ul>');
 }
 
 function updateHTMLTeams() {
-    console.log('here');
-    console.log(leadershipHTML);
     $("#leadership").append(leadershipHTML);
-    $("#internal").append(internalHTML);
-    $("#external").append(externalHTML);
+    $("#executive").append(executiveHTML);
 }
 
-function isRoleInternal(role){
-    for (i = 0; i < internalRoles.length; i++){
-        if (role === internalRoles[i]){
-            return true;
-        }
-    }
-    return false;
-}
-
-function isRoleExternal(role){
-    for (i = 0; i < externalRoles.length; i++){
-        if (role === externalRoles[i]){
+function isRoleLeadership(role){
+    for (i = 0; i < leadershipRoles.length; i++){
+        if (role === leadershipRoles[i]){
             return true;
         }
     }
@@ -175,12 +163,9 @@ function replaceMemberWithHTML(member) {
     member.program = HTMLProgram.replace("%data%", member.program);
     member.image = HTMLPhoto.replace("%data%", member.image);
     member.name = HTMLMemberName.replace("%data%", member.name);
-    // if (member.linkedin !== ""){
-    //     member.name = member.name.replace("%linkedin_data%", HTMLLinkedInIcon.replace("%data%", member.linkedin));
-    // }
-    // else{
-    //     member.name = member.name.replace("%linkedin_data%", "");
-    // }
+    if (member.linkedin !== ""){
+        member.linkedin = HTMLLinkedInIcon.replace("%data%", member.linkedin);
+    }
 }
 
 function replaceMemberWithHexHTML(member) {
@@ -188,51 +173,27 @@ function replaceMemberWithHexHTML(member) {
     member.program = HTMLProgram.replace("%data%", member.program);
     member.image = HTMLHexImage.replace("%data%", member.image);
     member.name = HTMLMemberName.replace("%data%", member.name);
-    // if (member.linkedin !== ""){
-    //     member.name = member.name.replace("%linkedin_data%", HTMLLinkedInIcon.replace("%data%", member.linkedin));
-    // }
-    // else{
-    //     member.name = member.name.replace("%linkedin_data%", "");
-    // }
+    if (member.linkedin !== ""){
+        member.linkedin = HTMLLinkedInIcon.replace("%data%", member.linkedin);
+    }
 }
 
 function replaceMembersWithHTML() {
-    var team;
-    var hasLinkedin = true;
     executives.forEach(function(member) {
-        // replaceMemberWithHTML(member);
-        // var memberHTML = HTMLHexTeamMember + member.image + member.name + HTMLHexEnd;
-
-        if (isRoleInternal(member.position)){
-            replaceMemberWithHexHTML(member);
-            var memberHTML = HTMLHexTeamMember + member.image + HTMLOverlayText.replace("%data%", member.name + member.position)+ HTMLHexEnd;
-            internalHTML = internalHTML.concat(memberHTML);
-        }
-        else if (isRoleExternal(member.position)){
-            replaceMemberWithHexHTML(member);
-            var memberHTML = HTMLHexTeamMember + member.image + HTMLOverlayText.replace("%data%", member.name + member.position)+ HTMLHexEnd;
-            // externalHTML = externalHTML.concat(memberHTML);
-            internalHTML = internalHTML.concat(memberHTML);
-        }
-        else{
+        if (isRoleLeadership(member.position)){
             replaceMemberWithHTML(member);
-            var memberHTML = member.image + HTMLOverlayText.replace("%data%", member.name + member.position) + HTMLClosingDiv + HTMLClosingDiv;
+            var memberHTML = member.image + HTMLOverlayText.replace("%data%", member.name + member.position + member.linkedin) + HTMLClosingDiv + HTMLClosingDiv;
             leadershipHTML = leadershipHTML.concat(memberHTML);
         }
-
-        // if (member.linkedin == ""){
-        //     hasLinkedin = false;
-        // }
-        // else hasLinkedin = true;
-
-        // $(team).append(member.image + HTMLOverlayText.replace("%data%", member.name + member.position) + HTMLClosingDiv + HTMLClosingDiv);
-        // $(team).append(HTMLHexTeamMember + member.image + member.name + member.position + HTMLHexEnd);
+        else {
+            replaceMemberWithHexHTML(member);
+            var memberHTML = HTMLHexTeamMember + member.image + HTMLOverlayText.replace("%data%", member.name + member.position + member.linkedin)+ HTMLHexEnd;
+            executiveHTML = executiveHTML.concat(memberHTML);
+        }
     })
-
 }
 
 function populateMembersOnIndex() {
-    console.log("second");
     var i = 0;
     while (i < members.length) {
         let temp = {
