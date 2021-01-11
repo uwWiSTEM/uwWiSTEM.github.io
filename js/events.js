@@ -1,29 +1,31 @@
-var HTMLUpcomingEventTitle = '<h2 class="eventp-title">%data%</h2>';
-var HTMLPastEventTitle = '<h2 class="eventp-title">%data%</h2>';
-// var HTMLEventDate =
-//   '<div class="eventp-date-container text-center"><h5 class="eventp-date">%data%</h5></a></div></div>';
-  var HTMLEventDate =
-    '<div class="eventp-date-container text-center"><h5 class="eventp-date">%data%</h5></div></div>';
-var HTMLEventTime = '<h6 class="eventp-time">%data%</h6>';
-var HTMLEventDescription = '<h6 class="eventp-description">%data%</h6><br>';
-var HTMLEventRow = '<div class="col-md-6"><div class="eventp-container"><div class="eventp">';
-var HTMLClosingDiv = '</div>';
-var HTMLClosingLink = '</a>';
-// var HTMLImageDiv = '<div class="eventp-image-container"><a href="%data%" target="_blank">';
-var HTMLImageDiv = '<a href="%data%" target="_blank">';
-var HTMLEventDescriptionContainer = '<div class="eventp-description-container">';
-var HTMLEventLocation = '';
-var HTMLEventImage =
-  '<div class="eventp-image" style="background-image: url(%data%)"></div>';
+var HTMLEventSubheading = '<h2 class="col-md-12" style="text-align: center;">%data%</h2><br/>';
 
-var HTMLUpcomingEventStart = '<div class="col-md-4 eventp-upcoming-container"><div class="eventp-border-container"><div class="eventp-offset-border-upcoming"></div></div><div class="eventp-upcoming"><a href="%data%" target="_blank">';
-var HTMLUpcomingEventPhoto = '<div class="event-photo-upcoming" style="background-image:url(%data%);"></div>';
-
-var mostRecentEvents = [];
+// HTML for events on index.html
 var HTMLIndexEventStart = '<div class="col-md-4 event-container"><div class="event-border-container"><div class="event-offset-border"></div></div><div class="event"><a href="%data%" target="_blank">';
 var HTMLIndexEventPhoto = '<div class="event-photo" style="background-image:url(%data%);"></div>';
-// var HTMLIndexEventTitle = '<div class="event-description"><h5 class="event-title">%data%</h5>';
-// var HTMLIndexEventTime = '<h5 class="event-time">%data%</h5></div></div></a></div>';
+
+// HTML for upcoming events
+var HTMLUpcomingEventTitle = '<h2 class="eventp-title">%data%</h2>';
+var HTMLUpcomingEventStart = '<div class="col-md-4 eventp-upcoming-container"><div class="eventp-border-container"><div class="eventp-offset-border-upcoming"></div></div><div class="eventp-upcoming"><a href="%data%" target="_blank">';
+var HTMLUpcomingEventPhoto = '<div class="event-photo-upcoming" style="background-image:url(%data%);"></div>';
+var HTMLEventDescriptionContainer = '<div class="eventp-description-container">';
+
+// HTML for past events
+var HTMLPastEventTitle = '<h2 class="eventp-title">%data%</h2>';
+var HTMLEventRow = '<div class="col-md-6"><div class="eventp-container"><div class="eventp">';
+var HTMLImageDiv = '<a href="%data%" target="_blank">';
+var HTMLEventImage ='<div class="eventp-image" style="background-image: url(%data%)"></div>';
+
+// HTML for all events on event page
+var HTMLEventTime = '<h6 class="eventp-time">%data%</h6>';
+var HTMLEventDescription = '<h6 class="eventp-description">%data%</h6><br>';
+var HTMLClosingDiv = '</div>';
+var HTMLClosingLink = '</a>';
+
+
+
+var mostRecentEvents = [];
+
 
 var events = {
   upcomingevents: [
@@ -489,13 +491,7 @@ var events = {
   ],
   display: function () {
     populateEventsOnIndex();
-
-    if (events.upcomingevents.length > 0){
-      $('#upcomingevents').append('<h2 class="col-md-12" style="text-align: center;">Upcoming Events</h2><br />');
-    }
-    if (events.pastevents.length > 0){
-      $('#pastevents').append('<h2 class="col-md-12" style="text-align: center;">Past Events</h2><br />');
-    }
+    initializeSubheadings();
 
     events.upcomingevents.forEach(function (event) {
       $('#upcomingevents').append(
@@ -527,6 +523,15 @@ var events = {
   }
 };
 
+function initializeSubheadings(){
+  if (events.upcomingevents.length > 0){
+    $('#upcomingevents').append(HTMLEventSubheading.replace('%data%', 'Upcoming Events'));
+  }
+  if (events.pastevents.length > 0){
+    $('#pastevents').append(HTMLEventSubheading.replace('%data%', 'Past Events'));
+  }
+}
+
 function replaceEventsWithHTML() {
   events.pastevents.forEach(function (event) {
 
@@ -538,7 +543,6 @@ function replaceEventsWithHTML() {
 
     // horizontal deisgn
     // event.title = HTMLPastEventTitle.replace('%data%', event.title);
-    // // event.date = HTMLEventDate.replace('%data%', event.date);
     // event.description = HTMLEventDescription.replace('%data%', event.description);
     // event.image = HTMLEventImage.replace('%data%', event.image);
     // event.link = HTMLImageDiv.replace('%data%', event.link);
@@ -558,13 +562,6 @@ function replaceEventsWithHTML() {
 function replaceIndexEventsWithHTML() {
   mostRecentEvents.forEach(function (event) {
     event.image = HTMLIndexEventPhoto.replace('%data%', event.image);
-    // event.date = event.date.substring(0, event.date.length - 5);
-    // event.title = HTMLIndexEventTitle.replace('%data%', event.title);
-    // if (event.location != '') {
-    //   event.time = HTMLIndexEventTime.replace('%data%', event.time + ' in ' + event.location);
-    // } else {
-    //   event.time = HTMLIndexEventTime.replace('%data%', event.date +', ' + event.time + ', online');
-    // }
     event.link = HTMLIndexEventStart.replace('%data%', event.link);
     $('#mostrecentevents').append(event.link + event.image + HTMLClosingLink+ HTMLClosingDiv);
   });
