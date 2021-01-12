@@ -153,7 +153,7 @@ h6 {
 
 .description {
   font-size: 14px;
-  color: gray;
+  color: #4A4A4A;
   margin-left: 5em;
   margin-right: 5em;
 }
@@ -212,19 +212,17 @@ h6 {
 .mission-description {
   font-size: 14px;
   color: #4a4a4a;
-  opacity: 0.8;
   line-height: 22px;
 }
 
 .values, .mission-title {
   font-size: 24px;
-  color: #4a4a4a;
+  color: #162C52;
 }
 
 .value-description {
   font-size: 14px;
   color: #4a4a4a;
-  opacity: 0.8;
   line-height: 22px;
   margin-bottom: 88px;
   padding: 0 48px;
