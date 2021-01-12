@@ -236,13 +236,6 @@ h6 {
   opacity: 0.2;
   height: 1px;
 }
-.short-divider {
-  width: 50%;
-  left: margin 10;
-  background-color: #9b9b9b;
-  opacity: 0.2;
-  height: 1px;
-}
 
 .white-line {
   background-color: white;
@@ -332,55 +325,99 @@ header {
   border-radius: 30px;
 }
 
-.event-date,
-.event-month {
-  color: black;
-  opacity: 0.4;
-  text-shadow: 2px 2px #9b9b9b;
-  font-size: 32px;
-  display: inline-block;
-  margin-top: 24px;
-  margin-left: 24px;
-  margin-bottom: 0;
-}
-
-.event-date {
-  margin-top: 0px;
-  font-size: 48px;
-}
-
-.event-description {
-  height: 115px;
-  background-color: white;
-  border-radius: 0 0 20px 20px;
-  padding: 16px;
-}
-
-.event-title {
-  font-size: 16px;
-  color: #4a4a4a;
-  height: 34px;
-}
-
 .event-time {
   font-size: 14px;
   color: #4a4a4a;
   opacity: 0.8;
 }
 
-.facebook-event,
-.facebook-event:focus,
-.facebook-event:active {
-  font-size: 14px;
-  color: #54bead;
-  text-decoration: none;
+.event-button {
+  margin-bottom: 56px;
 }
 
-.facebook-event:hover {
-  color: #f27678;
-  text-decoration: none;
+/* Team members styling */
+.member-name {
+  font-size: 18px;
+  color: #0e1a41;
+  height: 15px;
 }
 
+.member-linkedin {
+  margin-top: 10px !important;
+  cursor: pointer;
+  vertical-align: 0px;
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.team-member-container {
+  height: 300px;
+  padding: 16px 16px;
+}
+
+/* TODO: remove px values here and instead use %, and remove duplication between contianer and photo */
+.core-team-container,
+.core-team-container:focus,
+.core-team-container:active {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  background-position: center;
+  align-content: center;
+  position: relative;
+}
+
+.core-team-photo,
+.core-team-photo:focus,
+.core-team-photo:active {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  background-position: center;
+  align-content: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.team-member-info {
+  color: #162C52;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.team-member-name {
+  font-size: 20px;
+}
+
+.team-member-position {
+  font-size: 16px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+.core-team-container:hover .overlay {
+  opacity: 1;
+  border-radius: 50%;
+}
+
+/*** HEXAGON GRID FOR EXECUTIVE TEAM *****************************************************************/
+/* See https://github.com/web-tiki/responsive-grid-of-hexagons for original code and instructions for modifying */
 #hexGrid {
   display: flex;
   flex-wrap: wrap;
@@ -464,6 +501,15 @@ header {
   transform: translate(-50%, 0);
 }
 
+.hex .member-linkedin {
+  margin-top: 30px !important;
+  top: 50%;
+  padding-bottom:50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
 .hex:hover .overlay {
   opacity: 1;
 }
@@ -530,117 +576,7 @@ header {
         font-size: 13px;
     }
 }
-
-.event-button {
-  margin-bottom: 56px;
-}
-
-.team-member {
-  position: relative;
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-}
-
-.team-member-container {
-  height: 300px;
-  padding: 16px 16px;
-}
-
-/* TODO: remove px values here and instead use %, and remove duplication between contianer and photo */
-.core-team-container,
-.core-team-container:focus,
-.core-team-container:active {
-  height: 220px;
-  width: 220px;
-  border-radius: 50%;
-  background-position: center;
-  align-content: center;
-  position: relative;
-}
-
-.core-team-photo,
-.core-team-photo:focus,
-.core-team-photo:active {
-  height: 220px;
-  width: 220px;
-  border-radius: 50%;
-  background-position: center;
-  align-content: center;
-  background-size: cover;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.team-member-info {
-  color: #162C52;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.team-member-name {
-  font-size: 20px;
-}
-
-.team-member-position {
-  font-size: 16px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgb(255, 255, 255, 0.7);
-}
-
-.core-team-container:hover .overlay {
-  opacity: 1;
-  border-radius: 50%;
-}
-
-.member-photo {
-  height: 280px;
-}
-
-.member-description {
-  height: 115px;
-  background-color: white;
-  border-radius: 0 0 20px 20px;
-  padding: 16px;
-}
-
-.member-name {
-  font-size: 18px;
-  color: #0e1a41;
-  height: 15px;
-}
-
-.member-linkedin {
-  margin-top: 10px !important;
-  cursor: pointer;
-  vertical-align: 0px;
-  width: 24px !important;
-  height: 24px !important;
-}
-
-.hex .member-linkedin {
-  margin-top: 30px !important;
-  top: 50%;
-  padding-bottom:50%;
-  -webkit-transform: translate(-50%, 0);
-  -ms-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
-}
+/*******************************************/
 
 @media (min-width: 990px) {
   .resources {
@@ -679,8 +615,8 @@ header {
 .btn-primary,
 .btn-primary:active,
 .btn-primary:focus {
-  background-color: #f27678;
-  color: white;
+  background-color: white;
+  color: #162C52;
   font-size: 12px;
   padding: 8px 16px;
   border-radius: 100px;
@@ -690,9 +626,9 @@ header {
 }
 
 .btn-primary:hover {
-  background-color: #54bead;
+  background-color: #162C52;
   color: white;
-  border: none;
+  border: 2px solid #162C52;
 }
 
 .lp-outline,
@@ -758,41 +694,6 @@ header {
 .partners-image {
   margin: 4px auto;
   max-width: 278px;
-}
-
-.partnerships {
-  padding: 0 36px 56px;
-  padding-bottom: 100px;
-}
-.partnership-image {
-  background-image: url('../img/partners-image.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 578px;
-}
-.partnership-container {
-  padding-top: 1em;
-}
-
-.partnership-description {
-  position: absolute;
-  bottom: 0;
-  font-size: 14px;
-  color: #4a4a4a;
-  padding: 0 16px;
-  line-height: 2.5;
-}
-
-.learn-more,
-.learn-more:active,
-.learn-more:focus {
-  color: #5ab8af;
-  text-decoration: none;
-}
-
-.learn-more:hover {
-  color: #f27678;
-  text-decoration: none;
 }
 
 .landing .social {
@@ -879,16 +780,10 @@ header {
   padding-bottom: 5em;
 }
 
+/* TODO: update background image once we have graphics for contact background */
 .contact {
-  background-image: url('../img/robot-bg.svg');
+  /* background-image: url('../img/robot-bg.svg'); */
   background-size: cover;
-  padding-bottom: 5em;
-}
-
-.contact-green {
-  background-size: cover;
-  background-color: #54bead;
-  background-image: url('../img/bacteria.svg');
   padding-bottom: 5em;
 }
 
@@ -938,18 +833,9 @@ header {
 .eventp {
   height: 100%;
   background-color: white;
-  /* width: 50%; */
-  /* margin: 0 20px 24px; */
   padding-right: 2%;
   border-radius: 20px;
 }
-/* .eventp-image-container {
-  width: 160px;
-  height: 160px;
-  margin: 24px 0 0 24px;
-  display: inline-block;
-  float: left;
-} */
 
 .eventp-image {
   position: relative;
@@ -962,11 +848,6 @@ header {
   float: left;
 }
 
-/* .eventp-date-container {
-  height: 32px;
-  background-color: #f27678;
-  border-radius: 0 0 10px 10px;
-} */
 .eventp-date {
   color: white;
   display: inline-block;
@@ -1084,94 +965,6 @@ header {
   }
 }
 
-/* all event photos */
-/*
-#fword, #letstalk, #synbio101, #wisdom, #wise, #defense, #you, #dessert, #beattheheat, #fightlikeagirl, #paintyourpinky, #programworkshop, #springdance, #synbiopanel, #hiphopclass{
-  background-size: cover;
-  border-radius: 20px 20px 0 0;
-}
-
-#fword {
-  background-image: url("../img/fword.png");
-}
-
-#letstalk {
-  background-image: url("../img/letstalk.png");
-}
-
-#synbio101 {
-  background-image: url("../img/synbio101.png");
-}
-
-#wisdom {
-  background-image: url("../img/wisdom.png");
-}
-
-#wise{
-  background-image: url("../img/wise.png");
-}
-
-#defense{
-  background-image: url("../img/defense.png");
-}
-
-#you{
-  background-image: url("../img/you.png");
-}
-
-#dessert{
-  background-image: url("../img/dessert.png");
-}
-
-#beattheheat {
-  background-image: url("../img/beattheheat.jpg");
-}
-
-#fightlikeagirl {
-  background-image: url("../img/fightlikeagirl.jpg");
-}
-
-#paintyourpinky {
-  background-image: url("../img/paintyourpinky.jpg");
-}
-
-#programworkshop {
-  background-image: url("../img/programworkshop.jpg");
-}
-
-#springdance {
-  background-image: url("../img/springdance.jpg");
-}
-
-#synbiopanel {
-  background-image: url("../img/synbiopanel.jpg");
-}
-
-#hiphopclass {
-  background-image: url("../img/hip hop class.png");
-} */
-
-/* OVERLAY images */
-
-/* #fword.event-photo  {
-  background-image: url("../img/fword-overlay.png");
-}
-#letstalk.event-photo  {
-  background-image: url("../img/letstalk-overlay.png");
-}
-#synbio101.event-photo {
-  background-image: url("../img/synthbio-overlay.png");
-}
-#synbiopanel.event-photo  {
-  background-image: url("../img/synbiopanel-overlay.jpg");
-}
-#fightlikeagirl.event-photo  {
-  background-image: url("../img/fightlikeagirl-overlay.jpg");
-}
-#programworkshop.event-photo {
-  background-image: url("../img/programworkshop-overlay.jpg");
-} */
-
 /* Mailchimp Styles */
 
 #mc_embed_signup {
@@ -1200,29 +993,7 @@ input.email {
 .email {
   width: 300px;
   background: rgb(235, 234, 234);
-  /* font-size: 15px; */
-  /* line-height: 1.5; */
 }
-
-/* input.email { */
-/* border: 2.2px solid white;
-  background-color: transparent; */
-/* height: 2.5em;
-  width: 20em;
-  padding: 1em; */
-/* } */
-
-/* .email {
-  width: 20em;
-  height: 2.5em; */
-/* background: rgb(235, 234, 234);
-  font-size: 15px;
-  line-height: 1.5; */
-/* background: rgb(235, 234, 234); */
-/* font-size: 14.5px; */
-/* padding: 10px; */
-/* line-height: 1.5; */
-/* } */
 
 .email-button {
   background-color: white;
@@ -1236,19 +1007,6 @@ input.email {
 .email-button:hover {
   color: #f27678;
 }
-
-/* ::-webkit-input-placeholder {
-  color: white;
-}
-::-moz-placeholder {
-  color: white;
-}
-:-ms-input-placeholder {
-  color: white;
-}
-:-moz-placeholder {
-  color: white;
-} */
 
 .emailus {
   padding-bottom: 5em;
@@ -1418,7 +1176,6 @@ textarea.input1 {
 }
 
 /* responsiveness */
-
 @media (max-width: 990px) {
   .landing {
     margin-top: 20%;
@@ -1483,10 +1240,8 @@ footer .social a {
   text-align: center;
   height: 5rem;
   width: 5rem;
-  /* background: #DE6985; */
   border-radius: 100%;
   line-height: 6rem;
-  /* color: white; */
 }
 footer .social a:hover {
   background: #535353;
