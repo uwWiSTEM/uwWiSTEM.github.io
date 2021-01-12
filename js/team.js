@@ -1,19 +1,17 @@
-// var HTMLMemberName = '<div class="member-description"><h5 class="member-name">%data%%linkedin_data%</h5><div class="short-divider"></div>';
-var HTMLLinkedInIcon = '<img src="img/linkedin.svg" alt="LinkedIn" onclick="window.open(\'%data%\',\'mywindow\');" class="member-linkedin"/>'
-// var HTMLPhoto = '<div class="col-md-4 event-container"><div class="team-member"><img src="%data%"></div>';
-// var HTMLPhoto = '<div class="col-md-4 event-container"><div class="event"><div class="core-team-container center-block" style="background-image:url(%data%);"></div>';
-var HTMLPhoto = '<div class="col-md-4 team-member-container"><div class="core-team-container center-block"><img class="core-team-photo" style="background-image:url(%data%);">'; //src=%data% class="core-team-photo"></div>';
+// HTML for all member images
 var HTMLOverlayText = '<div class="overlay"><div class="team-member-info">%data%</div></div>';
 var HTMLMemberName = '<div class="team-member-name">%data%</div>';
 var HTMLPosition = '<div class="team-member-position">%data%</div>';
-var HTMLProgram = '<h5 class="event-time">%data%</h5></div></div></div>';
+var HTMLProgram = '<h5 class="event-time">%data%</h5></div></div></div>'; // Not currently used
+var HTMLLinkedInIcon = '<img src="img/linkedin.svg" alt="LinkedIn" onclick="window.open(\'%data%\',\'mywindow\');" class="member-linkedin"/>'
 var HTMLClosingDiv = '</div>';
 
+// HTML for leadership members
+var HTMLPhoto = '<div class="col-md-4 team-member-container"><div class="core-team-container center-block"><img class="core-team-photo" style="background-image:url(%data%);">';
+
+// HTML for executives in hexagonal arrangment
 var HTMLHexTeamMember = '<li class="hex"><div class="hexIn"><div class="hexLink">';
 var HTMLHexImage = '<img src="%data%" alt="" />';
-// var HTMLMemberName = '<h1>%data%</h1>';
-// var HTMLMemberName = '<div class="team-member-info">%data%</div>';
-// var HTMLPosition = '<p>%data%</p>';
 var HTMLHexEnd = '</div></div></li>';
 
 var executives = [];
@@ -24,7 +22,6 @@ var externalRoles =  ["Marketing", "Event Coordinator", "External Affairs"];
 
 var leadershipHTML = '';
 var executiveHTML = '';
-var externalHTML = '';
 
 var members = [
 {
