@@ -377,6 +377,10 @@ header {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.core-team-photo:focus {
+  cursor: pointer;
+}
+
 .team-member-info {
   color: #162C52;
   position: absolute;
@@ -407,6 +411,7 @@ header {
   opacity: 0;
   transition: .5s ease;
   background-color: rgb(255, 255, 255, 0.7);
+  cursor: pointer;
 }
 
 .core-team-container:hover .overlay {
@@ -674,19 +679,32 @@ header {
   color: black;
 }
 
+.partners-lp-gold {
+  margin-bottom: 42px;
+}
+
+.partners-gold-desc {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.partners-gold-desc p {
+  font-size: 16px;
+  font-family: inherit;
+}
+
 .partners-lp-gold img {
-  height: 75px;
-  margin-bottom: 12px;
+  height: 120px;
 }
 
 .partners-lp-silver img {
-  height: 35px;
-  margin-bottom: 12px;
+  height: 40px;
+  margin-bottom: 18px;
 }
 
 .partners-lp-bronze img {
   height: 30px;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .partners-image {
@@ -1251,4 +1269,12 @@ footer .social a:active {
 footer .social-icon {
   margin-left: 1rem;
   margin-left: 1rem;
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+  color: #4A4A4A;
+}
+
+.row { 
+  margin: 0;
 }
