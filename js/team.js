@@ -11,7 +11,7 @@ var executives = [];
 
 var leadershipRoles = ["President", "Vice President Internal", "Vice President External"];
 var internalRoles = ["Treasurer", "Administration", "Graphic Designer", "Web Developer"];
-var externalRoles =  ["Marketing", "Event Coordinator", "External Affairs"];
+var externalRoles =  ["Marketing", "Event Coordinator", "External Affairs", "Advocacy"];
 
 var members = [
 {
@@ -65,11 +65,11 @@ var members = [
     linkedin: "https://www.linkedin.com/in/richa-patel-8301/"
 },
 {
-    name: "Angela D.",
+    name: "Hannah G.",
     position: "Web Developer",
     program: "Software Engineering",
-    image: "img/angela.jpeg",
-    linkedin: "https://www.linkedin.com/in/angela-dietz/"
+    image: "img/HannahGuo_WebDev_W21.png",
+    linkedin: "https://www.linkedin.com/in/hannah-guo/"
 },
 {
     name: "Andreea P.",
@@ -86,11 +86,11 @@ var members = [
     linkedin: "https://www.linkedin.com/in/tongyin-han/"
 },
 {
-    name: "Helena L.",
+    name: "Simran B.",
     position: "Marketing",
-    program: "Science and Business - Biochemistry Specialization",
-    image: "img/helena_seung-min_lee.png",
-    linkedin: "https://www.linkedin.com/in/helenasmlee/"
+    program: "Environment and Business, Computer Science Minor",
+    image: "img/SimranBansari.png",
+    linkedin: ""
 },
 {
     name: "Toni O.",
@@ -112,6 +112,20 @@ var members = [
     program: "Management Engineering",
     image: "img/yvone_yang.jpeg",
     linkedin: "https://www.linkedin.com/in/yvone-yang/"
+},
+{
+    name: "Iman M.",
+    position: "Advocacy",
+    program: "Biomedical Science",
+    image: "img/ImanMir.png",
+    linkedin: ""
+},
+{
+    name: "Jolly N.",
+    position: "Advocacy",
+    program: "Health Studies",
+    image: "img/JollyNoor.jpeg",
+    linkedin: "https://www.linkedin.com/in/jolly-noor-b53366165"
 }
 ]
 
