@@ -116,7 +116,7 @@ var members = [
 {
     name: "Iman M.",
     position: "Advocacy",
-    program: "Biomedical Science",
+    program: "Honours Biomedical Science",
     image: "img/ImanMir.png",
     linkedin: ""
 },
