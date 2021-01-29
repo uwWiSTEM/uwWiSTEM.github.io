@@ -28,98 +28,112 @@ var members = [
     name: "Sophia T.",
     position: "President",
     program: "Biology - Biotechnology Specialization",
-    image: "img/sophia_tan.jpeg",
+    image: execPhotoPrefix("sophia_tan.jpeg"),
     linkedin: "https://www.linkedin.com/in/sophia-tan1"
 },
 {
     name: "Jayanjali B.",
     position: "Vice President Internal",
     program: "Biomedical Science",
-    image: "img/jayanjali.jpeg",
+    image: execPhotoPrefix("jayanjali.jpeg"),
     linkedin: ""
 },
 {
     name: "Margaret S.",
     position: "Vice President External",
     program: "Pharmacy",
-    image: "img/margaret_su.png",
+    image: execPhotoPrefix("margaret_su.png"),
     linkedin: "https://www.linkedin.com/in/margaretsu/"
 },
 {
     name: "Martha Z.",
     position: "Treasurer",
     program: "Mathematics/Chartered Professional Accountancy",
-    image: "img/martha_zhu.jpeg",
+    image: execPhotoPrefix("martha_zhu.jpeg"),
     linkedin: "https://www.linkedin.com/in/martha-zhu/"
 },
 {
     name: "Diana S.",
     position: "Administration",
     program: "Computer Science - Statistics Minor",
-    image: "img/diana_surducan.jpeg",
+    image: execPhotoPrefix("diana_surducan.jpeg"),
     linkedin: "https://www.linkedin.com/in/diana-surducan"
 },
 {
     name: "Catherine C.",
     position: "Graphic Designer",
     program: "Computer Engineering",
-    image: "img/catherine.jpeg",
+    image: execPhotoPrefix("catherine.jpeg"),
     linkedin: "https://www.linkedin.com/in/catherinejjchen/"
 },
 {
     name: "Richa P.",
     position: "Graphic Designer",
     program: "Honours Science",
-    image: "img/richa_patel.jpeg",
+    image: execPhotoPrefix("richa_patel.jpeg"),
     linkedin: "https://www.linkedin.com/in/richa-patel-8301/"
 },
 {
-    name: "Angela D.",
+    name: "Hannah G.",
     position: "Web Developer",
     program: "Software Engineering",
-    image: "img/angela.jpeg",
-    linkedin: "https://www.linkedin.com/in/angela-dietz/"
+    image: execPhotoPrefix("HannahGuo_WebDev_W21 - Hannah G.png"),
+    linkedin: "https://www.linkedin.com/in/hannah-guo/"
+},
+{
+    name: "Iman M.",
+    position: "Advocacy",
+    program: "Honours Biomedical Science",
+    image: execPhotoPrefix("Iman Mir.png"),
+    linkedin: ""
+},
+{
+    name: "Jolly N.",
+    position: "Advocacy",
+    program: "Health Studies",
+    image: execPhotoPrefix("Jolly Noor.jpeg"),
+    linkedin: "https://www.linkedin.com/in/jolly-noor-b53366165"
 },
 {
     name: "Andreea P.",
     position: "Event Coordinator",
     program: "Biomedical Science",
-    image: "img/andreea2.jpeg",
+    image: execPhotoPrefix("andreea2.jpeg"),
     linkedin: "https://www.linkedin.com/in/andreeapalage/"
 },
 {
     name: "Tong Yin H.",
     position: "Event Coordinator",
     program: "Systems Design Engineering",
-    image: "img/tong_yin.jpeg",
+    image: execPhotoPrefix("tong_yin.jpeg"),
     linkedin: "https://www.linkedin.com/in/tongyin-han/"
 },
 {
-    name: "Helena L.",
+    name: "Simran B.",
     position: "Marketing",
-    program: "Science and Business - Biochemistry Specialization",
-    image: "img/helena_seung-min_lee.png",
-    linkedin: "https://www.linkedin.com/in/helenasmlee/"
+    program: "Environment and Business - Computer Science Minor",
+    image: execPhotoPrefix("Simran Bansari.png"),
+    linkedin: ""
 },
 {
     name: "Toni O.",
     position: "Marketing",
     program: "Science and Business - Biotechnology Specialization",
-    image: "img/toni.jpeg",
+    image: execPhotoPrefix("toni.jpeg"),
     linkedin: "https://www.linkedin.com/in/toni-oguntunde-74a096194"
 },
 {
     name: "Alicia L.",
     position: "External Affairs",
     program: "Honours Mathematics",
-    image: "img/alicia_lin.jpeg",
+    image: execPhotoPrefix("AliciaLin_ExternalAffairs_W21 - Alicia Lin.png"),
     linkedin: "http://www.linkedin.com/in/aliciajlin"
 },
 {
     name: "Yvone Y.",
     position: "External Affairs",
     program: "Management Engineering",
-    image: "img/yvone_yang.jpeg",
+    image: execPhotoPrefix("yvone_yang.jpeg"),
     linkedin: "https://www.linkedin.com/in/yvone-yang/"
 }
 ]
@@ -129,6 +143,10 @@ function display() {
     populateMembersOnIndex();
     finalizeSubteams();
     updateHTMLTeams();
+}
+
+function execPhotoPrefix(fileName){
+    return "img/exec_photos/" + fileName; 
 }
 
 function initializeSubteams(){
