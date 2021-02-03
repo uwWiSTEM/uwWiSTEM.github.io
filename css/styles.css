@@ -560,13 +560,13 @@ header {
     padding-bottom: 4.4%;
   } */
   .hex {
-    width: 20%;
-    /* = 100 / 5 */
+    width: 14.286%;
+    /* = 100 / 7 */
   }
 
-  .hex:nth-child(8n+6) {
+  .hex:nth-child(11n+8) {
     /* first hexagon of even rows */
-    margin-left: 10%;
+    margin-left: 7.143%;
     /* = width of .hex / 2  to indent even rows */
   }
 }
@@ -739,13 +739,17 @@ header {
 }
 
 .partners-gold-desc {
-  max-width: 300px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
 .partners-gold-desc p {
   font-size: 16px;
   font-family: inherit;
+}
+
+.partners-gold-desc small a {
+  color: #0170CF;
 }
 
 .partners-lp-gold img {
