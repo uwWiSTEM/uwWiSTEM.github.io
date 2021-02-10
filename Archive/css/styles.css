@@ -76,8 +76,7 @@ a:hover {
 }
 
 header {
-  background: none;
-  background-image: url(../img/landing-bg.png);
+  background-image: url("/img/HeaderBackground.png");
   background-size: cover;
   background-color: #54BEAD;
 }

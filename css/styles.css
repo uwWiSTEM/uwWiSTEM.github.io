@@ -168,6 +168,11 @@ h6 {
   margin-right: 5em;
 }
 
+.description a {
+  color: #4A4A4A;
+  text-decoration: underline;
+}
+
 .values-image {
   height: 200px;
   width: 200px;
@@ -253,8 +258,7 @@ h6 {
 }
 
 header {
-  background: none;
-  /*background-image: url(../img/landing-bg.png);*/
+  background-image: url("../img/HeaderBackground.png");
   background-size: cover;
   background-color: white;
 }
@@ -262,6 +266,13 @@ header {
 .navbar-default {
   background-color: white;
   color: black;
+}
+
+#sponsors {
+  background-image: url("../img/leaves.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .events {
@@ -445,6 +456,7 @@ header {
   overflow: hidden;
   list-style-type: none;
   padding-bottom: 96px;
+  padding-left: 0px;
 }
 
 .hex {
@@ -553,7 +565,43 @@ header {
 }
 
 /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
-@media (min-width:1201px) {
+@media (min-width:1601px) {
+
+  /* <- 5-4  hexagons per row */
+  /* #hexGrid{
+    padding-bottom: 4.4%;
+  } */
+  .hex {
+    width: 12.5%;
+    /* = 100 / 10 */
+  }
+
+  .hex:nth-child(11n + 8) {
+    /* first hexagon of even rows */
+    margin-left: 6.25%;
+    /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 1600px) and (min-width:1401px) {
+
+  /* <- 5-4  hexagons per row */
+  /* #hexGrid{
+    padding-bottom: 4.4%;
+  } */
+  .hex {
+    width: 14.286%;
+    /* = 100 / 10 */
+  }
+
+  .hex:nth-child(13n + 8) {
+    /* first hexagon of even rows */
+    margin-left: 7.143%;
+    /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 1400px) and (min-width:1201px) {
 
   /* <- 5-4  hexagons per row */
   /* #hexGrid{
@@ -825,7 +873,6 @@ header {
 .subscribe {
   background-size: cover;
   background-color: #F2EEEE;
-  padding-bottom: 5em;
 }
 
 .white {
@@ -982,7 +1029,7 @@ header {
   position: relative;
   width: 100%;
   max-width: 380px;
-  height: 100%;
+  height: 105%;
   margin: 0 auto;
   background-color: white;
   border-radius: 30px;
@@ -1017,15 +1064,15 @@ header {
   position: absolute;
   width: 100%;
   height: 100%;
-  margin: -16px -48px;
-  padding: 16px 48px;
+  margin: -20px -48px;
+  padding: 20px 48px;
 }
 
 .eventp-offset-border-upcoming {
   position: relative;
   width: 100%;
   max-width: 380px;
-  height: 100%;
+  height: 105%;
   margin: 0 auto;
   border: 5px solid white;
   border-radius: 30px;
@@ -1087,6 +1134,13 @@ input.email {
 
 .email-button:hover {
   color: #f27678;
+}
+
+#emailus {
+  background-size: contain;
+  background-image: url("../img/submitform.png");
+  margin-top: 76px;
+  background-repeat: no-repeat;
 }
 
 .emailus {

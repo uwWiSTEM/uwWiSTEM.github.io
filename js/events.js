@@ -23,6 +23,24 @@ var events = {
     ],
   pastevents: [
     {
+      title: 'Konrad Company Spotlight Event',
+      date: 'February 3 2021',
+      time: '6:00pm-7:00pm',
+      location: '',
+      description: 'This collaboration with Konrad will give each attendee the opportunity to learn about what an end-to-end software project looks like, the A-Z’s of the consulting industry as well as a better look into Konrad, what makes them stand out, recruitment opportunities and more!',
+      link: 'https://www.facebook.com/events/708896869986087/',
+      image: addEventImagePath("KonradCompanySpotlight.png")
+    },
+    {
+      title: 'Resume Critique',
+      date: 'January 19 2021',
+      time: '6:00pm-7:00pm',
+      location: '',
+      description: 'In this Resume & Roast style workshop, you will get the chance to learn the do’s and don’ts of resume writing, network and share some laughs. The IBM recruitment team will poke fun at resumes while providing some valuable feedback to help get you into tip top shape!',
+      link: 'https://www.facebook.com/events/229819568642983/',
+      image: addEventImagePath("ibmworkshop.png")
+    },
+    {
       title: 'End of Term - Among Us',
       date: 'December 8 2020',
       time: '8:00pm-9:00pm',
