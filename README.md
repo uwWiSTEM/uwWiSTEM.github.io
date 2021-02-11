@@ -1,4 +1,4 @@
-# UW WISTEM Official Website
+# UW WiSTEM Official Website
 
-The main page is: uwwistem.com
-The events page is: uwwistem.com/events
+- Main page: [uwwistem.com](uwwistem.com)
+- Events page: [uwwistem.com/events](uwwistem.com/events)
