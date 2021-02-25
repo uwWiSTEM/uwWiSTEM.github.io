@@ -23,13 +23,22 @@ var events = {
     ],
   pastevents: [
     {
-      title: 'Konrad Company Spotlight Event',
-      date: 'February 3 2021',
-      time: '6:00pm-7:00pm',
+      title: 'Step into STEM Engineering Workshop',
+      date: 'February 6 2021',
+      time: '2:00pm-5:00pm',
       location: '',
-      description: 'This collaboration with Konrad will give each attendee the opportunity to learn about what an end-to-end software project looks like, the A-Z’s of the consulting industry as well as a better look into Konrad, what makes them stand out, recruitment opportunities and more!',
-      link: 'https://www.facebook.com/events/708896869986087/',
-      image: addEventImagePath("KonradCompanySpotlight.png")
+      description: 'Attendees can join our Intro to Clustering for Image Analysis hosted by UW Data Science Club on Feb 7th @ 2-5PM EST using the zoom link in our bio!! 😁',
+      link: '',
+      image: addEventImagePath("SiSEngineeringWorkshop.png")
+    },
+    {
+      title: 'Step into STEM Science Workshop',
+      date: 'January 30 2021',
+      time: '2:00pm-5:00pm',
+      location: 'Zoom',
+      description: `WiSTEM is excited to introduce an amazing guest speaker for the Stem Into STEM Science workshop Dr. Nardine Nakhla, from UW school of Pharmacy!! 👩‍🔬🧫⠀Attendees can join our gel electrophoresis simulation event.`,
+      link: '',
+      image: addEventImagePath("StepintoSTEM-Science.png")
     },
     {
       title: 'Resume Critique',
