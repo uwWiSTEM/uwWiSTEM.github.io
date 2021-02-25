@@ -568,19 +568,19 @@ header {
 @media (min-width:1601px) {
 
   /* <- 5-4  hexagons per row */
-  /* #hexGrid{
-    padding-bottom: 4.4%;
-  } */
+  #hexGrid{
+    justify-content: center;
+  }
   .hex {
     width: 12.5%;
     /* = 100 / 10 */
   }
 
-  .hex:nth-child(11n + 8) {
+  /* .hex:nth-child(11n + 8) { */
     /* first hexagon of even rows */
-    margin-left: 6.25%;
+    /* margin-left: 6.25%; */
     /* = width of .hex / 2  to indent even rows */
-  }
+  /* } */
 }
 
 @media (max-width: 1600px) and (min-width:1401px) {
