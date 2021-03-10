@@ -20,6 +20,15 @@ var mostRecentEvents = [];
 
 var events = {
   upcomingevents: [
+    {
+      title: 'Confidence Building and Yoga Workshop',
+      date: 'March 11 2021',
+      time: '5:30pm-7:30pm',
+      location: '',
+      description: 'In this event, you will be given tips and tricks to help boost your confidence. You will also have the opportunity to relieve some stress from this busy midterm season with a guided yoga session from Power Yoga Canada.',
+      link: '',
+      image: addEventImagePath("accentureYoga.png")
+    },
     ],
   pastevents: [
     {

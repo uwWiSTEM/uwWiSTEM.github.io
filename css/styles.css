@@ -40,11 +40,17 @@ h3 {
 }
 
 h4,
-h5,
 h6 {
   font-family: 'glacial-indifference', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+}
+
+h5 {
+  font-family: 'glacial-indifference', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 24px;
 }
 
 .title {
@@ -936,6 +942,47 @@ header {
   color: #f27678
 }
 
+/* SPONSOR PAGE*/
+.sponsor-page {
+  background-color: white;
+  padding: 36px;
+}
+
+.sponsor-button {
+  margin-right: 0px !important;
+}
+
+/* Fancy Title Modified from: https://codepen.io/Merri/pen/jFALy */
+.fancy-title {
+  border-collapse: separate;
+  display: table;
+  margin: .5em 0;
+  white-space: nowrap;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.fancy-title:before,.fancy-title:after {
+  background: rgba(255, 255, 255, .1);
+  border-bottom: 2px solid black;
+  content: '';
+  display: table-cell;
+  width: 40%;
+}
+
+.fancy-title:before {
+  -ms-transform: translateX(2em) translateY(-0.5em);
+  -webkit-transform: translateX(2em) translateY(-0.5em);
+  transform:translateX(2em) translateY(-0.5em);
+}
+
+.fancy-title:after {
+  -ms-transform: translateX(2em) translateY(-0.5em);
+  -webkit-transform: translateX(2em) translateY(-0.5em);
+  transform: translateX(-2em) translateY(-0.5em);
+}
+
 /* EVENT PAGE */
 .event-page {
   background-color: #eeeeee;
@@ -1411,4 +1458,8 @@ footer .social-icon {
 
 .row {
   margin: 0;
+}
+
+.sponsor-row {
+  padding-top: 80px;
 }
