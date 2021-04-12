@@ -20,6 +20,26 @@ var mostRecentEvents = [];
 
 var events = {
   upcomingevents: [
+    ],
+  pastevents: [
+    {
+      title: 'Games Night in Support of SCWST',
+      date: 'April 9 2021',
+      time: '5:30pm-7:00pm',
+      location: '',
+      description: 'This event will give each attendee the opportunity to play fun games, socialize and to give back to an amazing organization; The Society for Canadian Women in Science and Technology (SWCST) who have directed their efforts towards advocating for women in the STEM field.',
+      link: '',
+      image: addEventImagePath("EOT_GamesNight.jpg")
+    },
+    {
+      title: 'Women in Science Career Panel Q&A',
+      date: 'March 30 2021',
+      time: '5:30pm-7:30pm',
+      location: '',
+      description: 'Learn all about science related topics through our Women in Science Career Panel event, brought to you by SciSoc x WiSTEM! This event will give you the opportunity to learn and ask questions to amazing student speakers who are currently in the science field 👩‍🔬',
+      link: '',
+      image: addEventImagePath("WIS_Career.jpg")
+    },
     {
       title: 'Confidence Building and Yoga Workshop',
       date: 'March 11 2021',
@@ -29,8 +49,6 @@ var events = {
       link: '',
       image: addEventImagePath("accentureYoga.png")
     },
-    ],
-  pastevents: [
     {
       title: 'Step into STEM Engineering Workshop',
       date: 'February 6 2021',
