@@ -582,18 +582,19 @@ header {
 @media (min-width:1601px) {
 
   /* <- 5-4  hexagons per row */
-  #hexGrid{
+  #hexGrid {
     justify-content: center;
   }
+
   .hex {
     width: 12.5%;
     /* = 100 / 10 */
   }
 
   /* .hex:nth-child(11n + 8) { */
-    /* first hexagon of even rows */
-    /* margin-left: 6.25%; */
-    /* = width of .hex / 2  to indent even rows */
+  /* first hexagon of even rows */
+  /* margin-left: 6.25%; */
+  /* = width of .hex / 2  to indent even rows */
   /* } */
 }
 
@@ -798,11 +799,22 @@ header {
 
 .partners-lp-gold {
   margin-bottom: 42px;
+  text-align: center;
+}
+
+.partners-lp-silver {
+  text-align: center;
+}
+
+.partners-lp-bronze {
+  text-align: center;
 }
 
 .partners-gold-desc {
   max-width: 600px;
   margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .partners-gold-desc p {
@@ -945,7 +957,7 @@ header {
 /* SPONSOR PAGE*/
 .sponsor-page {
   background-color: white;
-  padding: 36px;
+  padding-top: 36px;
 }
 
 .sponsor-button {
@@ -963,24 +975,104 @@ header {
   font-weight: bold;
 }
 
-.fancy-title:before,.fancy-title:after {
+.fancy-title:before,
+.fancy-title:after {
   background: rgba(255, 255, 255, .1);
   border-bottom: 2px solid black;
   content: '';
   display: table-cell;
-  width: 40%;
 }
 
-.fancy-title:before {
-  -ms-transform: translateX(2em) translateY(-0.5em);
-  -webkit-transform: translateX(2em) translateY(-0.5em);
-  transform:translateX(2em) translateY(-0.5em);
+@media (max-width: 1200px) {
+  .fancy-title:before {
+    -ms-transform: translateX(0.75em) translateY(-0.5em);
+    -webkit-transform: translateX(0.75em) translateY(-0.5em);
+    transform: translateX(0.75em) translateY(-0.5em);
+    width: 30%;
+  }
+
+  .fancy-title:after {
+    -ms-transform: translateX(-0.75em) translateY(-0.5em);
+    -webkit-transform: translateX(-0.75em) translateY(-0.5em);
+    transform: translateX(-0.75em) translateY(-0.5em);
+    width: 30%;
+  }
+
+  .sponsor-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("../img/leaves.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0px !important;
+    width: 100%;
+  }
 }
 
-.fancy-title:after {
-  -ms-transform: translateX(2em) translateY(-0.5em);
-  -webkit-transform: translateX(2em) translateY(-0.5em);
-  transform: translateX(-2em) translateY(-0.5em);
+@media (min-width: 1201px) {
+  .fancy-title:before {
+    -ms-transform: translateX(1em) translateY(-0.5em);
+    -webkit-transform: translateX(1em) translateY(-0.5em);
+    transform: translateX(1em) translateY(-0.5em);
+    width: 40%;
+  }
+
+  .fancy-title:after {
+    -ms-transform: translateX(-1em) translateY(-0.5em);
+    -webkit-transform: translateX(-1em) translateY(-0.5em);
+    transform: translateX(-1em) translateY(-0.5em);
+    width: 40%;
+  }
+
+  .sponsor-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../img/leaves.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0px !important;
+    width: 100%;
+  }
+}
+
+.sponsor-section.partners-lp-gold img {
+  margin: 0px;
+}
+
+.sponsor-section img {
+  justify-content: space-evenly;
+  margin: 5%;
+}
+
+.sponsor-row div {
+  width: 100%;
+}
+
+.sponsor-row:first-child {
+  padding-top: 40px;
+}
+
+.sponsor-row .card {
+  margin: 0 auto;
+}
+
+.first-sponsor-row { 
+  margin: 0;
+  padding-bottom: 50px;
 }
 
 /* EVENT PAGE */
@@ -1458,8 +1550,4 @@ footer .social-icon {
 
 .row {
   margin: 0;
-}
-
-.sponsor-row {
-  padding-top: 80px;
 }
