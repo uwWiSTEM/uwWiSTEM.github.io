@@ -53,24 +53,17 @@ var members = [
     linkedin: "https://www.linkedin.com/in/martha-zhu/"
 },
 {
-    name: "Diana S.",
-    position: "Administration",
-    program: "Computer Science - Statistics Minor",
-    image: execPhotoPrefix("diana_surducan.jpeg"),
-    linkedin: "https://www.linkedin.com/in/diana-surducan"
-},
-{
-    name: "Catherine C.",
+    name: "Nandini P.",
     position: "Graphic Designer",
-    program: "Computer Engineering",
-    image: execPhotoPrefix("catherine.jpeg"),
-    linkedin: "https://www.linkedin.com/in/catherinejjchen/"
+    program: "Biomedical Science",
+    image: execPhotoPrefix("Nandini Headshot - Nandini Patel.jpeg"),
+    linkedin: ""
 },
 {
     name: "Richa P.",
     position: "Graphic Designer",
     program: "Honours Science",
-    image: execPhotoPrefix("richa_patel.jpeg"),
+    image: execPhotoPrefix("richa.png"),
     linkedin: "https://www.linkedin.com/in/richa-patel-8301/"
 },
 {
@@ -130,11 +123,18 @@ var members = [
     linkedin: "http://www.linkedin.com/in/aliciajlin"
 },
 {
-    name: "Yvone Y.",
+    name: "Helena L.",
     position: "External Affairs",
-    program: "Management Engineering",
-    image: execPhotoPrefix("yvone_yang.jpeg"),
-    linkedin: "https://www.linkedin.com/in/yvone-yang/"
+    program: "Science and Business - Biochemistry Specialization",
+    image: execPhotoPrefix("Helena Lee Exec Headshot - UW WiSTEM.png"),
+    linkedin: ""
+},
+{
+    name: "Katrina T.",
+    position: "Outreach",
+    program: "Honours Science with Conditional Admission to Pharmacy (CAP)",
+    image: execPhotoPrefix("KatrinaThai_Outreach_S21 - Katrina Thai.JPG"),
+    linkedin: ""
 }
 ]
 
