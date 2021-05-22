@@ -57,7 +57,7 @@ var members = [
     position: "Graphic Designer",
     program: "Biomedical Science",
     image: execPhotoPrefix("Nandini Headshot - Nandini Patel.jpeg"),
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/nandini-patel-35892820a/"
 },
 {
     name: "Richa P.",
@@ -127,7 +127,7 @@ var members = [
     position: "External Affairs",
     program: "Science and Business - Biochemistry Specialization",
     image: execPhotoPrefix("Helena Lee Exec Headshot - UW WiSTEM.png"),
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/helenasmlee/"
 },
 {
     name: "Katrina T.",
