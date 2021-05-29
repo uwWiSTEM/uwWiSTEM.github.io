@@ -20,8 +20,26 @@ var mostRecentEvents = [];
 
 var events = {
   upcomingevents: [
+    {
+      title: 'Science & Research Talk Series',
+      date: 'May 29 2021 - May 30 2021',
+      time: '5:00pm-7:00pm',
+      location: 'Zoom',
+      description: "⁣Over the two-day event speakers will cover topics including working in translational research, the healthcare/business field, iGEM's 2020 synthetic biology project and much more.",
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdjkSVmOLIpzvUnFpd-yRLHqH2rV2wyd4LME54YWW2cEciCpg/viewform',
+      image: addEventImagePath("scienceResearchSeries.jpg")
+    },
     ],
   pastevents: [
+    {
+      title: 'Mock Interview Career Workshop',
+      date: 'May 18 2021',
+      time: '12:00pm',
+      location: 'Zoom Link',
+      description: 'WiSTEM is teaming up with American Express Canada to bring you a Mock Interview Style Event! 🤝💻⁣ If you are looking to practice your interview techniques for the upcoming co-op term this is the perfect event for you! ',
+      link: '',
+      image: addEventImagePath("mockInterview.jpg")
+    },
     {
       title: 'Games Night in Support of SCWST',
       date: 'April 9 2021',
