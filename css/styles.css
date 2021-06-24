@@ -59,6 +59,10 @@ h5 {
   color: #0e1a41;
 }
 
+.blue-link { 
+  color: blue;
+}
+
 /* .navbar-default.affix .nav > li > a:focus:hover,
 .navbar-default.affix .nav > li > a:hover {
   color: #f27678;

@@ -28,8 +28,8 @@ var events = {
       date: 'June 18',
       time: '7:00pm - 8:30pm',
       location: 'Zoom',
-      description: "WiSTEM is hosting a technical workshop where you will get the chance to learn the coding skills required to build a website from scratch using HTML/CSS ⌨️!!⁣",
-      link: '',
+      description: "WiSTEM is hosting a technical workshop where you will get the chance to learn the coding skills required to build a website from scratch using HTML/CSS ⌨️! <a href='https://docs.google.com/presentation/d/1xl73VWxnyw-irg15AXTOFewpLvvK1cpH6jBAylXMPsA/edit?usp=sharing' target='_blank' rel='noreferrer' class='blue-link'>Click here to view the workshop slides!</a>",
+      link: 'https://docs.google.com/presentation/d/1xl73VWxnyw-irg15AXTOFewpLvvK1cpH6jBAylXMPsA/edit?usp=sharing',
       image: addEventImagePath("websiteWorkshop.png")
     },
     {
