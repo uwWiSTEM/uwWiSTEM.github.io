@@ -20,6 +20,18 @@ var mostRecentEvents = [];
 
 var events = {
   upcomingevents: [
+
+    ],
+  pastevents: [
+    {
+      title: 'Code Your First Website',
+      date: 'June 18',
+      time: '7:00pm - 8:30pm',
+      location: 'Zoom',
+      description: "WiSTEM is hosting a technical workshop where you will get the chance to learn the coding skills required to build a website from scratch using HTML/CSS ⌨️!!⁣",
+      link: '',
+      image: addEventImagePath("websiteWorkshop.png")
+    },
     {
       title: 'Science & Research Talk Series',
       date: 'May 29 2021 - May 30 2021',
@@ -29,8 +41,6 @@ var events = {
       link: 'https://docs.google.com/forms/d/e/1FAIpQLSdjkSVmOLIpzvUnFpd-yRLHqH2rV2wyd4LME54YWW2cEciCpg/viewform',
       image: addEventImagePath("scienceResearchSeries.jpg")
     },
-    ],
-  pastevents: [
     {
       title: 'Mock Interview Career Workshop',
       date: 'May 18 2021',
