@@ -1,0 +1,121 @@
+/* SPONSOR PAGE*/
+.sponsor-page {
+    background-color: white;
+    padding-top: 36px;
+  }
+  
+  .sponsor-button {
+    margin-right: 0px !important;
+  }
+  
+  /* Fancy Title Modified from: https://codepen.io/Merri/pen/jFALy */
+  .fancy-title {
+    border-collapse: separate;
+    display: table;
+    margin: .5em 0;
+    white-space: nowrap;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .fancy-title:before,
+  .fancy-title:after {
+    background: rgba(255, 255, 255, .1);
+    border-bottom: 2px solid black;
+    content: '';
+    display: table-cell;
+  }
+  
+  @media (max-width: 1200px) {
+    .fancy-title:before {
+      -ms-transform: translateX(0.75em) translateY(-0.5em);
+      -webkit-transform: translateX(0.75em) translateY(-0.5em);
+      transform: translateX(0.75em) translateY(-0.5em);
+      width: 30%;
+    }
+  
+    .fancy-title:after {
+      -ms-transform: translateX(-0.75em) translateY(-0.5em);
+      -webkit-transform: translateX(-0.75em) translateY(-0.5em);
+      transform: translateX(-0.75em) translateY(-0.5em);
+      width: 30%;
+    }
+  
+    .sponsor-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      min-height: 100px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-image: url("../img/leaves.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 0px !important;
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .fancy-title:before {
+      -ms-transform: translateX(1em) translateY(-0.5em);
+      -webkit-transform: translateX(1em) translateY(-0.5em);
+      transform: translateX(1em) translateY(-0.5em);
+      width: 40%;
+    }
+  
+    .fancy-title:after {
+      -ms-transform: translateX(-1em) translateY(-0.5em);
+      -webkit-transform: translateX(-1em) translateY(-0.5em);
+      transform: translateX(-1em) translateY(-0.5em);
+      width: 40%;
+    }
+  
+    .sponsor-section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      min-height: 300px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-image: url("../img/leaves.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 0px !important;
+      width: 100%;
+    }
+  }
+  
+  .sponsor-section.partners-lp-gold img {
+    margin: 0px;
+  }
+  
+  .sponsor-section img {
+    justify-content: space-evenly;
+    margin: 5%;
+  }
+  
+  .sponsor-row div {
+    width: 100%;
+  }
+  
+  .sponsor-row:first-child {
+    padding-top: 40px;
+  }
+  
+  .sponsor-row .card {
+    margin: 0 auto;
+  }
+  
+  .first-sponsor-row { 
+    margin: 0;
+    padding-bottom: 50px;
+  }
+  
