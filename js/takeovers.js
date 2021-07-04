@@ -1,4 +1,4 @@
-var takeoverCard = (link, imageCover, imageDetails, title, description) => {
+var takeoverCard = (imageCover, imageDetails, title, description, takeoverLocation) => {
   return `<div class="col-md-4 takeoverp-upcoming-container">
             <div class="takeoverp-border-container">
               <div class="takeoverp-offset-border-upcoming">
@@ -6,27 +6,27 @@ var takeoverCard = (link, imageCover, imageDetails, title, description) => {
             </div>
             <div class="takeoverp-upcoming">
               <div class="swiper-container">
-                <div class="swiper-button-container">
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
-                </div>
+                ${imageDetails &&
+                  `<div class="swiper-button-container">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>`
+                }
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <a href="${link}" target="_blank">
-                      <div class="takeover-photo-upcoming" style="background-image:url(${imageCover});"></div>
-                    </a>
+                    <div class="takeover-photo-upcoming" style="background-image:url(${imageCover});"></div>
                   </div>
-                  <div class="swiper-slide">
-                    <a href="${link}" target="_blank">
+                  ${imageDetails &&
+                  `<div class="swiper-slide">
                       <div class="takeover-photo-upcoming" style="background-image:url(${imageDetails});"></div>
-                    </a>
-                  </div>
+                  </div>`
+                  }
                 </div>              
               </div>
               <div class="takeoverp-description-container">
                 <h3 class="takeover-title">${title}</h3>
-                <h6 class="takeoverp-description">${description}</h6>
-                <br>
+                <h5 class="takeoverp-description">${description}</h5>
+                <h6>Takeover Location: <a href="https://www.instagram.com/uwwistem/" targt="_blank" rel="noreferrer">${takeoverLocation}</a></h6>
               </div>
           </div>
           `
@@ -41,12 +41,12 @@ function displayTakeovers() {
 
   takeovers.upcomingtakeovers.forEach(function (takeover) {
     $('#upcomingtakeovers').append(
-      takeoverCard(takeover.link, takeover.imageCover, takeover.imageDetails,  takeover.title, takeover.description)
+      takeoverCard(takeover.imageCover, takeover.imageDetails,  takeover.title, takeover.description, takeover.takeoverLocation)
     );
   });
   takeovers.pasttakeovers.forEach(function (takeover) {
     $('#pasttakeovers').append(
-      takeoverCard(takeover.link, takeover.imageCover, takeover.imageDetails, takeover.title, takeover.description)
+      takeoverCard(takeover.imageCover, takeover.imageDetails, takeover.title, takeover.description, takeover.takeoverLocation)
     );
   });
 }

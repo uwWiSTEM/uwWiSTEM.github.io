@@ -54,6 +54,10 @@
   overflow-wrap: break-word;
 }
 
+.takeoverp-description-container a {
+  color: #3ECCD3;
+}
+
 .takeoverp-title {
   font-size: 16px;
   color: black;
@@ -88,7 +92,7 @@
 }
 
 .takeoverp-upcoming-container {
-  height: 500px;
+  height: 528px;
   padding: 16px 48px;
   margin-bottom: 48px;
   align-content: center;
