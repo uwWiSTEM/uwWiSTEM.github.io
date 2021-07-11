@@ -28,7 +28,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: #DE6984;
 }
 a:hover,
 a:focus {
@@ -398,7 +398,7 @@ footer ul li a.active {
   background: linear-gradient(#fdcc52, #fdc539);
 }
 .text-primary {
-  color: #fdcc52;
+  color: #DE6984;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
