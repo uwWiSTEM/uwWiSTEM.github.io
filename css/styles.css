@@ -59,15 +59,6 @@ h5 {
   color: #0e1a41;
 }
 
-/* .navbar-default.affix .nav > li > a:focus:hover,
-.navbar-default.affix .nav > li > a:hover {
-  color: #f27678;
-}
-
-.navbar-default.affix .navbar-header .navbar-brand:hover {
-  color: #f27678;
-} */
-
 #covid-banner {
   background-color: #A72141;
   color: white;
@@ -83,6 +74,10 @@ h5 {
 
 .navbar-default .navbar-header .navbar-brand {
   color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-default .nav>li>a, .navbar-default .nav>li>a.active-link, .navbar-default .nav>li>a.active-link:hover {
+  color: #fdcc52;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -136,6 +131,62 @@ h5 {
   padding-top: 3px;
   margin-bottom: 0px;
   text-align: center
+}
+
+.dropdown-content > div {
+  padding: 15px;
+}
+
+.dropdown-content > div > a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+li:hover .dropdown-content {
+  opacity: 1;
+  height: auto;
+}
+
+.dropdown-content > div > .active-link {
+  color: #fdcc52;
+}
+
+@media (min-width: 768px) {
+  .dropdown-content { 
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -o-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute; 
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    z-index: -5;
+    text-align: center;
+    border: 0;
+  }
+
+  .dropdown-content.affix {
+    border: 1px solid rgba(34, 34, 34, 0.1);
+    border-top: 1px solid white;
+  }
+}
+
+@media (max-width: 767px) {
+  .dropdown-content { 
+    position: relative; 
+    background-color: white;
+    border-top: 2px solid white;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 11px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    z-index: 1;
+    margin-left: 10px;
+  }
 }
 
 /* make responsive */
