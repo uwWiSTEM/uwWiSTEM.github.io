@@ -167,6 +167,8 @@ li:hover .dropdown-content {
     z-index: -5;
     text-align: center;
     border: 0;
+    min-width: 120px;
+    letter-spacing: 2px;
   }
 
   .dropdown-content.affix {
@@ -186,6 +188,7 @@ li:hover .dropdown-content {
     font-family: Lato,Helvetica,Arial,sans-serif;
     z-index: 1;
     margin-left: 10px;
+    letter-spacing: 2px;
   }
 }
 
