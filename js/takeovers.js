@@ -1,31 +1,27 @@
 var takeoverCard = (imageCover, imageDetails, title, description, takeoverLocation) => {
-  return `<div class="col-md-4 takeoverp-upcoming-container">
-            <div class="takeoverp-border-container">
-              <div class="takeoverp-offset-border-upcoming">
+  return `<div class="col-md-4 swiper-card-container">
+            <div class="swiper-card-border-container">
+              <div class="swiper-card-offset-border">
               </div>
             </div>
-            <div class="takeoverp-upcoming">
+            <div class="swiper-card">
               <div class="swiper-container">
-                ${imageDetails &&
-                  `<div class="swiper-button-container">
+                  <div class="swiper-button-container">
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
-                  </div>`
-                }
+                  </div>
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div class="takeover-photo-upcoming" style="background-image:url(${imageCover});"></div>
+                    <div class="swiper-card-photo" style="background-image:url(${imageCover});"></div>
                   </div>
-                  ${imageDetails &&
-                  `<div class="swiper-slide">
-                      <div class="takeover-photo-upcoming" style="background-image:url(${imageDetails});"></div>
-                  </div>`
-                  }
+                  <div class="swiper-slide">
+                      <div class="swiper-card-photo" style="background-image:url(${imageDetails});"></div>
+                  </div>
                 </div>              
               </div>
-              <div class="takeoverp-description-container">
-                <h3 class="takeover-title">${title}</h3>
-                <h5 class="takeoverp-description">${description}</h5>
+              <div class="swiper-card-description-container">
+                <h3 class="swiper-card-title">${title}</h3>
+                <h5 class="swiper-card-description">${description}</h5>
                 <h6>Takeover Location: <a href="https://www.instagram.com/uwwistem/" targt="_blank" rel="noreferrer">${takeoverLocation}</a></h6>
               </div>
           </div>
