@@ -2,3 +2,11 @@
   background-color: #eeeeee;
   padding: 36px;
 }
+
+.advocacy-description {
+  text-align: center;
+}
+
+.advocacy-description a {
+  color: #8c5a52;
+}
