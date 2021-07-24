@@ -7,7 +7,7 @@ var eventCard = (link, image, title, time, description) => {
         <div class="eventp-offset-border-upcoming"></div>
       </div>
       <div class="eventp-upcoming">
-        <a href="${link}" target="_blank">
+        <a href="${link}" target="_blank" rel="noopener">
           <div class="event-photo-upcoming" style="background-image:url(${image});"></div>
         </a>
         <div class="eventp-description-container">
@@ -42,7 +42,7 @@ var eventCardHome = (link, image) => {
               <div class="event-offset-border"></div>
             </div>
             <div class="event">
-              <a href="${link}" target="_blank">
+              <a href="${link ? link : "#"}" target="_blank" rel="noopener">
                 <div class="event-photo" style="background-image:url(${image});"></div>
               </a>
             </div>
