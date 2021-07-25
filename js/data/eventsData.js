@@ -1,5 +1,15 @@
 const eventsData = {
-  upcomingevents: [],
+  upcomingevents: [
+    {
+      title: 'End of Term Event Games Night',
+      date: 'July 28',
+      time: '6:00PM',
+      location: 'Discord',
+      description: "Are you are looking for a fun way to de-stress from your busy semester? Do you want the chance to make some new friends while securing a prize🥇? ⁣We will be hosting a games night on our discord 🏆🧩. This will be a great opportunity to socialize, relax and win a 25$ gift card of your choice.",
+      link: 'https://discord.gg/bUEQQNqyZd',
+      image: addEventImagePath("GNS21.png")
+    },
+  ],
   pastevents: [
     {
       title: 'Code Your First Website',
