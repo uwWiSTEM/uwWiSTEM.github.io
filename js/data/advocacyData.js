@@ -1,5 +1,10 @@
 const advocacyData = [
     {
+      title: 'Latin American Women in STEM',
+      images: createImageNames("law", 4),
+      link: "https://www.instagram.com/p/CSFk48VF9Zz/"
+    },
+    {
       title: 'Planning Mental Health Days',
       images: createImageNames("mh", 5),
       link: "https://www.instagram.com/p/CRxK8DgA_C2/"
