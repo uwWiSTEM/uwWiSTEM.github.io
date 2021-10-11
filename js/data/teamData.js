@@ -64,7 +64,7 @@ const members = [
   },
   {
     name: "Toni O.",
-    position: "Marketing",
+    position: "Marketing Coordinator",
     program: "Science and Business - Biotechnology Specialization",
     image: execPhotoPrefix("toni-o.png"),
     linkedin: "https://www.linkedin.com/in/toni-oguntunde-74a096194",
