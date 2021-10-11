@@ -28,39 +28,11 @@ const members = [
     linkedin: "https://www.linkedin.com/in/aliciajlin",
   },
   {
-    name: "Kevina L.",
-    position: "Advocacy Coordinator",
-    program: "Mathematics and Business Administration",
-    image: execPhotoPrefix("kevina-l.png"),
-    linkedin: "https://www.linkedin.com/in/kevinali-/",
-  },
-  {
-    name: "Nandini P.",
-    position: "Graphic Designer",
+    name: "Andreea P.",
+    position: "Event Coordinator",
     program: "Biomedical Science",
-    image: execPhotoPrefix("nandini-p.png"),
-    linkedin: "https://www.linkedin.com/in/nandini-patel-35892820a/",
-  },
-  //   {
-  //     name: "Richa P.",
-  //     position: "Graphic Designer",
-  //     program: "Honours Science",
-  //     image: execPhotoPrefix("richa.png"),
-  //     linkedin: "https://www.linkedin.com/in/richa-patel-8301/",
-  //   },
-  //   {
-  //     name: "Hannah G.",
-  //     position: "Web Developer",
-  //     program: "Software Engineering",
-  //     image: execPhotoPrefix("HannahGuo_WebDev_W21 - Hannah G.png"),
-  //     linkedin: "https://www.linkedin.com/in/hannah-guo/",
-  //   },
-  {
-    name: "Amrin S.",
-    position: "Outreach Coordinator",
-    program: "Honours Mathematics (Co-op)",
-    image: execPhotoPrefix("amrin-s.png"),
-    linkedin: "",
+    image: execPhotoPrefix("andreea-p.png"),
+    linkedin: "https://www.linkedin.com/in/andreeapalage/",
   },
   {
     name: "Aditi S.",
@@ -70,11 +42,11 @@ const members = [
     linkedin: "https://www.linkedin.com/in/aditisandhu?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADE6HxEBsONxxY__ym5HGhn2ZgDmIFzbqck&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bv1HvF2c0SpSGfg6BFmUF1g%3D%3D",
   },
   {
-    name: "Andreea P.",
-    position: "Event Coordinator",
-    program: "Biomedical Science",
-    image: execPhotoPrefix("andreea-p.png"),
-    linkedin: "https://www.linkedin.com/in/andreeapalage/",
+    name: "Kevina L.",
+    position: "Advocacy Coordinator",
+    program: "Mathematics and Business Administration",
+    image: execPhotoPrefix("kevina-l.png"),
+    linkedin: "https://www.linkedin.com/in/kevinali-/",
   },
   {
     name: "Madison S.",
@@ -84,11 +56,11 @@ const members = [
     linkedin: "https://www.linkedin.com/in/madisonso",
   },
   {
-    name: "Khloe R.",
-    position: "Web Developer",
-    program: "CS/BBA",
-    image: execPhotoPrefix("khloe-r.png"),
-    linkedin: "https://www.linkedin.com/in/khloe-ramdhan",
+    name: "Nandini P.",
+    position: "Graphic Designer",
+    program: "Biomedical Science",
+    image: execPhotoPrefix("nandini-p.png"),
+    linkedin: "https://www.linkedin.com/in/nandini-patel-35892820a/",
   },
   {
     name: "Toni O.",
@@ -97,13 +69,14 @@ const members = [
     image: execPhotoPrefix("toni-o.png"),
     linkedin: "https://www.linkedin.com/in/toni-oguntunde-74a096194",
   },
-  //   {
-  //     name: "Alicia L.",
-  //     position: "External Affairs",
-  //     program: "Honours Mathematics",
-  //     image: execPhotoPrefix("AliciaLin_ExternalAffairs_W21 - Alicia Lin.png"),
-  //     linkedin: "http://www.linkedin.com/in/aliciajlin",
-  //   },
+
+  {
+    name: "Khloe R.",
+    position: "Web Developer",
+    program: "CS/BBA",
+    image: execPhotoPrefix("khloe-r.png"),
+    linkedin: "https://www.linkedin.com/in/khloe-ramdhan",
+  },
   {
     name: "Helena L.",
     position: "External Affairs",
@@ -111,13 +84,13 @@ const members = [
     image: execPhotoPrefix("helena-l.png"),
     linkedin: "https://www.linkedin.com/in/helenasmlee/",
   },
-  //   {
-  //     name: "Katrina T.",
-  //     position: "Outreach",
-  //     program: "Honours Science with Conditional Admission to Pharmacy (CAP)",
-  //     image: execPhotoPrefix("KatrinaThai_Outreach_S21 - Katrina Thai.JPG"),
-  //     linkedin: "",
-  //   },
+  {
+    name: "Amrin S.",
+    position: "Outreach Coordinator",
+    program: "Honours Mathematics (Co-op)",
+    image: execPhotoPrefix("amrin-s.png"),
+    linkedin: "",
+  },
 ];
 
 function execPhotoPrefix(fileName) {
