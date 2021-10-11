@@ -35,18 +35,18 @@ const members = [
     linkedin: "https://www.linkedin.com/in/andreeapalage/",
   },
   {
-    name: "Aditi S.",
-    position: "External Affairs",
-    program: "Health Studies",
-    image: execPhotoPrefix("aditi-s.png"),
-    linkedin: "https://www.linkedin.com/in/aditisandhu?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADE6HxEBsONxxY__ym5HGhn2ZgDmIFzbqck&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bv1HvF2c0SpSGfg6BFmUF1g%3D%3D",
-  },
-  {
     name: "Kevina L.",
     position: "Advocacy Coordinator",
     program: "Mathematics and Business Administration",
     image: execPhotoPrefix("kevina-l.png"),
     linkedin: "https://www.linkedin.com/in/kevinali-/",
+  },
+  {
+    name: "Aditi S.",
+    position: "External Affairs",
+    program: "Health Studies",
+    image: execPhotoPrefix("aditi-s.png"),
+    linkedin: "https://www.linkedin.com/in/aditisandhu?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADE6HxEBsONxxY__ym5HGhn2ZgDmIFzbqck&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bv1HvF2c0SpSGfg6BFmUF1g%3D%3D",
   },
   {
     name: "Madison S.",
