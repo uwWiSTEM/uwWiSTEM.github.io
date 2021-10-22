@@ -1,5 +1,6 @@
 const eventsData = {
-  upcomingevents: [
+  upcomingevents: [],
+  pastevents: [
     {
       title: "Behind a Mobile App Engagement",
       date: "October 20",
@@ -10,8 +11,6 @@ const eventsData = {
       link: "",
       image: addEventImagePath("konradf21.png"),
     },
-  ],
-  pastevents: [
     {
       title: "Practical Microservices",
       date: "September 30",
