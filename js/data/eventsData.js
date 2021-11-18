@@ -2,6 +2,16 @@ const eventsData = {
   upcomingevents: [],
   pastevents: [
     {
+      title: "CoffeeHouse Series: Imposter Syndrome",
+      date: "November 24th",
+      time: "7:00pm-8:00pm",
+      location: "Discord",
+      description:
+        "Share your personal stories and listen to others around you who’ve endured the same thoughts. We’re inviting graduate students & industry professionals who know more than anyone about overcoming obstacles and negative thoughts. Plus, you’ll get a chance to win a $25 gift card of YOUR CHOICE 💳! ",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSdFGjYEJTna71xi0e8PfB1D1udNNzeneVvv8SQ-nar2ADjnVQ/viewform",
+      image: addEventImagePath("coffeehouse-imposter.png"),
+    },
+    {
       title: "Behind a Mobile App Engagement",
       date: "October 20",
       time: "6:00pm-7:00pm",
