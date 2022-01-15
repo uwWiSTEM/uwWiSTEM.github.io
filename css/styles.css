@@ -305,6 +305,10 @@ li:hover .dropdown-content {
   color: #162c52;
 }
 
+.faq-title {
+  color: #162c52;
+}
+
 .value-description {
   font-size: 14px;
   color: #4a4a4a;
@@ -1071,7 +1075,7 @@ input.email {
 }
 
 .emailus {
-  padding-bottom: 5em;
+  padding-bottom: 15px;
 }
 
 .emailus-content {
