@@ -42,11 +42,11 @@ const members = [
     linkedin: "https://www.linkedin.com/in/kevinali-/",
   },
   {
-    name: "Aditi S.",
+    name: "Dhruvi P.",
     position: "External Affairs",
-    program: "Health Studies",
-    image: execPhotoPrefix("aditi-s.png"),
-    linkedin: "https://www.linkedin.com/in/aditisandhu?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADE6HxEBsONxxY__ym5HGhn2ZgDmIFzbqck&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bv1HvF2c0SpSGfg6BFmUF1g%3D%3D",
+    program: "Honours Science",
+    image: execPhotoPrefix("dhruvi-p.png"),
+    linkedin: "https://www.linkedin.com/in/dhruvi-patel-847a31212/",
   },
   {
     name: "Madison S.",
@@ -71,11 +71,11 @@ const members = [
   },
 
   {
-    name: "Khloe R.",
+    name: "Catherine H.",
     position: "Web Developer",
-    program: "CS/BBA",
-    image: execPhotoPrefix("khloe-r.png"),
-    linkedin: "https://www.linkedin.com/in/khloe-ramdhan",
+    program: "Mechatronics Engineering",
+    image: execPhotoPrefix("catherine-h.png"),
+    linkedin: "https://www.linkedin.com/in/catherine-hsu1/",
   },
   {
     name: "Helena L.",
@@ -90,6 +90,13 @@ const members = [
     program: "Honours Mathematics (Co-op)",
     image: execPhotoPrefix("amrin-s.png"),
     linkedin: "",
+  },
+  {
+    name: "Simrit D.",
+    position: "Treasurer",
+    program: "Psychology",
+    image: execPhotoPrefix("simrit-d.png"),
+    linkedin: "https://www.linkedin.com/in/simrit-dhillon-5025a21bb",
   },
 ];
 
