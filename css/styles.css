@@ -644,7 +644,7 @@ header {
   }
 
   .hex {
-    width: 20%;
+    width: 16.66666%;
     /* = 100 / 5 */
   }
 
@@ -657,17 +657,18 @@ header {
 
 @media (max-width: 1600px) and (min-width: 1401px) {
   /* <- 5-4  hexagons per row */
+  /*changed to 5-6 hexagons per row*/
   /* #hexGrid{
     padding-bottom: 4.4%;
   } */
   .hex {
-    width: 20%;
+    width: 16.66666%; /*= 100 / 6 for 6 hexagons on odd rows
     /* = 100 / 7 */
   }
 
-  .hex:nth-child(9n + 6) {
+  .hex:nth-child(11n + 7) { /*(6 + 5)n + (6 + 1)
     /* first hexagon of even rows */
-    margin-left: 10%;
+    margin-left: 8.33333%;
     /* = width of .hex / 2  to indent even rows */
   }
 }
