@@ -85,6 +85,14 @@ const members = [
     linkedin: "https://www.linkedin.com/in/helenasmlee/",
   },
   {
+    name:"" ,
+    position: "",
+    program: "",
+    image: execPhotoPrefix("logo_filler.png"),
+    linkedin: "",
+  },
+
+  {
     name: "Amrin S.",
     position: "Outreach Coordinator",
     program: "Honours Mathematics (Co-op)",
