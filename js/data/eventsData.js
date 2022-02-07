@@ -1,5 +1,16 @@
 const eventsData = {
-  upcomingevents: [],
+  upcomingevents: [
+    {
+      title: "Exec Team Takeover",
+      date: "February 4th to 17th",
+      time: "",
+      location: "Instagram",
+      description:
+        "We are very excited to announce that our very own executive team will be doing Instagram Takeovers during the month of February 📱! You will get the chance to see how we navigate busy midterm schedules, life on campus or a day in the life at our co-op 📚",
+      link: "https://www.instagram.com/uwwistem/",
+      image: addEventImagePath("exec-takeover.png"),
+    }
+  ],
   pastevents: [
     {
       title: "CoffeeHouse Series: Imposter Syndrome",

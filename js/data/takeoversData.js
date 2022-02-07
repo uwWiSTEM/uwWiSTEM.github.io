@@ -3,6 +3,14 @@ const takeovers = {
   ],
   pasttakeovers: [
     {
+      title: 'Victoria Ulubabian',
+      date: 'January 21',
+      description: "Consultant at IBM⁣ 💼",
+      takeoverLocation: "First W'22 Takeovers Highlights",
+      imageCover: addTakeoverImagePath("victoria22.png"),
+      imageDetails: addTakeoverImagePath("victoria22d.png")
+    },
+    {
       title: 'Laura Taylor',
       date: 'June 29',
       description: "Medical Laboratory Assistant 🔬⁣",
