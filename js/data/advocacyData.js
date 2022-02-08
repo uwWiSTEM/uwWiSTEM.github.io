@@ -1,5 +1,10 @@
 const advocacyData = [
   {
+    title: "African American Women in STEM",
+    images: createImageNames("aaw", 6),
+    link: "https://www.instagram.com/p/CZpKgyMl2rn/",
+  },
+  {
     title: "World Mental Health Day",
     images: createImageNames("wmhd", 3),
     link: "https://www.instagram.com/p/CU3umagAAzW/",
