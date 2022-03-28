@@ -1,5 +1,18 @@
 const eventsData = {
   upcomingevents: [
+
+  ],
+  pastevents: [
+    {
+      title: "The Arts in Stem: Effective Personal Writing",
+      date: "March 27th",
+      time: "6:00pm-7:00pm",
+      location: "Zoom",
+      description:
+        "Are you looking to improve your personal writing skills? Do you want to learn how to stand out on Graduate and professional school applications? If so, join us for our Effective Personal Writing Workshop to learn vital skills that will help differentiate you on various school/job applications!",
+      link: "https://www.instagram.com/uwwistem/",
+      image: addEventImagePath("artsstem.png"),
+    },
     {
       title: "Exec Team Takeover",
       date: "February 4th to 17th",
@@ -9,9 +22,7 @@ const eventsData = {
         "We are very excited to announce that our very own executive team will be doing Instagram Takeovers during the month of February 📱! You will get the chance to see how we navigate busy midterm schedules, life on campus or a day in the life at our co-op 📚",
       link: "https://www.instagram.com/uwwistem/",
       image: addEventImagePath("exec-takeover.png"),
-    }
-  ],
-  pastevents: [
+    },
     {
       title: "CoffeeHouse Series: Imposter Syndrome",
       date: "November 24th",
