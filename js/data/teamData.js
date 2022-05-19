@@ -100,11 +100,11 @@ const members = [
     linkedin: "https://www.linkedin.com/in/simrit-dhillon-5025a21bb",
   },
   {
-    name:"" ,
-    position: "",
-    program: "",
-    image: execPhotoPrefix("logo_filler.png"),
-    linkedin: "",
+    name:"Kevina" ,
+    position: "Treasurer",
+    program: "Math & Business Administration",
+    image: execPhotoPrefix("kevina.png"),
+    linkedin: "https://www.linkedin.com/in/likevina",
   },
 ];
 
