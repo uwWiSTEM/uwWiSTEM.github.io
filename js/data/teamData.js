@@ -17,7 +17,7 @@ const members = [
     name: "Andreea P.",
     position: "Vice President Internal",
     program: "Masters of Applied Science Systems Design Engineering",
-    image: execPhotoPrefix("richa-p.png"),
+    image: execPhotoPrefix("drea.png"),
     linkedin: "",
   },
   {
