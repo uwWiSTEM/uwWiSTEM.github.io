@@ -59,7 +59,7 @@ const members = [
     name: "Sierra R.",
     position: "Graphic Designer",
     program: "Honours Public Health - Co-op, Biology Minor & Health Research Specialization",
-    image: execPhotoPrefix("nandini-p.png"),
+    image: execPhotoPrefix("sierra.jpeg"),
     linkedin: "https://www.linkedin.com/in/nandini-patel-35892820a/",
   },
   {
