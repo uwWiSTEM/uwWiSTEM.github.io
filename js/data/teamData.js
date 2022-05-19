@@ -89,7 +89,7 @@ const members = [
     name: "Jessica C.",
     position: "Outreach Coordinator",
     program: "Honours Biochemistry - Co-op",
-    image: execPhotoPrefix("jessica.jpg"),
+    image: execPhotoPrefix("jessica.png"),
     linkedin: "",
   },
   {
