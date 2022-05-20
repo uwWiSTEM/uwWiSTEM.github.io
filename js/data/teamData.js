@@ -11,7 +11,7 @@ const members = [
     position: "Co-President",
     program: "Mathematical Financial Analysis & Risk Management",
     image: execPhotoPrefix("alicia.png"),
-    linkedin: "https://www.linkedin.com/in/margaretsu/",
+    linkedin: "https://www.linkedin.com/in/aliciajlin/",
   },
   {
     name: "Andreea P.",
@@ -25,7 +25,7 @@ const members = [
     position: "Vice President External",
     program: "Honours Science & Business - Co-op, Biochemistry Specialization",
     image: execPhotoPrefix("helena.png"),
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/helenasmlee/",
   },
   {
     name: "Asal J.",
@@ -60,7 +60,7 @@ const members = [
     position: "Graphic Designer",
     program: "Honours Public Health - Co-op, Biology Minor & Health Research Specialization",
     image: execPhotoPrefix("sierra.png"),
-    linkedin: "https://www.linkedin.com/in/nandini-patel-35892820a/",
+    linkedin: "https://www.linkedin.com/in/sierra-radovini-2595a51b4",
   },
   {
     name: "Bansari J.",
@@ -90,14 +90,14 @@ const members = [
     position: "Outreach Coordinator",
     program: "Honours Biochemistry - Co-op",
     image: execPhotoPrefix("jessica.png"),
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/jessica-canlas-06b212220",
   },
   {
     name: "Halona A.",
-    position: "Treasurer",
+    position: "Outreach Coordinator",
     program: "Science & Business, Biochemistry Specialization",
     image: execPhotoPrefix("halona.png"),
-    linkedin: "https://www.linkedin.com/in/simrit-dhillon-5025a21bb",
+    linkedin: "https://www.linkedin.com/in/halona-augustine",
   },
   {
     name:"Kevina" ,
