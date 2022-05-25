@@ -1,5 +1,15 @@
 const advocacyData = [
   {
+    title: "Women in STEM Spotlight: Ursula Franklin",
+    images: createImageNames("aaw", 6),
+    link: "https://www.instagram.com/p/CbsHvnGrIEV/",
+  },
+  {
+    title: "International Women's Day",
+    images: createImageNames("aaw", 6),
+    link: "https://www.instagram.com/p/Ca2FZafO5UX/",
+  },
+  {
     title: "African American Women in STEM",
     images: createImageNames("aaw", 6),
     link: "https://www.instagram.com/p/CZpKgyMl2rn/",
