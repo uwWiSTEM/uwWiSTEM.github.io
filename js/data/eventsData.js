@@ -5,7 +5,7 @@ const eventsData = {
     {
       title: "Networking with IBM",
         date: "June 9th",
-        time: "7:00pm EST",
+        time: "7:00pm-8:00pm",
         location: "Zoom",
         description:
           "Are you looking to enhance your networking skills? What about tips to stnad out and thrive in STEM fields? Well, guess what?!? WiSTEM is collaborating with IBM to bring you an exciting networking opportunity!!!",
