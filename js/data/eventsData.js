@@ -1,8 +1,17 @@
 const eventsData = {
   upcomingevents: [
-
   ],
   pastevents: [
+    {
+      title: "Networking with IBM",
+        date: "June 9th",
+        time: "7:00pm EST",
+        location: "Zoom",
+        description:
+          "Are you looking to enhance your networking skills? What about tips to stnad out and thrive in STEM fields? Well, guess what?!? WiSTEM is collaborating with IBM to bring you an exciting networking opportunity!!!",
+        link: "https://www.instagram.com/p/CeMsWTlA4-b/",
+        image: addEventImagePath("networking_ibm.png"),
+      },
     {
       title: "The Arts in Stem: Effective Personal Writing",
       date: "March 27th",
