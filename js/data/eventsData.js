@@ -1,5 +1,15 @@
 const eventsData = {
   upcomingevents: [
+    { 
+      title: "Unfiltering Your Co-op Experiences",
+        date: "June 28th",
+        time: "7:00pm-8:00pm",
+        location: "Zoom",
+        description:
+          "Do you have questions about coop? Are you nervouse about your first work term? Don't worry! WiSTEM is bringing back our coffeehouse series to talk about coop and help empower you and your peers with advice! Learn how to navigate through your coop term and how to stand up for yourself when it gets rough. There will be 4 panelists who will share their journeys, and time to discuss all the questions you may have.",
+        link: "https://www.instagram.com/p/CfFsAMZgxpC/",
+        image: addEventImagePath("coffeehouse.png"),
+      }
   ],
   pastevents: [
     {
