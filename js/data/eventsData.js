@@ -1,5 +1,7 @@
 const eventsData = {
   upcomingevents: [
+  ],
+  pastevents: [
     { 
       title: "Unfiltering Your Co-op Experiences",
         date: "June 28th",
@@ -9,9 +11,7 @@ const eventsData = {
           "Do you have questions about coop? Are you nervouse about your first work term? Don't worry! WiSTEM is bringing back our coffeehouse series to talk about coop and help empower you and your peers with advice! Learn how to navigate through your coop term and how to stand up for yourself when it gets rough.",
         link: "https://www.instagram.com/p/CfFsAMZgxpC/",
         image: addEventImagePath("coffeehouse1.png"),
-      }
-  ],
-  pastevents: [
+      },
     {
       title: "Networking with IBM",
         date: "June 9th",
