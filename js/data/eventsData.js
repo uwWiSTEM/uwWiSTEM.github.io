@@ -3,6 +3,16 @@ const eventsData = {
   ],
   pastevents: [
     { 
+      title: "Intro to Python",
+        date: "July 13th",
+        time: "7:00pm-8:00pm",
+        location: "Zoom",
+        description:
+          "Do you want to learn how to code but don’t know where to begin? Our termly technical workshop is BACK and ready to give you a strong intro to some Python basics! ",
+        link: "https://www.instagram.com/p/CfoqbqBA848/",
+        image: addEventImagePath("introtopython.png"),
+      },
+    { 
       title: "Unfiltering Your Co-op Experiences",
         date: "June 28th",
         time: "7:00pm-8:00pm",
