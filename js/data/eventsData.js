@@ -2,7 +2,7 @@ const eventsData = {
   upcomingevents: [
   ],
   pastevents: [
-    { 
+    {
       title: "Cupcakes & Conflict",
         date: "July 28th",
         time: "6:00pm-8:00pm",
