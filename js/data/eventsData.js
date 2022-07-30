@@ -2,6 +2,16 @@ const eventsData = {
   upcomingevents: [
   ],
   pastevents: [
+    {
+      title: "Cupcakes & Conflict",
+        date: "July 28th",
+        time: "6:00pm-8:00pm",
+        location: "Virtual & In-Person in Black & Gold Room",
+        description:
+          "GUESS WHAT!?!? You're invited to our first in person event of the term (with free food)! There's no better way to end the term than by decorating delicious cupcakes with the UW WiSTEM team and UW Cooking Club!",
+        link: "https://www.instagram.com/p/CgVPlphAT6n/",
+        image: addEventImagePath("cupcakesconflict.png"),
+      },
     { 
       title: "Intro to Python",
         date: "July 13th",
