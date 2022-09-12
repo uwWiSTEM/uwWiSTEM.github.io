@@ -93,10 +93,10 @@ const members = [
     linkedin: "https://www.linkedin.com/in/jessica-canlas-06b212220",
   },
   {
-    name: "Halona A.",
+    name: "Rachel R.",
     position: "Outreach Coordinator",
     program: "Science & Business, Biochemistry Specialization",
-    image: execPhotoPrefix("halona.png"),
+    image: execPhotoPrefix("rachel.png"),
     linkedin: "https://www.linkedin.com/in/halona-augustine",
   },
   {
