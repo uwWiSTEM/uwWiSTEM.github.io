@@ -88,12 +88,12 @@ const members = [
   {
     name: "Rachel R.",
     position: "Outreach Coordinator",
-    program: "Science & Business, Biochemistry Specialization",
+    program: "Honours Biology",
     image: execPhotoPrefix("rachel.png"),
-    linkedin: "https://www.linkedin.com/in/halona-augustine",
+    linkedin: "www.linkedin.com/in/rachel-ransberry-9a4b10208",
   },
   {
-    name:"Kevina" ,
+    name:"Kevina L." ,
     position: "Treasurer",
     program: "Math & Business Administration",
     image: execPhotoPrefix("kevina.png"),
