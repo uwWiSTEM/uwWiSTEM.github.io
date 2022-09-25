@@ -7,6 +7,13 @@ const members = [
     linkedin: "https://www.linkedin.com/in/aliciajlin/",
   },
   {
+    name: "Alicia L.",
+    position: "President",
+    program: "Mathematical Financial Analysis & Risk Management",
+    image: execPhotoPrefix("alicia.png"),
+    linkedin: "https://www.linkedin.com/in/aliciajlin/",
+  },
+  {
     name: "Andreea P.",
     position: "Vice President Internal",
     program: "Masters of Applied Science Systems Design Engineering",
