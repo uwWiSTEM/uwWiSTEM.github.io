@@ -1,5 +1,12 @@
 const members = [
   {
+    name: "Margaret S.",
+    position: "Co-President",
+    program: "Pharmacy",
+    image: execPhotoPrefix("margaret.png"),
+    linkedin: "https://www.linkedin.com/in/margaretsu",
+  },
+  {
     name: "Alicia L.",
     position: "President",
     program: "Mathematical Financial Analysis & Risk Management",
@@ -12,13 +19,6 @@ const members = [
     program: "Masters of Applied Science Systems Design Engineering",
     image: execPhotoPrefix("drea.png"),
     linkedin: "https://www.linkedin.com/in/andreeapalage/",
-  },
-  {
-    name: "Alicia L.",
-    position: "President",
-    program: "Mathematical Financial Analysis & Risk Management",
-    image: execPhotoPrefix("alicia.png"),
-    linkedin: "https://www.linkedin.com/in/aliciajlin/",
   },
   {
     name: "Helena L.",
