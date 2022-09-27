@@ -3,7 +3,7 @@ const members = [
     name: "Alicia L.",
     position: "President",
     program: "Mathematical Financial Analysis & Risk Management",
-    image: execPhotoPrefix("alicia.png"),
+    image: execPhotoPrefix(""),
     linkedin: "https://www.linkedin.com/in/margaretsu",
   },
   {
