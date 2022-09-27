@@ -14,6 +14,13 @@ const members = [
     linkedin: "https://www.linkedin.com/in/andreeapalage/",
   },
   {
+    name: "Alicia L.",
+    position: "President",
+    program: "Mathematical Financial Analysis & Risk Management",
+    image: execPhotoPrefix("alicia.png"),
+    linkedin: "https://www.linkedin.com/in/aliciajlin/",
+  },
+  {
     name: "Helena L.",
     position: "Vice President External",
     program: "Honours Science & Business - Co-op, Biochemistry Specialization",
