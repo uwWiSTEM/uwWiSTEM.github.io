@@ -1,17 +1,10 @@
 const members = [
   {
-    name: "Alicia L.",
+    name: "Margaret",
     position: "President",
     program: "Mathematical Financial Analysis & Risk Management",
     image: execPhotoPrefix(""),
-    linkedin: "https://www.linkedin.com/in/margaretsu",
-  },
-  {
-    name: "Alicia L.",
-    position: "President",
-    program: "Mathematical Financial Analysis & Risk Management",
-    image: execPhotoPrefix("alicia.png"),
-    linkedin: "https://www.linkedin.com/in/aliciajlin/",
+    linkedin: "",
   },
   {
     name: "Andreea P.",
