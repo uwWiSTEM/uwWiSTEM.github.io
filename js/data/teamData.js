@@ -1,12 +1,5 @@
 const members = [
   {
-    name: "Margaret",
-    position: "President",
-    program: "Mathematical Financial Analysis & Risk Management",
-    image: execPhotoPrefix(""),
-    linkedin: "",
-  },
-  {
     name: "Andreea P.",
     position: "Vice President Internal",
     program: "Masters of Applied Science Systems Design Engineering",
