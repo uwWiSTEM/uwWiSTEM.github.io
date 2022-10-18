@@ -1,4 +1,4 @@
-const leadershipRoles = ["Co-President", "Vice President Internal", "Vice President External"];
+const leadershipRoles = ["Co-President", "President", "Vice President Internal", "Vice President External"];
 const internalRoles = ["Treasurer", "Administration", "Graphic Designer", "Web Developer"];
 const externalRoles = ["Marketing", "Event Coordinator", "External Affairs"];
 
