@@ -1,5 +1,10 @@
 const advocacyData = [
   {
+    title: "The Gender Gap Continues...",
+    images: createImageNames("gg", 4),
+    link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
+  },
+  {
     title: "Women in STEM Spotlight: Ursula Franklin",
     images: createImageNames("uf", 4),
     link: "https://www.instagram.com/p/CbsHvnGrIEV/",
