@@ -11,7 +11,7 @@
   color: #8c5a52;
 }
 
-img {
+.img {
   width:  100px;
   height: 100px;
   object-fit: cover;
