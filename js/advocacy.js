@@ -23,7 +23,7 @@ var advocacyCard = (title, images, link) => {
               </div>
               <div class="swiper-card-description-container advocacy-description">
                 <p class="swiper-card-title">${title}</p>
-                <strong><a href="${link}" rel="noreferrer" target="_blank">Link to Instagram Post</a></strong>
+                <strong><a href="${link}" rel="noreferrer" target="_blank">Link to Instagram</a></strong>
               </div>
           </div>
           `
