@@ -5,6 +5,11 @@ const advocacyData = [
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
   },
   {
+    title: "Online Certificate Programs",
+    images: createImageNames("ocp", 9),
+    link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
+  },
+  {
     title: "The Gender Gap Continues...",
     images: createImageNames("gg", 4),
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
