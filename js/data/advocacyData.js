@@ -1,5 +1,10 @@
 const advocacyData = [
   {
+    title: "Exec Role Models",
+    images: createImageNames("rm", 10),
+    link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
+  },
+  {
     title: "The Gender Gap Continues...",
     images: createImageNames("gg", 4),
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
