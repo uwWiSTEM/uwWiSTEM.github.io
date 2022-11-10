@@ -1,6 +1,6 @@
 const advocacyData = [
   {
-    title: "Exec Role Models",
+    title: "Meet the Execs' Role Models",
     images: createImageNames("rm", 10),
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
   },
