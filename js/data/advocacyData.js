@@ -21,7 +21,7 @@ const advocacyData = [
   },
   {
     title: "Story Series Day 1",
-    images: createImageNames("ss1", 3),
+    images: createImageNames("ss", 3),
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
   },
   {
