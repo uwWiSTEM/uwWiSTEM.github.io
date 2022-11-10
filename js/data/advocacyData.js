@@ -45,7 +45,7 @@ const advocacyData = [
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
   },
   {
-    title: "Story Series Day 1",
+    title: "Secondary School Student STEM Gender Gap",
     images: createImageNames("ss", 3),
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
   },
