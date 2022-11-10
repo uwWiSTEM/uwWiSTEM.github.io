@@ -15,6 +15,26 @@ const advocacyData = [
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
   },
   {
+    title: "National Self-Care Day",
+    images: createImageNames("nsc", 5),
+    link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
+  },
+  {
+    title: "Diversity in Different STEM Fields",
+    images: createImageNames("did", 8),
+    link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
+  },
+  {
+    title: "Co-op Testimonials",
+    images: createImageNames("coop", 6),
+    link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
+  },
+  {
+    title: "Significant LGBTQ+ Women in STEM",
+    images: createImageNames("lgbtq", 4),
+    link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
+  },
+  {
     title: "Networking Testimonials",
     images: createImageNames("nt", 7),
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
