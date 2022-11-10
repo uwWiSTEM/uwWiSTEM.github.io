@@ -15,6 +15,11 @@ const advocacyData = [
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
   },
   {
+    title: "Networking Testimonials",
+    images: createImageNames("nt", 7),
+    link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
+  },
+  {
     title: "Role Model Advocacy",
     images: createImageNames("rma", 3),
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
