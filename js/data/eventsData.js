@@ -28,7 +28,7 @@ const eventsData = {
           time: "6:00-7:00 pm",
           location: "STC 0040 OR Zoom",
           description:
-            "Ever wonder what goes on in a chemistry lab? Feeling a little rusty with your lab techniquess? Come join us for out Pipetting and Titration Bootcamp with Stacey Lavery to brush up on your lab skills and have some fun with chemistry (without any marking) You'll get a chance to try volumetric pipetting, micro pipetting and titrations!",
+            "Are you think about writing the MCAT, DAT, or the OAT? Stressed about how to ace it? No worries! WiSTEM is partnering with @theprincetonreview for an Admissions 101 event and Q&A.",
           link: "https://www.instagram.com/p/CjjIKW5AOXN/?hl=en",
           image: addEventImagePath("admissions101"),
         },
