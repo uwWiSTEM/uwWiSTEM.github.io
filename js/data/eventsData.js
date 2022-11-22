@@ -8,8 +8,8 @@ const eventsData = {
         time: "5:30-7:00pm",
         location: "C2 273",
         description:
-          "GUESS WHAT!?!? You're invited to our first in person event of the term (with free food)! There's no better way to end the term than by decorating delicious cupcakes with the UW WiSTEM team and UW Cooking Club!",
-        link: "https://www.instagram.com/p/CkHpl2Ruslv/?hl=en",
+          "Ever wonder what goes on in a chemistry lab? Feeling a little rusty with your lab techniquess? Come join us for out Pipetting and Titration Bootcamp with Stacey Lavery to brush up on your lab skills and have some fun with chemistry (without any marking) You'll get a chance to try volumetric pipetting, micro pipetting and titrations!",
+        link: "https://www.instagram.com/p/ClEtBrsua8S/?hl=en",
         image: addEventImagePath("pt1"),
       },
     {
