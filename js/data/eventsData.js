@@ -19,7 +19,7 @@ const eventsData = {
       location: "Zoom",
       description:
         "Are you in high school and looking to pursue a career in STEM? Do you want to learn more about opportunities available in the STEM field? If so, attend out virtual Step Into STEM confernece happening from Nov 5-13th where you have the chance to learn more about the different careers and opportunities in STEM and gain new skills at our Hackathon!",
-      link: "https://www.instagram.com/p/ClEtBrsua8S/?hl=en",
+      link: "https://www.instagram.com/p/CjWwyG-gIl3/?hl=en",
       image: addEventImagePath("pt1"),
     },
     {
