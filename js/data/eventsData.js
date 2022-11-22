@@ -22,6 +22,16 @@ const eventsData = {
         link: "https://www.instagram.com/p/CkHpl2Ruslv/?hl=en",
         image: addEventImagePath("hmn1"),
       },
+      {
+        title: "Admissions 101 with the Princeton Review",
+          date: "October 18th",
+          time: "6:00-7:00 pm",
+          location: "STC 0040 OR Zoom",
+          description:
+            "Ever wonder what goes on in a chemistry lab? Feeling a little rusty with your lab techniquess? Come join us for out Pipetting and Titration Bootcamp with Stacey Lavery to brush up on your lab skills and have some fun with chemistry (without any marking) You'll get a chance to try volumetric pipetting, micro pipetting and titrations!",
+          link: "https://www.instagram.com/p/CjjIKW5AOXN/?hl=en",
+          image: addEventImagePath("admissions101"),
+        },
     {
       title: "Cupcakes & Conflict",
         date: "July 28th",
