@@ -42,7 +42,26 @@ const eventsData = {
       link: "https://www.instagram.com/p/CjjIKW5AOXN/?hl=en",
       image: addEventImagePath("admissions101.png"),
     },
-
+    {
+      title: "Exec Team Takeover",
+      date: "October 3rd-7th",
+      time: "",
+      location: "STC 0040 OR Zoom",
+      description:
+        "We are so excited to announce that our WISTEM execs will be doing a week of Instagram takeovers!! Tune in each day from Oct 3-7 to get to know some of our execs as the take you around a day in their life and have the chance to ask them questions about their program, coop, courses, or anything at all!",
+      link: "https://www.instagram.com/p/CjOpl-PADr4/?hl=en",
+      image: addEventImagePath("exectakeover22.png"),
+    },
+    {
+      title: "UW WICS & WiSTEM x Google Women in Tech Panel & Q&A",
+      date: "October 15th",
+      time: "4:30pm",
+      location: "DC 1302 OR Zoom",
+      description:
+        "Do you want to work in tech but are intimidated and unsure of how to get there? WiSTEM is excited to be collaborating with Goggle and @uwaterloowics to bring you a Women in Tech panel followed by a Q&A session, that is sure to empower you to achieve your career goals and help you break down barriers along the way!",
+      link: "https://www.instagram.com/p/Ch-jJgPOkRS/?hl=en",
+      image: addEventImagePath("googlewistem.png"),
+    },
     {
       title: "Cupcakes & Conflict",
       date: "July 28th",
