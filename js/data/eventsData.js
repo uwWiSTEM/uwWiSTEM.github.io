@@ -2,77 +2,77 @@ const eventsData = {
   upcomingevents: [
   ],
   pastevents: [
-  {
+    {
       title: "Pipetting & Titration Boot Camp",
-        date: "November 23rd",
-        time: "5:30-7:00pm",
-        location: "C2 273",
-        description:
-          "Ever wonder what goes on in a chemistry lab? Feeling a little rusty with your lab techniquess? Come join us for out Pipetting and Titration Bootcamp with Stacey Lavery to brush up on your lab skills and have some fun with chemistry (without any marking) You'll get a chance to try volumetric pipetting, micro pipetting and titrations!",
-        link: "https://www.instagram.com/p/ClEtBrsua8S/?hl=en",
-        image: addEventImagePath("pt1"),
+      date: "November 23rd",
+      time: "5:30-7:00pm",
+      location: "C2 273",
+      description:
+        "Ever wonder what goes on in a chemistry lab? Feeling a little rusty with your lab techniquess? Come join us for out Pipetting and Titration Bootcamp with Stacey Lavery to brush up on your lab skills and have some fun with chemistry (without any marking) You'll get a chance to try volumetric pipetting, micro pipetting and titrations!",
+      link: "https://www.instagram.com/p/ClEtBrsua8S/?hl=en",
+      image: addEventImagePath("pt1"),
     },
-  {
+    {
       title: "Halloween Movie Night",
-        date: "October 31st",
-        time: "7:00pm",
-        location: "STC 0040",
-        description:
-          "Are you ready for Halloween? Join WISTEM for a spooky night of watching Coraline with snacks!! Unwind after midterms and a busy Halloween weekend for a movie night happening on October 31st in STC 0040 at 7pm.",
-        link: "https://www.instagram.com/p/CkHpl2Ruslv/?hl=en",
-        image: addEventImagePath("hmn1"),
-      },
+      date: "October 31st",
+      time: "7:00pm",
+      location: "STC 0040",
+      description:
+        "Are you ready for Halloween? Join WISTEM for a spooky night of watching Coraline with snacks!! Unwind after midterms and a busy Halloween weekend for a movie night happening on October 31st in STC 0040 at 7pm.",
+      link: "https://www.instagram.com/p/CkHpl2Ruslv/?hl=en",
+      image: addEventImagePath("hmn1"),
+    },
     {
       title: "Admissions 101 with the Princeton Review",
-        date: "October 18th",
-        time: "6:00-7:00 pm",
-        location: "STC 0040 OR Zoom",
-        description:
-          "Are you think about writing the MCAT, DAT, or the OAT? Stressed about how to ace it? No worries! WiSTEM is partnering with @theprincetonreview for an Admissions 101 event and Q&A.",
-        link: "https://www.instagram.com/p/CjjIKW5AOXN/?hl=en",
-        image: addEventImagePath("admissions101"),
-      },
-      
+      date: "October 18th",
+      time: "6:00-7:00 pm",
+      location: "STC 0040 OR Zoom",
+      description:
+        "Are you think about writing the MCAT, DAT, or the OAT? Stressed about how to ace it? No worries! WiSTEM is partnering with @theprincetonreview for an Admissions 101 event and Q&A.",
+      link: "https://www.instagram.com/p/CjjIKW5AOXN/?hl=en",
+      image: addEventImagePath("admissions101"),
+    },
+
     {
       title: "Cupcakes & Conflict",
-        date: "July 28th",
-        time: "6:00pm-8:00pm",
-        location: "Virtual & In-Person in Black & Gold Room",
-        description:
-          "GUESS WHAT!?!? You're invited to our first in person event of the term (with free food)! There's no better way to end the term than by decorating delicious cupcakes with the UW WiSTEM team and UW Cooking Club!",
-        link: "https://www.instagram.com/p/CgVPlphAT6n/",
-        image: addEventImagePath("cupcakesconflict.png"),
-      },
-    { 
+      date: "July 28th",
+      time: "6:00pm-8:00pm",
+      location: "Virtual & In-Person in Black & Gold Room",
+      description:
+        "GUESS WHAT!?!? You're invited to our first in person event of the term (with free food)! There's no better way to end the term than by decorating delicious cupcakes with the UW WiSTEM team and UW Cooking Club!",
+      link: "https://www.instagram.com/p/CgVPlphAT6n/",
+      image: addEventImagePath("cupcakesconflict.png"),
+    },
+    {
       title: "Intro to Python",
-        date: "July 13th",
-        time: "7:00pm-8:00pm",
-        location: "Zoom",
-        description:
-          "Do you want to learn how to code but don’t know where to begin? Our termly technical workshop is BACK and ready to give you a strong intro to some Python basics! ",
-        link: "https://www.instagram.com/p/CfoqbqBA848/",
-        image: addEventImagePath("introtopython.png"),
-      },
-    { 
+      date: "July 13th",
+      time: "7:00pm-8:00pm",
+      location: "Zoom",
+      description:
+        "Do you want to learn how to code but don’t know where to begin? Our termly technical workshop is BACK and ready to give you a strong intro to some Python basics! ",
+      link: "https://www.instagram.com/p/CfoqbqBA848/",
+      image: addEventImagePath("introtopython.png"),
+    },
+    {
       title: "Unfiltering Your Co-op Experiences",
-        date: "June 28th",
-        time: "7:00pm-8:00pm",
-        location: "Zoom",
-        description:
-          "Do you have questions about coop? Are you nervouse about your first work term? Don't worry! WiSTEM is bringing back our coffeehouse series to talk about coop and help empower you and your peers with advice! Learn how to navigate through your coop term and how to stand up for yourself when it gets rough.",
-        link: "https://www.instagram.com/p/CfFsAMZgxpC/",
-        image: addEventImagePath("coffeehouse1.png"),
-      },
+      date: "June 28th",
+      time: "7:00pm-8:00pm",
+      location: "Zoom",
+      description:
+        "Do you have questions about coop? Are you nervouse about your first work term? Don't worry! WiSTEM is bringing back our coffeehouse series to talk about coop and help empower you and your peers with advice! Learn how to navigate through your coop term and how to stand up for yourself when it gets rough.",
+      link: "https://www.instagram.com/p/CfFsAMZgxpC/",
+      image: addEventImagePath("coffeehouse1.png"),
+    },
     {
       title: "Networking with IBM",
-        date: "June 9th",
-        time: "7:00pm-8:00pm",
-        location: "Zoom",
-        description:
-          "Are you looking to enhance your networking skills? What about tips to stnad out and thrive in STEM fields? Well, guess what?!? WiSTEM is collaborating with IBM to bring you an exciting networking opportunity!!!",
-        link: "https://www.instagram.com/p/CeMsWTlA4-b/",
-        image: addEventImagePath("networking_ibm.png"),
-      },
+      date: "June 9th",
+      time: "7:00pm-8:00pm",
+      location: "Zoom",
+      description:
+        "Are you looking to enhance your networking skills? What about tips to stnad out and thrive in STEM fields? Well, guess what?!? WiSTEM is collaborating with IBM to bring you an exciting networking opportunity!!!",
+      link: "https://www.instagram.com/p/CeMsWTlA4-b/",
+      image: addEventImagePath("networking_ibm.png"),
+    },
     {
       title: "The Arts in Stem: Effective Personal Writing",
       date: "March 27th",
