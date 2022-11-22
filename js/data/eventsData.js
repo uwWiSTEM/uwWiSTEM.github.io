@@ -10,7 +10,7 @@ const eventsData = {
       description:
         "Ever wonder what goes on in a chemistry lab? Feeling a little rusty with your lab techniquess? Come join us for out Pipetting and Titration Bootcamp with Stacey Lavery to brush up on your lab skills and have some fun with chemistry (without any marking) You'll get a chance to try volumetric pipetting, micro pipetting and titrations!",
       link: "https://www.instagram.com/p/ClEtBrsua8S/?hl=en",
-      image: addEventImagePath("pipette"),
+      image: addEventImagePath("pipette.png"),
     },
     {
       title: "Step Into STEM Annual Conference",
@@ -20,7 +20,7 @@ const eventsData = {
       description:
         "Are you in high school and looking to pursue a career in STEM? Do you want to learn more about opportunities available in the STEM field? If so, attend out virtual Step Into STEM confernece happening from Nov 5-13th where you have the chance to learn more about the different careers and opportunities in STEM and gain new skills at our Hackathon!",
       link: "https://www.instagram.com/p/CjWwyG-gIl3/?hl=en",
-      image: addEventImagePath("pt1"),
+      image: addEventImagePath("pt1.png"),
     },
     {
       title: "Halloween Movie Night",
@@ -30,7 +30,7 @@ const eventsData = {
       description:
         "Are you ready for Halloween? Join WISTEM for a spooky night of watching Coraline with snacks!! Unwind after midterms and a busy Halloween weekend for a movie night happening on October 31st in STC 0040 at 7pm.",
       link: "https://www.instagram.com/p/CkHpl2Ruslv/?hl=en",
-      image: addEventImagePath("hmn1"),
+      image: addEventImagePath("hmn1.png"),
     },
     {
       title: "Admissions 101 with the Princeton Review",
@@ -40,7 +40,7 @@ const eventsData = {
       description:
         "Are you think about writing the MCAT, DAT, or the OAT? Stressed about how to ace it? No worries! WiSTEM is partnering with @theprincetonreview for an Admissions 101 event and Q&A.",
       link: "https://www.instagram.com/p/CjjIKW5AOXN/?hl=en",
-      image: addEventImagePath("admissions101"),
+      image: addEventImagePath("admissions101.png"),
     },
 
     {
