@@ -18,7 +18,7 @@ const eventsData = {
         time: "7:00pm",
         location: "STC 0040",
         description:
-          "GUESS WHAT!?!? You're invited to our first in person event of the term (with free food)! There's no better way to end the term than by decorating delicious cupcakes with the UW WiSTEM team and UW Cooking Club!",
+          "Are you ready for Halloween? Join WISTEM for a spooky night of watching Coraline with snacks!! Unwind after midterms and a busy Halloween weekend for a movie night happening on October 31st in STC 0040 at 7pm.",
         link: "https://www.instagram.com/p/CkHpl2Ruslv/?hl=en",
         image: addEventImagePath("hmn1"),
       },
