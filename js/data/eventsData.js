@@ -3,6 +3,26 @@ const eventsData = {
   ],
   pastevents: [
     {
+      title: "Pipetting & Titration Boot Camp",
+        date: "November 23rd",
+        time: "5:30-7:00pm",
+        location: "C2 273",
+        description:
+          "GUESS WHAT!?!? You're invited to our first in person event of the term (with free food)! There's no better way to end the term than by decorating delicious cupcakes with the UW WiSTEM team and UW Cooking Club!",
+        link: "https://www.instagram.com/p/CkHpl2Ruslv/?hl=en",
+        image: addEventImagePath("pt1"),
+      },
+    {
+      title: "Halloween Movie Night",
+        date: "October 31st",
+        time: "7:00pm",
+        location: "STC 0040",
+        description:
+          "GUESS WHAT!?!? You're invited to our first in person event of the term (with free food)! There's no better way to end the term than by decorating delicious cupcakes with the UW WiSTEM team and UW Cooking Club!",
+        link: "https://www.instagram.com/p/CkHpl2Ruslv/?hl=en",
+        image: addEventImagePath("hmn1"),
+      },
+    {
       title: "Cupcakes & Conflict",
         date: "July 28th",
         time: "6:00pm-8:00pm",

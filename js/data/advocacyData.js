@@ -1,15 +1,5 @@
 const advocacyData = [
   {
-    title: "Pipetting & Titration Boot Camp",
-    images: createImageNames("ptbc", 2),
-    link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
-  },
-  {
-    title: "Halloween Movie Nigh",
-    images: createImageNames("hmn", 2),
-    link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
-  },
-  {
     title: "Meet the Execs' Role Models",
     images: createImageNames("rm", 10),
     link: "https://instagram.com/uwwistem?igshid=YmMyMTA2M2Y=",
