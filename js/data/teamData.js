@@ -1,6 +1,6 @@
 const members = [
   {
-    name: "Alicia L.",
+    name: "Helena L.",
     position: "President",
     program: "Mathematics/Financial Analysis and Risk Management",
     image: execPhotoPrefix("alicia.png"),
