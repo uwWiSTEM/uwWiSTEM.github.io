@@ -1,7 +1,7 @@
 const members = [
   {
     name: "Helena L.",
-    position: "President",
+    position: "Co-President",
     program: "Mathematics/Financial Analysis and Risk Management",
     image: execPhotoPrefix("alicia.png"),
     linkedin: "https://www.linkedin.com/in/aliciajlin/?originalSubdomain=ca",
