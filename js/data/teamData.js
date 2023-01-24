@@ -35,6 +35,13 @@ const members = [
     linkedin: "https://www.linkedin.com/in/shafein-bedi-800866205//",
   },
   {
+    name: "Jessica C.",
+    position: "Event Coordinator",
+    program: "Biochemistry",
+    image: execPhotoPrefix("shafein.png"),
+    linkedin: "https://www.linkedin.com/in/shafein-bedi-800866205//",
+  },
+  {
     name: "Dhruvi P.",
     position: "External Affairs",
     program: "Honours Science",
@@ -46,7 +53,7 @@ const members = [
     position: "Marketing Coordinator",
     program: "Biomedical Scinece",
     image: execPhotoPrefix("amruta.png"),
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/alexistakyi/",
   },
   {
     name: "Sierra R.",
@@ -60,7 +67,7 @@ const members = [
     position: "Marketing Coordinator",
     program: "Architectural Engineering",
     image: execPhotoPrefix("bansari.png"),
-    linkedin: "https://www.linkedin.com/in/bansarijhaveri",
+    linkedin: "https://www.linkedin.com/in/miskalbarrak",
   },
 
   {
@@ -71,11 +78,11 @@ const members = [
     linkedin: "https://www.linkedin.com/in/jinalrajawat",
   },
   {
-    name: "Elena S.",
+    name: "Melanie L.",
     position: "External Affairs",
-    program: "Honours Biology, Animal Biology Specialization",
+    program: "Honours Biology",
     image: execPhotoPrefix("elena.png"),
-    linkedin: "https://www.linkedin.com/in/elena-stragapede-14760b236/",
+    linkedin: "www.linkedin.com/in/melanie-lo-30015a237",
   },
 
   {
@@ -83,14 +90,14 @@ const members = [
     position: "Outreach Coordinator",
     program: "Honours Biochemistry",
     image: execPhotoPrefix("jessica.png"),
-    linkedin: "https://www.linkedin.com/in/jessica-canlas-06b212220",
+    linkedin: "https://www.linkedin.com/in/olivia-holness-7aa336216",
   },
   {
     name: "Vlada S.",
     position: "Outreach Coordinator",
     program: "Computer Science",
     image: execPhotoPrefix("rachel.png"),
-    linkedin: "www.linkedin.com/in/rachel-ransberry-9a4b10208",
+    linkedin: "https://www.linkedin.com/in/vlada-shtern",
   },
   {
     name:"Bhavneet B." ,
