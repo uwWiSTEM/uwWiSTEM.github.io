@@ -24,7 +24,7 @@ const members = [
     name: "Asal J.",
     position: "Vice President Internal",
     program: "Biochemistry",
-    image: execPhotoPrefix("asal.png"),
+    image: execPhotoPrefix("asal.jpg"),
     linkedin: "",
   },
   {
