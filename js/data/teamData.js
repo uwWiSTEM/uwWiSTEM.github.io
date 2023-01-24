@@ -18,7 +18,7 @@ const members = [
     position: "Vice President External",
     program: "Honours Biology",
     image: execPhotoPrefix("helena.png"),
-    linkedin: "https://www.linkedin.com/in/helenasmlee/",
+    linkedin: "www.linkedin.com/in/elena-stragapede-14760b236",
   },
   {
     name: "Asal J.",
