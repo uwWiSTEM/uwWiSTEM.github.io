@@ -42,18 +42,18 @@ const members = [
     linkedin: "https://www.linkedin.com/in/shafein-bedi-800866205//",
   },
   {
-    name: "Maya M.",
-    position: "Events Coordinator",
-    program: "Health Science",
-    image: execPhotoPrefix("maya.png"),
-    linkedin: "https://www.linkedin.com/in/shafein-bedi-800866205//",
-  },
-  {
     name: "Dhruvi P.",
     position: "External Affairs",
     program: "Honours Science",
     image: execPhotoPrefix("dhruvi1.png"),
     linkedin: "https://www.linkedin.com/in/dhruvi-patel-847a31212/",
+  },
+  {
+    name: "Maya M.",
+    position: "Events Coordinator",
+    program: "Health Science",
+    image: execPhotoPrefix("maya.png"),
+    linkedin: "https://www.linkedin.com/in/shafein-bedi-800866205//",
   },
   {
     name: "Alexis T.",
