@@ -66,14 +66,14 @@ const members = [
     name: "Elena S.",
     position: "Graphic Designer",
     program: "Graphic Designer",
-    image: execPhotoPrefix("sierra.png"),
+    image: execPhotoPrefix(""),
     linkedin: "https://www.linkedin.com/in/sierra-radovini-2595a51b4",
   },
   {
     name: "Sierra R.",
     position: "Graphic Designer",
     program: "Honours Public Health - Co-op, Biology Minor & Health Research Specialization",
-    image: execPhotoPrefix(""),
+    image: execPhotoPrefix("sierra.png"),
     linkedin: "https://www.linkedin.com/in/sierra-radovini-2595a51b4",
   },
   {
