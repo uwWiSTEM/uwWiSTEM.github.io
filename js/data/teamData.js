@@ -38,14 +38,14 @@ const members = [
     name: "Jessica C.",
     position: "Events Coordinator",
     program: "Biochemistry",
-    image: execPhotoPrefix("jessica1.png"),
+    image: execPhotoPrefix("jessica.png"),
     linkedin: "https://www.linkedin.com/in/shafein-bedi-800866205//",
   },
   {
     name: "Dhruvi P.",
     position: "External Affairs",
     program: "Honours Science",
-    image: execPhotoPrefix("dhruvi1.png"),
+    image: execPhotoPrefix("dhruvi.png"),
     linkedin: "https://www.linkedin.com/in/dhruvi-patel-847a31212/",
   },
   {
@@ -59,7 +59,7 @@ const members = [
     name: "Alexis T.",
     position: "Marketing Coordinator",
     program: "Biomedical Scinece",
-    image: execPhotoPrefix("alexis1.jpg"),
+    image: execPhotoPrefix("alexis.jpg"),
     linkedin: "https://www.linkedin.com/in/alexistakyi/",
   },
   {
