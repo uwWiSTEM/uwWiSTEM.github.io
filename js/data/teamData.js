@@ -66,8 +66,8 @@ const members = [
     name: "Elena S.",
     position: "Graphic Designer",
     program: "Computer Engineering",
-    image: execPhotoPrefix(""),
-    linkedin: "",
+    image: execPhotoPrefix("elena-graphics.jpg"),
+    linkedin: "https://www.linkedin.com/in/elenasaada/",
   },
   {
     name: "Sierra R.",
