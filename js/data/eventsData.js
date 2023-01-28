@@ -3,12 +3,21 @@ const eventsData = {
   ],
   pastevents: [
     {
+      title: "Building your Personal Brand Online",
+      date: "February 2nd",
+      time: "4:30-5:30pm",
+      location: "Google Meet",
+      description: "Are you trying to build a strong online presence for yourself or your business? On February 2nd, join the Google x UW WiSTEM workshop from 4:00-5:30 PM EST for a run down of personal branding from the experts. We’ll show you how to use tools and platforms like LinkedIn to create an authentic and consistent brand that’s sure to stand out.",
+      link: "https://www.instagram.com/p/CnxDxK0OXg9/",
+      image: addEventImagePath("BYPBO-google.png"),
+    },
+    {
       title: "Pipetting & Titration Boot Camp",
       date: "November 23rd",
       time: "5:30-7:00pm",
       location: "C2 273",
       description:
-        "Ever wonder what goes on in a chemistry lab? Feeling a little rusty with your lab techniquess? Come join us for out Pipetting and Titration Bootcamp with Stacey Lavery to brush up on your lab skills and have some fun with chemistry (without any marking) You'll get a chance to try volumetric pipetting, micro pipetting and titrations!",
+        "Ever wonder what goes on in a chemistry lab? Feeling a little rusty with your lab techniques? Come join us for out Pipetting and Titration Bootcamp with Stacey Lavery to brush up on your lab skills and have some fun with chemistry (without any marking) You'll get a chance to try volumetric pipetting, micro pipetting and titrations!",
       link: "https://www.instagram.com/p/ClEtBrsua8S/?hl=en",
       image: addEventImagePath("pipette.png"),
     },
