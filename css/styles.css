@@ -666,14 +666,14 @@ header {
     /* = 100 / 7 */
   }
 
-  .hex:nth-child(11n + 7) { /*(6 + 5)n + (6 + 1)
+  .hex:nth-child(11n + 9) { /*(6 + 5)n + (6 + 1)
     /* first hexagon of even rows */
-    margin-left: 8.33333%;
+    margin-left: 0%;
     /* = width of .hex / 2  to indent even rows */
   }
 }
 
-@media (max-width: 1400px) and (min-width: 1201px) {
+@media (max-width: 1450px) and (min-width: 1201px) {
   /* <- 5-4  hexagons per row */
   /* #hexGrid{
     padding-bottom: 4.4%;
