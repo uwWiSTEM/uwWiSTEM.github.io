@@ -915,6 +915,7 @@ header {
 .partners-image {
   margin: 4px auto;
   max-width: 278px;
+  padding-right: 50px;
 }
 
 .landing .social {
