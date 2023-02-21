@@ -1472,7 +1472,7 @@ footer .social-icon {
 
 .wrapper {
   display: flex;
-  padding-top: 50px;
+  padding-top: 1px;
   justify-content: center;
 }
 
@@ -1542,10 +1542,11 @@ footer .social-icon {
 
 .gold-image {
   width: 150px;
-  min-height: 200px;
+  min-height: 175px;
 }
 
 .sponsor-text-ml {
+  font-size: 10pt;
   width: 600px;
   margin: auto;
 }
