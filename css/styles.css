@@ -293,6 +293,16 @@ li:hover .dropdown-content {
   }
 }
 
+@media (max-width: 400px) {
+  .mapleleaf-image {
+    display: flex;
+  }
+
+  .maple-leaf-description {
+    margin-right: 180px;
+  }
+}
+
 .mission-description {
   font-size: 14px;
   color: #4a4a4a;
@@ -914,8 +924,9 @@ header {
 
 .partners-image {
   margin: 4px auto;
-  max-width: 278px;
-  padding-right: 50px;
+  max-width: 178px;
+  padding-top: 20px;
+  padding-left: 40px;
 }
 
 .landing .social {
@@ -1457,4 +1468,84 @@ footer .social-icon {
   top: 32px;
   left: 32px;
   z-index: 1;
+}
+
+.wrapper {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.collapsible {
+  max-width: 500px;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+.collapsible input {
+  display: none;
+}
+.collapsible label {
+  position: relative;
+  background: #fff;
+  box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.7);
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  z-index: 1;
+
+}
+
+.collapsible label:after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  height: 18px;
+  background: url(arrow.svg) no-repeat 0 0;
+  transition: all 0.3s ease;
+
+}
+
+.collapsible input:checked + label:after {
+  transform: rotate(90deg);
+
+}
+
+.collapsible-text {
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 8px;
+  line-height: 1.4;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+
+}
+
+.collapsible input:checked ~ .collapsible-text {
+  max-height: 300px;
+  padding-bottom: 25px;
+  background: #fff;
+  opacity: 1;
+  top: 0;
+}
+
+.collapsible-text p {
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.gold-image {
+  width: 150px;
+  min-height: 200px;
+}
+
+.sponsor-text-ml {
+  width: 600px;
+  margin: auto;
 }
