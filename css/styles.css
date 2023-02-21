@@ -1479,7 +1479,7 @@ footer .social-icon {
 }
 
 .collapsible {
-  max-width: 500px;
+  max-width: 1300px;
   overflow: hidden;
   font-weight: 400;
 }
@@ -1497,6 +1497,7 @@ footer .social-icon {
   padding: 15px;
   border-radius: 4px;
   z-index: 1;
+  font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
 
 }
 
