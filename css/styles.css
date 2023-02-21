@@ -1491,7 +1491,7 @@ footer .social-icon {
   position: relative;
   background: #fff;
   box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.7);
-  display: block;
+  display: flex;
   margin-bottom: 10px;
   cursor: pointer;
   padding: 15px;
@@ -1550,7 +1550,7 @@ footer .social-icon {
 
 .sponsor-text-ml {
   font-size: 10pt;
-  width: 600px;
+  width: 540px;
   margin: auto;
   font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
@@ -1558,6 +1558,6 @@ footer .social-icon {
 }
 
 .sponsor-title {
-  margin-left: -400px;
+  margin-left: -340px;
   padding-top: 1%;
 }
