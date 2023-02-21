@@ -51,6 +51,8 @@ h5 {
   font-size: 24px;
 }
 
+
+
 .title {
   margin-top: 76px;
   font-size: 32px;
@@ -1549,4 +1551,12 @@ footer .social-icon {
   font-size: 10pt;
   width: 600px;
   margin: auto;
+  font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.sponsor-title {
+  margin-left: -400px;
+  padding-top: 1%;
 }
