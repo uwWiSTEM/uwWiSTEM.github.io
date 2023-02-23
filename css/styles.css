@@ -1558,6 +1558,14 @@ footer .social-icon {
 }
 
 .sponsor-title {
-  margin-left: -340px;
+  margin-left: -330px;
   padding-top: 1%;
+  font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
+  font-weight: 900;
+}
+
+.collapsible-header {
+  font-weight: 900;
+  font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
+
 }
