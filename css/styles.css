@@ -1472,76 +1472,6 @@ footer .social-icon {
   z-index: 1;
 }
 
-.wrapper {
-  display: flex;
-  padding-top: 1px;
-  justify-content: center;
-}
-
-.collapsible {
-  max-width: 1300px;
-  overflow: hidden;
-  font-weight: 400;
-}
-
-.collapsible input {
-  display: none;
-}
-.collapsible label {
-  position: relative;
-  background: #fff;
-  box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.7);
-  display: flex;
-  margin-bottom: 10px;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-  z-index: 1;
-  font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
-
-}
-
-.collapsible label:after {
-  content: "";
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  height: 18px;
-  background: url(arrow.svg) no-repeat 0 0;
-  transition: all 0.3s ease;
-
-}
-
-.collapsible input:checked + label:after {
-  transform: rotate(90deg);
-
-}
-
-.collapsible-text {
-  max-height: 1px;
-  overflow: hidden;
-  border-radius: 8px;
-  line-height: 1.4;
-  position: relative;
-  top: -100%;
-  opacity: 0.5;
-  transition: all 0.3s ease;
-
-}
-
-.collapsible input:checked ~ .collapsible-text {
-  max-height: 300px;
-  padding-bottom: 25px;
-  background: #fff;
-  opacity: 1;
-  top: 0;
-}
-
-.collapsible-text p {
-  padding-left: 15px;
-  padding-right: 15px;
-
-}
 
 .gold-image {
   width: 150px;
@@ -1564,8 +1494,71 @@ footer .social-icon {
   font-weight: 900;
 }
 
-.collapsible-header {
-  font-weight: 900;
+.accordion {
+  max-width: 550px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
   font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
+  margin: auto;
+}
 
+.accordion_label, 
+.accordion_content {
+  padding: 14px 20px 9px;
+  
+}
+
+.accordion_label {
+  display: block;
+  font-weight: 900;
+  cursor: pointer;
+  position: relative;
+  transition: 0.1s;
+}
+
+.accordion_label:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.accordion_label::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 12px;
+  height: 6px;
+  background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%2300000099;" /></svg>');
+  background-size: contain;
+  transition: transform 0.4s;
+
+}
+
+.accordion_content {
+  background: #ffffff;
+  line-height: 1.6;
+  font-size: 0.85em;
+  display: none;
+}
+
+.accordion_input {
+  display: none;
+}
+
+.accordion_input:checked ~ .accordion_content {
+  display: block;
+}
+
+.accordion_input:checked ~ .accordion_label::after {
+  transform: translateY(-50%) rotate(0.5turn);
+}
+
+.sponsorlogo {
+  max-width: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
