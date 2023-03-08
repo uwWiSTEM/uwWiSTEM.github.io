@@ -1554,8 +1554,26 @@ footer .social-icon {
   transform: translateY(-50%) rotate(0.5turn);
 }
 
-.sponsorlogo {
-  max-width: 300px;
+.sponsorlogo1 {
+  max-width: 400px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.sponsorlogo2 {
+  max-width: 280px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.sponsorlogo3 {
+  max-width: 180px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
