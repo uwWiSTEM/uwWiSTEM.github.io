@@ -3,6 +3,24 @@ const eventsData = {
   ],
   pastevents: [
     {
+      title: "Career Conversations with UW WiSTEM and Maple Leaf Foods",
+      date: "March 8th",
+      time: "5:00-6:30pm",
+      location: "PHY 145",
+      description: "Want to discover new career opportunities in STEM and gain insight into how women have navigated their career paths? Join us for a night of learning and fun with the Maple Leaf Foods team. Learn about various career paths available in business, engineering, research, HR, and leadership roles.",
+      link: "https://www.instagram.com/p/CpQw32RAAa_/",
+      image: addEventImagePath("career-convos.png"),
+    },
+    {
+      title: "Study with WiSTEM",
+      date: "February 13th",
+      time: "6:00-8:00pm",
+      location: "MC 2034",
+      description: "With midterms fast approaching, we at WiSTEM know how stressful life can get. You deserve a peaceful midterm season surrounded by people who understand the importance of a good study session, and we're here to give it to you. You deserve a peaceful midterm season surrounded by people who understand the importance of a good study session, and we're here to give it to you. ",
+      link: "https://www.instagram.com/p/CoU0XHwO_YB/",
+      image: addEventImagePath("study-with-wistem.png"),
+    },
+    {
       title: "Building your Personal Brand Online",
       date: "February 2nd",
       time: "4:30-5:30pm",
