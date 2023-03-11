@@ -882,8 +882,10 @@ header {
 }
 
 .partners-lp-gold {
-  margin-bottom: 42px;
-  text-align: center;
+  width: 95%;
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
 }
 
 .partners-lp-silver {
@@ -1488,14 +1490,14 @@ footer .social-icon {
 }
 
 .sponsor-title {
-  margin-left: -330px;
-  padding-top: 1%;
-  font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
-  font-weight: 900;
+  margin-top: 6px;
+  font-size: 32px;
+  color: #0e1a41;
+  margin-left: -34%;
 }
 
 .accordion {
-  max-width: 550px;
+  max-width: 890px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   overflow: hidden;
@@ -1580,3 +1582,51 @@ footer .social-icon {
   padding-bottom: 25px;
   padding-top: 25px;
 }
+
+.sponsor-spotlight {
+  width: 70%;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: -7%;
+  margin-bottom: -2%;
+}
+.sponsor-spotlight .left {
+  overflow: hidden;
+  margin-right: -30%;
+  margin-left: -35%;
+}
+
+.sponsor-spotlight .left .mlf-img {
+  width: 50%;
+  height: 80%;
+  object-fit: cover;
+
+}
+
+.sponsor-spotlight .mlf-sect .content {
+  padding-left: 0px;
+}
+
+.sponsor-spotlight .mlf-sect .content .mlf-desc {
+  font-size: 13pt;
+  line-height: 26px;
+  font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
+  text-align: left;
+  
+}
+
+@media (max-width: 991px) {
+  .sponsor-spotlight .mlf-sect .content {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .sponsor-spotlight {
+    width: 90%;
+    grid-template-columns: 1 fr;
+
+  }
+}
+
