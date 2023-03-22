@@ -1644,6 +1644,10 @@ footer .social-icon {
 }
 
 @media (max-width: 400px) {
+  .mlf-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .sponsor-spotlight {
     width: 90%;
     display: block;
