@@ -1608,10 +1608,10 @@ footer .social-icon {
 }
 
 .sponsor-spotlight .left .mlf-img {
-  width: 40%;
+  width: 50%;
   height: auto;
   object-fit: cover;
-
+  margin-left: auto
 }
 
 .sponsor-spotlight .mlf-sect .content {
@@ -1637,5 +1637,15 @@ footer .social-icon {
     width: 90%;
     grid-template-columns: 1 fr;
 
+  }
+}
+
+@media (max-width: 400px) {
+  .sponsor-spotlight {
+    width: 90%;
+    display: block;
+  }
+  .sponsor-title {
+    margin-left: 0;
   }
 }
