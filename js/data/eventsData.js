@@ -8,7 +8,7 @@ const eventsData = {
       time: "5:00-6:30pm",
       location: "PHY 145",
       description: "Want to discover new career opportunities in STEM and gain insight into how women have navigated their career paths? Join us for a night of learning and fun with the Maple Leaf Foods team. Learn about various career paths available in business, engineering, research, HR, and leadership roles.",
-      link: "https://ibb.co/WPdftvk",
+      link: "https://drive.google.com/file/d/1Wn1oO92h4aa8XUP1JGArsnpNzNTryggN/view?usp=sharing",
       image: addEventImagePath("career-convos.png"),
     },
     {
