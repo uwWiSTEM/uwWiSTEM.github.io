@@ -1623,6 +1623,9 @@ footer .social-icon {
   line-height: 22px;
   font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
   text-align: left; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
 
 }
 
@@ -1640,12 +1643,17 @@ footer .social-icon {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
   .sponsor-spotlight {
     width: 90%;
     display: block;
   }
   .sponsor-title {
-    margin-left: 0;
+    margin-left: auto;
+  }
+
+  .mlf-desc {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
