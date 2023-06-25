@@ -91,7 +91,7 @@ const members = [
     linkedin: "https://www.linkedin.com/in/beihaozhou/",
   },
   {
-    name: "Elena S.",
+    name: "Elena E.",
     position: "Graphic Designer",
     program: "Honours Science",
     image: execPhotoPrefix("elena.png"),
