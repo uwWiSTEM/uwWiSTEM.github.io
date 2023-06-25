@@ -102,7 +102,7 @@ const members = [
     position: "Graphic Designer",
     program: "Computer Engineering",
     image: execPhotoPrefix("skylar.png"),
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/skylar-lam/",
   },
 ];
 
