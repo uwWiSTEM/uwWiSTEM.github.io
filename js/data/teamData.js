@@ -28,10 +28,10 @@ const members = [
     linkedin: "https://www.linkedin.com/in/shafeinbedi/",
   },
   {
-    name: "Arya A.",
+    name: "Ayra A.",
     position: "External Affairs",
     program: "Biochemistry",
-    image: execPhotoPrefix("arya.png"),
+    image: execPhotoPrefix("ayra.png"),
     linkedin: "https://www.linkedin.com/in/ayrali/",
   },
   {
