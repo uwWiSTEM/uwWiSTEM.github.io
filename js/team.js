@@ -14,7 +14,7 @@ function display() {
 }
 
 function execMemberCircle(member) {
-  return `<div class="col-md-6 col-lg-3 team-member-container">
+  return `<div class="col-md-6 col-lg-4 team-member-container">
                 <div class="core-team-container center-block">
                     <div class="core-team-photo" style="background-image:url(${member.image});" alt="${member.name}"></div>
                     <div class="overlay">
