@@ -3,6 +3,15 @@ const eventsData = {
   ],
   pastevents: [
     {
+      title: "Women's History Month Mixer",
+      date: "March 27th",
+      time: "7:00-8:30pm",
+      location: "M3 Atrium",
+      description: "As Women's History Month comes to a close there is no better way to end it than with a celebration! We at WiSTEM to bring you an all inclusive Women's History Month Mixer! Join us for a night filled with food, games, socializing, and so much more. There will also be FREE bubble tea, sandwiches, and snacks for those attending.",
+      link: "https://www.instagram.com/p/CqF5McqgjnH/",
+      image: addEventImagePath("womenHistoryMixer.png"),
+    },
+    {
       title: "Career Conversations with UW WiSTEM and Maple Leaf Foods",
       date: "March 8th",
       time: "5:00-6:30pm",
