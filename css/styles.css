@@ -459,16 +459,23 @@ header {
 }
 
 .team-member-container {
-  height: 300px;
-  padding: 16px 16px;
+  padding-top: 20px;
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  border-radius: 50%; /* Makes the div a circle */
+  margin-right: 120px;
+  margin-left: 20px;  /* Adjust the margin between circles as needed */
+  margin-bottom: 120px; 
+  float: left;
+  
 }
 
 /* TODO: remove px values here and instead use %, and remove duplication between contianer and photo */
 .core-team-container,
 .core-team-container:focus,
 .core-team-container:active {
-  height: 220px;
-  width: 220px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
   background-position: center;
   align-content: center;
@@ -478,8 +485,8 @@ header {
 .core-team-photo,
 .core-team-photo:focus,
 .core-team-photo:active {
-  height: 220px;
-  width: 220px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
   background-position: center;
   align-content: center;
@@ -507,7 +514,7 @@ header {
 }
 
 .team-member-position {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .overlay {
@@ -540,7 +547,7 @@ header {
   overflow: hidden;
   list-style-type: none;
   padding-bottom: 96px;
-  padding-left: 0px;
+  padding-left: 100px;
 }
 
 .hex {
@@ -657,8 +664,9 @@ header {
   }
 
   .hex {
-    width: 16.66666%;
+    width: 14.28%;
     /* = 100 / 5 */
+    /* og 20 */ 
   }
 
   /* .hex:nth-child(11n + 8) { */
@@ -676,7 +684,7 @@ header {
     padding-bottom: 4.4%;
   } */
   .hex {
-    width: 16.66666%;
+    width: 20%;
     /*= 100 / 6 for 6 hexagons on odd rows
     /* = 100 / 7 */
   }
@@ -696,13 +704,14 @@ header {
     padding-bottom: 4.4%;
   } */
   .hex {
-    width: 20%;
+    width: 14.28%;
     /* = 100 / 7 */
+    /* 20 */ 
   }
 
-  .hex:nth-child(9n + 6) {
+  .hex:nth-child(13n + 7) {
     /* first hexagon of even rows */
-    margin-left: 10%;
+    margin-left: 7.14%;
     /* = width of .hex / 2  to indent even rows */
   }
 }
