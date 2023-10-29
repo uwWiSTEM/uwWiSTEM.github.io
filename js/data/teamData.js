@@ -141,6 +141,12 @@ const members = [
     image: execPhotoPrefix("brianna.png"),
     linkedin: "https://www.linkedin.com/in/brianna-le",
   },
+  {
+    name: "Emily",
+    position: "External Affairs",
+    image:execPhotoPrefix("emily.png"),
+    linkedin: "https://www.linkedin.com/in/emily-koo-993950211",
+  },
 ];
 
 function execPhotoPrefix(fileName) {

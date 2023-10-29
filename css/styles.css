@@ -709,7 +709,7 @@ header {
     /* 20 */ 
   }
 
-  .hex:nth-child(13n + 7) {
+  .hex:nth-child(13n + 8) {
     /* first hexagon of even rows */
     margin-left: 7.14%;
     /* = width of .hex / 2  to indent even rows */
