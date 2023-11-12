@@ -2,6 +2,17 @@ const eventsData = {
   upcomingevents: [],
   pastevents: [
     { 
+      title: "Moonlit Mixer",
+      date: "Oct 30",
+      time: "7-9pm",
+      location: "MC 5501",
+      description:
+        "Get ready to ignite your spirit under the shimmering moonlight! Don’t miss out on the amazing Moonlight Mystery Mixer collaboration event hosted by UW WiSTEM, QTPOC KW, oSTEM, Women in Math, Women in Healthcare and FemPhys! ",
+      link: "https://www.instagram.com/p/Cy1xQyZgwoh/",
+      image: addEventImagePath("moonlit.png"),
+
+    },
+    { 
       title: "Careers & Chats",
       date: "Sept 26",
       time: "5:30pm-7:30pm",
