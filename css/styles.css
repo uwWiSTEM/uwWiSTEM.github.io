@@ -547,7 +547,8 @@ header {
   overflow: hidden;
   list-style-type: none;
   padding-bottom: 96px;
-  padding-left: 100px;
+  padding-left: 0;
+  /* padding-left: 100px; */
 }
 
 .hex {
@@ -1017,8 +1018,10 @@ header {
 }
 
 .leadership {
-  padding-left: 15%;
-  padding-right: 15%;
+  /* padding-left: 15%;
+  padding-right: 15%; */
+  justify-content: center;
+  display: flex;
 }
 
 .subteam {
