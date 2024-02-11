@@ -1,6 +1,9 @@
 {
   "name": "new-age",
   "title": "New Age",
+  "scripts": {
+    "start": "gulp"
+  },
   "version": "3.3.7",
   "homepage": "http://startbootstrap.com/template-overviews/new-age",
   "author": "Start Bootstrap",
