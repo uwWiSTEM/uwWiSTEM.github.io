@@ -2,6 +2,39 @@ const eventsData = {
   upcomingevents: [],
   pastevents: [
     { 
+      title: "Galentines Day Celebration",
+      date: "Feb 13",
+      time: "5-7pm",
+      location: "DC 1301",
+      description:
+        "Galentine’s is the perfect occasion to treat yourself and create unforgettable memories with the amazing women around you! 💕Sip on mocktails, share laughs, snack on delicious treats and enjoy in style! It’s a Galentine’s celebration that you won’t want to miss!",
+      link: "https://www.instagram.com/p/CzoaDUzg0_5/",
+      image: addEventImagePath("galentines.png"),
+
+    },   
+    { 
+      title: "General MCAT Session",
+      date: "Feb 1",
+      time: "6-7pm",
+      location: "Online",
+      description:
+        "📣Calling all pre-meds and students interested in writing the MCAT! This event is for you☺️ We’ll be covering important content and answering all of your questions! The session is completely virtual so you can tune in from anywhere 🌎😉.",
+      link: "https://www.instagram.com/p/CzoaDUzg0_5/",
+      image: addEventImagePath("mcatreview.png"),
+
+    },   
+    { 
+      title: "Brushes & Bites",
+      date: "Nov 21",
+      time: "5-7pm",
+      location: "DC 1301",
+      description:
+        "Get ready to channel your artistic creativity and support a valuable cause at our Brushes and Bites event! All proceeds raised will be donated towards Women’s Crisis Services, chosen because of their direct reach and support for diverse communities in the surrounding regions.",
+      link: "https://www.instagram.com/p/CzoaDUzg0_5/",
+      image: addEventImagePath("brushesnbites.png"),
+
+    },    
+    { 
       title: "Moonlit Mixer",
       date: "Oct 30",
       time: "7-9pm",
