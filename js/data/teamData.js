@@ -75,7 +75,7 @@ const members = [
     position: "Treasurer",
     program: "Honours Math",
     image: execPhotoPrefix("leah.png"),
-    linkedin: "https://www.linkedin.com/in/pal-pathak-8888a5230/",
+    linkedin: "",
   },
   {
     name: "Emily K.",
