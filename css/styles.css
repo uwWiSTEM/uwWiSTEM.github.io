@@ -1713,3 +1713,109 @@ footer .social-icon {
     padding-top: 25px;
   }
 }
+
+.pastexecs_text {
+  display: flex;
+  justify-content: space-between;
+  /* font-weight: bold; */
+  font-size: 16px;
+}
+
+.pastexecs {
+  max-width: 890px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.pastexecs h1, h2, h3, h4, p {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0;  
+  margin: 0 30px 0 30px;
+}
+.pastexecs h2, h3, h4, p {
+  margin-left: 80px;
+  margin-right: 50px;
+}
+.pastexecs h2 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.pastexecs h3 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+  /* margin: 30px 0 5px 0; */
+}
+.pastexecs p {
+  font-size: 14px;
+}
+
+.springexecs {
+  color: #DE6985;
+}
+.fallexecs {
+  color: #31ACB8;
+}
+
+.pastexecs_label,
+.pastexecs_content {
+  padding: 14px 20px 9px;
+}
+
+.pastexecs_label {
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  transition: 0.1s;
+}
+
+.pastexecs_label:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.pastexecs_label::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 12px;
+  height: 6px;
+  background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%2300000099;" /></svg>');
+  background-size: contain;
+  transition: transform 0.4s;
+
+}
+
+.pastexecs_content {
+  background: #ffffff;
+  line-height: 1.6;
+  font-size: 0.85em;
+  display: none;
+  margin-bottom: 20px;
+}
+
+.pastexecs_blob {
+  background: #F2EEEE;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.pastexecs_input {
+  display: none;
+}
+
+.pastexecs_input:checked~.pastexecs_content {
+  display: block;
+}
+
+.pastexecs_input:checked~.pastexecs_label::after {
+  transform: translateY(-50%) rotate(0.5turn);
+}
