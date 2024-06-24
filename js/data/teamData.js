@@ -43,58 +43,31 @@ const members = [
     linkedin: "https://www.linkedin.com/in/ava-carli/",
   },
   {
-    name: "Vlada S.",
+    name: "Rathisa U.",
     position: "Outreach Coordinator",
-    program: "Computer Science",
-    image: execPhotoPrefix("vlada.jpg"),
-    linkedin: "https://www.linkedin.com/in/vlada-shtern",
+    program: "Biomedical Science",
+    image: execPhotoPrefix("rathisa.jpg"),//updated
+    linkedin: "http://www.linkedin.com/in/rathisa-uthayachandran-4b8b951b6",
   },
   {
     name: "Jessica I.",
-    position: "Marketing Coordinator",
+    position: "Marketing Director",
     program: "Honours Science - Biology & Computer Science",
     image: execPhotoPrefix("jessicai.png"),
     linkedin: "https://www.linkedin.com/in/omo-jessicaidahosa",
   },  
   {
-    name: "Anna L.",
+    name: "Jessica Y.",
     position: "Marketing Coordinator",
-    program: "Health Science",
-    image: execPhotoPrefix("anna.png"),
+    program: "Biotech/CPA",
+    image: execPhotoPrefix("jessicay.png"),//updated
     linkedin: "",
-  },
-  {
-    name: "Skylar L.",
-    position: "Graphic Designer",
-    program: "GBDA",
-    image: execPhotoPrefix("skylar.png"),
-    linkedin: "https://www.linkedin.com/in/skylar-lam/",
-  },
-  {
-    name: "Leah",
-    position: "Treasurer",
-    program: "Honours Math",
-    image: execPhotoPrefix("leah.png"),
-    linkedin: "",
-  },
-  {
-    name: "Emily K.",
-    position: "External Affairs",
-    image:execPhotoPrefix("emily.png"),
-    linkedin: "https://www.linkedin.com/in/emily-koo-993950211",
-  },
-  {
-    name: "Aarushi K.",
-    position: "Advocacy Coordinator",
-    program: "Mathematics/Financial Analysis and Risk Management",
-    image: execPhotoPrefix("aarushi.png"),
-    linkedin: "https://www.linkedin.com/in/aarushikapur",
   },
   {
     name: "Jenna L.",
-    position: "Event Coordinator",
+    position: "Graphic Designer",
     program: "Science and Business",
-    image: execPhotoPrefix("jenna.png"),
+    image: execPhotoPrefix("jenna.png"),//updated
     linkedin: "https://www.linkedin.com/in/jennalou/",
   },
   {
@@ -105,18 +78,65 @@ const members = [
     linkedin: "https://www.linkedin.com/in/aayet-habeeb-85765926b/",
   },
   {
+    name: "Emily K.",
+    position: "External Affairs Coordinator",
+    image:execPhotoPrefix("emily.png"),
+    linkedin: "https://www.linkedin.com/in/emily-koo-993950211",
+  },
+  {
+    name: "Sydney M.",
+    position: "External Affairs",
+    image:execPhotoPrefix("sydney.png"),//updated
+    linkedin: "",
+  },
+  {
+    name: "Anaelle Y.",
+    position: "Advocacy Coordinator",
+    program: "Systems Design Engineering",
+    image: execPhotoPrefix("anaelle.jpg"),//updated
+    linkedin: "http://linkedin.com/in/anaelle-youbissi",
+  },
+  {
     name: "Amrin S.",
-    position: "Outreach Coordinator",
+    position: "Outreach",
     program: "Computational Mathematics & Statistics",
     image: execPhotoPrefix("amrin.png"),
     linkedin: "https://www.linkedin.com/in/amrinsandhu/",
   },
   {
-    name: "Rosanne Z.",
+    name: "Mairah H.",
     position: "Web Developer",
-    program: "Computer Science",
-    image: execPhotoPrefix("rosanne.png"),
-    linkedin: "https://www.linkedin.com/in/rosanne-zhu/",
+    program: "Computer Engineering",
+    image: execPhotoPrefix("mairah.jpg"),//updated
+    linkedin: "https://www.linkedin.com/in/mairah-h",
+  },
+  {
+    name: "Laura M.",
+    position: "WiSTEM Ambassador",
+    program: "Chemistry",
+    image: execPhotoPrefix("laura.jpg"),//updated
+    linkedin: "https://www.linkedin.com/in/laura-mereweather-341338276/",
+  },
+  {
+    name: "Leah J.",
+    position: "Treasurer",
+    program: "Honours Math",
+    image: execPhotoPrefix("leah.png"),//updated
+    linkedin: "",
+  },
+  {
+    name: "Shamini N.",
+    position: "Advocacy Coordinator",
+    program: "Biology",
+    image: execPhotoPrefix("shamini.jpg"),//updated
+    linkedin: "http://linkedin.com/in/shamini-nithianandarajah-83a514202",
+  },
+  {
+    name: "Ankita S.",
+    position: "WiSTEM Ambassador",
+    program: "Kinesiology",
+    image: execPhotoPrefix("ankita.jpg"),//updated
+    linkedin: "",
   },
 ];
 
