@@ -84,12 +84,6 @@ const members = [
     linkedin: "https://www.linkedin.com/in/emily-koo-993950211",
   },
   {
-    name: "Sydney M.",
-    position: "External Affairs",
-    image:execPhotoPrefix("sydney.png"),//updated
-    linkedin: "",
-  },
-  {
     name: "Anaelle Y.",
     position: "Advocacy Coordinator",
     program: "Systems Design Engineering",
