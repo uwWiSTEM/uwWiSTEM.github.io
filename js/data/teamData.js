@@ -46,7 +46,7 @@ const members = [
     name: "Rathisa U.",
     position: "Outreach Coordinator",
     program: "Biomedical Science",
-    image: execPhotoPrefix("rathisa.jpg"),//updated
+    image: execPhotoPrefix("rathisa.jpeg"),//updated
     linkedin: "http://www.linkedin.com/in/rathisa-uthayachandran-4b8b951b6",
   },
   {
@@ -60,7 +60,7 @@ const members = [
     name: "Jessica Y.",
     position: "Marketing Coordinator",
     program: "Biotech/CPA",
-    image: execPhotoPrefix("jessicay.png"),//updated
+    image: execPhotoPrefix("jessicay.jpeg"),//updated
     linkedin: "",
   },
   {
@@ -74,7 +74,7 @@ const members = [
     name: "Aayet H.",
     position: "Graphic Designer",
     program: "Global Business and Digital Arts",
-    image: execPhotoPrefix("aayet.png"),
+    image: execPhotoPrefix("aayet.jpeg"),
     linkedin: "https://www.linkedin.com/in/aayet-habeeb-85765926b/",
   },
   {
@@ -87,7 +87,7 @@ const members = [
     name: "Anaelle Y.",
     position: "Advocacy Coordinator",
     program: "Systems Design Engineering",
-    image: execPhotoPrefix("anaelle.jpg"),//updated
+    image: execPhotoPrefix("anaelle.jpeg"),//updated
     linkedin: "http://linkedin.com/in/anaelle-youbissi",
   },
   {
@@ -101,14 +101,14 @@ const members = [
     name: "Mairah H.",
     position: "Web Developer",
     program: "Computer Engineering",
-    image: execPhotoPrefix("mairah.jpg"),//updated
+    image: execPhotoPrefix("mairah.jpeg"),//updated
     linkedin: "https://www.linkedin.com/in/mairah-h",
   },
   {
     name: "Laura M.",
     position: "WiSTEM Ambassador",
     program: "Chemistry",
-    image: execPhotoPrefix("laura.jpg"),//updated
+    image: execPhotoPrefix("laura.jpeg"),//updated
     linkedin: "https://www.linkedin.com/in/laura-mereweather-341338276/",
   },
   {
@@ -122,14 +122,14 @@ const members = [
     name: "Shamini N.",
     position: "Advocacy Coordinator",
     program: "Biology",
-    image: execPhotoPrefix("shamini.jpg"),//updated
+    image: execPhotoPrefix("shamini.jpeg"),//updated
     linkedin: "http://linkedin.com/in/shamini-nithianandarajah-83a514202",
   },
   {
     name: "Ankita S.",
     position: "WiSTEM Ambassador",
     program: "Kinesiology",
-    image: execPhotoPrefix("ankita.jpg"),//updated
+    image: execPhotoPrefix("ankita.jpeg"),//updated
     linkedin: "",
   },
 ];
