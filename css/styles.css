@@ -1588,7 +1588,7 @@ footer .social-icon {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 15px;
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 .sponsorlogo2 {
@@ -1610,6 +1610,15 @@ footer .social-icon {
 }
 
 .sponsorlogo4 {
+  max-width: 150px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.sponsorlogo5 {
   max-width: 150px;
   display: flex;
   margin-left: auto;
