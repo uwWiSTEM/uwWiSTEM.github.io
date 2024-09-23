@@ -18,7 +18,7 @@ const members = [
     position: "Vice President Internal",
     program:
       "Honours Science With a Minor in Economics",
-    image: execPhotoPrefix("elena.png"),
+    image: execPhotoPrefix("elena.jpg"),
     linkedin: "https://ca.linkedin.com/in/elena-ericmilton-53503b222",
   },
   {
@@ -36,25 +36,32 @@ const members = [
     linkedin: "",
   },
   {
-    name: "Ava C.",
+    name: "Michelle L.",
     position: "Event Coordinator",
-    program: "Biomedical Science",
-    image: execPhotoPrefix("ava.png"),
-    linkedin: "https://www.linkedin.com/in/ava-carli/",
+    program: "Computer Science",
+    image: execPhotoPrefix("michelle.jpg"),
+    linkedin: "https://www.linkedin.com/in/michelle-lu-8b276b244/",
+  },
+  {
+    name: "Evelyn T.",
+    position: "Event Coordinator",
+    program: "Science & Business",
+    image: execPhotoPrefix("evelyn.jpg"),
+    linkedin: "https://www.linkedin.com/in/evelyn-thomas-et100",
   },
   {
     name: "Rathisa U.",
     position: "Outreach Coordinator",
     program: "Biomedical Science",
-    image: execPhotoPrefix("rathisa.jpeg"),//updated
+    image: execPhotoPrefix("rathisa.jpg"),//updated
     linkedin: "http://www.linkedin.com/in/rathisa-uthayachandran-4b8b951b6",
   },
   {
-    name: "Jessica I.",
+    name: "Natalie A.",
     position: "Marketing Director",
-    program: "Honours Science - Biology & Computer Science",
-    image: execPhotoPrefix("jessicai.png"),
-    linkedin: "https://www.linkedin.com/in/omo-jessicaidahosa",
+    program: "Kinesiology",
+    image: execPhotoPrefix("natalie.jpg"),
+    linkedin: "https://www.linkedin.com/in/natalie-abumoghli-81859a27a",
   },  
   {
     name: "Jessica Y.",
@@ -74,7 +81,7 @@ const members = [
     name: "Aayet H.",
     position: "Graphic Designer",
     program: "Global Business and Digital Arts",
-    image: execPhotoPrefix("aayet.jpeg"),
+    image: execPhotoPrefix("aayet.jpg"),
     linkedin: "https://www.linkedin.com/in/aayet-habeeb-85765926b/",
   },
   {
@@ -87,21 +94,21 @@ const members = [
     name: "Anaelle Y.",
     position: "Advocacy Coordinator",
     program: "Systems Design Engineering",
-    image: execPhotoPrefix("anaelle.jpeg"),//updated
+    image: execPhotoPrefix("anaelle.jpg"),//updated
     linkedin: "http://linkedin.com/in/anaelle-youbissi",
   },
   {
     name: "Amrin S.",
     position: "Outreach",
     program: "Computational Mathematics & Statistics",
-    image: execPhotoPrefix("amrin.png"),
+    image: execPhotoPrefix("amrin.jpg"),
     linkedin: "https://www.linkedin.com/in/amrinsandhu/",
   },
   {
     name: "Mairah H.",
     position: "Web Developer",
     program: "Computer Engineering",
-    image: execPhotoPrefix("mairah.jpeg"),//updated
+    image: execPhotoPrefix("mairah.jpg"),//updated
     linkedin: "https://www.linkedin.com/in/mairah-h",
   },
   {
@@ -119,17 +126,17 @@ const members = [
     linkedin: "",
   },
   {
-    name: "Shamini N.",
+    name: "Abigail L.",
     position: "Advocacy Coordinator",
-    program: "Biology",
-    image: execPhotoPrefix("shamini.jpeg"),//updated
-    linkedin: "http://linkedin.com/in/shamini-nithianandarajah-83a514202",
+    program: "Honours Biology",
+    image: execPhotoPrefix("abigail.jpg"),//updated
+    linkedin: "https://www.linkedin.com/in/abigail-l-051972293",
   },
   {
     name: "Ankita S.",
     position: "WiSTEM Ambassador",
     program: "Kinesiology",
-    image: execPhotoPrefix("ankita.jpeg"),//updated
+    image: execPhotoPrefix("ankita.jpg"),//updated
     linkedin: "",
   },
 ];
