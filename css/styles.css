@@ -542,20 +542,25 @@ header {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  align-content: center;
+  justify-content: center; /* Centers items horizontally */
+  align-content: center; /* Centers items vertically */
   margin: 0 auto;
   overflow: hidden;
   list-style-type: none;
-  padding-bottom: 96px;
-  padding-left: 0;
+  padding: 0;
   /* padding-left: 100px; */
 }
 
 .hex {
   position: relative;
+  width: 14%;
   visibility: hidden;
   outline: 1px solid transparent;
   /* fix for jagged edges in FF on hover transition */
+}
+
+.hex:nth-child(even) {
+  margin-left: 7%; /* Offset even rows for staggered alignment */
 }
 
 .hex::after {
