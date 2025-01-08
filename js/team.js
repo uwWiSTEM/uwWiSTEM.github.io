@@ -36,7 +36,7 @@ function execMemberCircle(member) {
 }
 
 function regMemberHex(member) {
-  return `<li class="hex">
+    return `<li class="hex">
         <div class="hexIn">
             <div class="hexLink">
                 <img src="${member.image}" alt="${member.name}"/>
@@ -44,19 +44,16 @@ function regMemberHex(member) {
                     <div class="team-member-info">
                         <div class="team-member-name">${member.name}</div>
                         <div class="team-member-position">${member.position}</div>
-                        ${
-                          member.linkedin !== ""
-                            ? `<img src="img/linkedin.svg" 
+                        ${member.linkedin !== "" ? 
+                        `<img src="img/linkedin.svg" 
                         alt="LinkedIn image for ${member.name}" 
                         onclick="window.open('${member.linkedin}','mywindow');" 
-                        class="member-linkedin"/>`
-                            : ""
-                        }
+                        class="member-linkedin"/>` : ""}
                     </div>
                 </div>
             </div>
         </div>
-    </li>`;
+    </li>`
 }
 
 function replaceMembersWithHTML(executives) {
