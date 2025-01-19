@@ -3,7 +3,7 @@ const members = [
     name: "Jessica C.",
     position: "Co-President",
     program: "Biochemistry",
-    image: execPhotoPrefix("jessica.png"),
+    image: execPhotoPrefix("jessica_w25.png"),
     linkedin: "https://www.linkedin.com/in/jessica-canlas-06b212220",
   },
   {
@@ -11,7 +11,7 @@ const members = [
     position: "Co-President",
     program:
       "Honours Science With a Minor in Economics",
-    image: execPhotoPrefix("elena.jpg"),
+    image: execPhotoPrefix("elena_w25.png"),
     linkedin: "https://ca.linkedin.com/in/elena-ericmilton-53503b222",
   },
   {
@@ -25,14 +25,14 @@ const members = [
     name: "Anaëlle Y.",
     position: "Vice President External",
     program: "Systems Design Engineering",
-    image: execPhotoPrefix("anaelle.jpg"),
+    image: execPhotoPrefix("anaelle_w25.png"),
     linkedin: "http://linkedin.com/in/anaelle-youbissi",
   },
   {
     name: "Aayet H.",
     position: "Vice President Internal",
     program: "Global Business and Digital Arts",
-    image: execPhotoPrefix("aayet.jpg"),
+    image: execPhotoPrefix("aayet_w25.png"),
     linkedin: "https://www.linkedin.com/in/aayet-habeeb-85765926b/",
   },
   {
@@ -46,14 +46,14 @@ const members = [
     name: "Emily K.",
     position: "External Affairs",
     program: "Health Science",
-    image:execPhotoPrefix("emily.png"),
+    image:execPhotoPrefix("emily_kw25.png"),
     linkedin: "https://www.linkedin.com/in/emily-koo-993950211",
   },
   {
     name: "Michelle L.",
     position: "Event Coordinator",
     program: "Computer Science",
-    image: execPhotoPrefix("michelle.jpg"),
+    image: execPhotoPrefix("michelle_w25.png"),
     linkedin: "https://www.linkedin.com/in/michelle-lu-8b276b244/",
   },
   {
@@ -137,7 +137,7 @@ const members = [
     name: "Ankita S.",
     position: "WiSTEM Ambassador",
     program: "Kinesiology",
-    image: execPhotoPrefix("ankita.jpg"),
+    image: execPhotoPrefix("ankita_w25.png"),
     linkedin: "",
   },
   {
