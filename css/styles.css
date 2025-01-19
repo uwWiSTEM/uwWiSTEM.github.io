@@ -1022,7 +1022,7 @@ header {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 800px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
