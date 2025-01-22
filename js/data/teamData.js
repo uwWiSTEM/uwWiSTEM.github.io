@@ -86,7 +86,7 @@ const members = [
   },
   {
     name: "Amrin S.",
-    position: "Outreach",
+    position: "Outreach Coordinator",
     program: "Computational Mathematics & Statistics",
     image: execPhotoPrefix("amrin.jpg"),
     linkedin: "https://www.linkedin.com/in/amrinsandhu/",

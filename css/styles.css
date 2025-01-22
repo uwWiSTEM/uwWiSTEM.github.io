@@ -696,6 +696,11 @@ header {
     margin-left: 7.143%;
     /* = width of .hex / 2  to indent even rows */
   }
+
+  .hex:nth-child(14) {
+    /* manually center last row */
+    margin-left: 28.57200%
+  }
 }
 
 @media (max-width: 1400px) and (min-width:1201px) {
@@ -731,6 +736,11 @@ header {
     /* first hexagon of even rows */
     margin-left: 12.5%;
     /* = width of .hex / 2  to indent even rows */
+  }
+
+  .hex:nth-child(15) {
+    /* manually center last row */
+    margin-left: 25%; 
   }
 }
 
