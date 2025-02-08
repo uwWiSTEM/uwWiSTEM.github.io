@@ -42,6 +42,7 @@ h6 {
   font-family: "glacial-indifference", "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
+  margin-top: 2px;
 }
 
 h5 {
@@ -51,10 +52,9 @@ h5 {
   font-size: 24px;
 }
 
-
-
 .title {
   margin-top: 76px;
+  margin-bottom: 10px;
   font-size: 32px;
   color: #0e1a41;
 }
@@ -236,6 +236,7 @@ li:hover .dropdown-content {
   color: #4a4a4a;
   margin-left: 5em;
   margin-right: 5em;
+  margin-bottom: 2em;
 }
 
 .description a {
@@ -466,8 +467,7 @@ header {
   margin-right: 120px;
   margin-left: 20px;  /* Adjust the margin between circles as needed */
   margin-bottom: 120px; 
-  float: left;
-  
+
 }
 
 /* TODO: remove px values here and instead use %, and remove duplication between contianer and photo */

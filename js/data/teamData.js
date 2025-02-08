@@ -2,6 +2,7 @@ const members = [
   {
     name: "Jessica C.",
     position: "Co-President",
+    team: "Core",
     program: "Biochemistry",
     image: execPhotoPrefix("jessica_w25.png"),
     linkedin: "https://www.linkedin.com/in/jessica-canlas-06b212220",
@@ -9,6 +10,7 @@ const members = [
   {
     name: "Elena E.",
     position: "Co-President",
+    team: "Core",
     program:
       "Honours Science With a Minor in Economics",
     image: execPhotoPrefix("elena_w25.png"),
@@ -17,6 +19,7 @@ const members = [
   {
     name: "Alexis T.",
     position: "Co-President",
+    team: "Core",
     program: "Applied Mathematics",
     image: execPhotoPrefix("alexis.jpg"),
     linkedin: "https://www.linkedin.com/in/alexistakyi/",
@@ -24,6 +27,7 @@ const members = [
   {
     name: "Anaëlle Y.",
     position: "Vice President External",
+    team: "Core",
     program: "Systems Design Engineering",
     image: execPhotoPrefix("anaelle_w25.png"),
     linkedin: "http://linkedin.com/in/anaelle-youbissi",
@@ -31,6 +35,7 @@ const members = [
   {
     name: "Aayet H.",
     position: "Vice President Internal",
+    team: "Core",
     program: "Global Business and Digital Arts",
     image: execPhotoPrefix("aayet_w25.png"),
     linkedin: "https://www.linkedin.com/in/aayet-habeeb-85765926b/",
@@ -38,6 +43,7 @@ const members = [
   {
     name: "Sydney M.",
     position: "External Affairs",
+    team: "External",
     program: "Honours Science",
     image: execPhotoPrefix("sydney.png"),
     linkedin: "",
@@ -45,6 +51,7 @@ const members = [
   {
     name: "Emily K.",
     position: "External Affairs",
+    team: "External",
     program: "Health Science",
     image:execPhotoPrefix("emily_kw25.png"),
     linkedin: "https://www.linkedin.com/in/emily-koo-993950211",
@@ -52,6 +59,7 @@ const members = [
   {
     name: "Michelle L.",
     position: "Event Coordinator",
+    team: "Internal",
     program: "Computer Science",
     image: execPhotoPrefix("michelle_w25.png"),
     linkedin: "https://www.linkedin.com/in/michelle-lu-8b276b244/",
@@ -59,6 +67,7 @@ const members = [
   {
     name: "Emily G.",
     position: "Event Coordinator",
+    team: "Internal",
     program: "Materials and Nanosciences",
     image: execPhotoPrefix("emily_g.png"),
     linkedin: "",
@@ -66,6 +75,7 @@ const members = [
   {
     name: "Abisha Y.",
     position: "Marketing Coordinator",
+    team: "External",
     program: "Honour Science",
     image: execPhotoPrefix("abisha.png"),
     linkedin: "",
@@ -73,6 +83,7 @@ const members = [
   {
     name: "Flesha P.",
     position: "Marketing Coordinator",
+    team: "External",
     program: "Health Sciences",
     image: execPhotoPrefix("flesha.png"),
     linkedin: "",
@@ -80,6 +91,7 @@ const members = [
   {
     name: "Rathisa U.",
     position: "Outreach Coordinator",
+    team: "External",
     program: "Biomedical Science",
     image: execPhotoPrefix("rathisa.jpg"),
     linkedin: "http://www.linkedin.com/in/rathisa-uthayachandran-4b8b951b6",
@@ -87,6 +99,7 @@ const members = [
   {
     name: "Amrin S.",
     position: "Outreach Coordinator",
+    team: "External",
     program: "Computational Mathematics & Statistics",
     image: execPhotoPrefix("amrin.jpg"),
     linkedin: "https://www.linkedin.com/in/amrinsandhu/",
@@ -94,6 +107,7 @@ const members = [
   {
     name: "Jenna L.",
     position: "Graphic Designer",
+    team: "Internal",
     program: "Science and Business",
     image: execPhotoPrefix("jenna.png"),
     linkedin: "https://www.linkedin.com/in/jennalou/",
@@ -101,6 +115,7 @@ const members = [
   {
     name: "Aswina S.",
     position: "Graphic Designer",
+    team: "Internal",
     program: "GBDA",
     image: execPhotoPrefix("aswina.png"),
     linkedin: "",
@@ -108,6 +123,7 @@ const members = [
   {
     name: "Leah J.",
     position: "Treasurer",
+    team: "Internal",
     program: "Honours Math",
     image: execPhotoPrefix("leah.png"),//updated
     linkedin: "",
@@ -115,6 +131,7 @@ const members = [
   {
     name: "Megha N.",
     position: "Advocacy Coordinator",
+    team: "Internal",
     program: "Honours Health Sciences",
     image: execPhotoPrefix("megha.png"),
     linkedin: "",
@@ -122,6 +139,7 @@ const members = [
   {
     name: "Samaana A.",
     position: "Advocacy Coordinator",
+    team: "Internal",
     program: "Biology",
     image: execPhotoPrefix("samaana.png"),
     linkedin: "",
@@ -129,6 +147,7 @@ const members = [
   {
     name: "Hannah G.",
     position: "Web Developer",
+    team: "Internal",
     program: "Software Engineering",
     image: execPhotoPrefix("hannah.png"),
     linkedin: "https://www.linkedin.com/in/hannah-guo/",
@@ -136,6 +155,7 @@ const members = [
   {
     name: "Ankita S.",
     position: "WiSTEM Ambassador",
+    team: "External",
     program: "Kinesiology",
     image: execPhotoPrefix("ankita_w25.png"),
     linkedin: "",
@@ -143,6 +163,7 @@ const members = [
   {
     name: "Laura M.",
     position: "WiSTEM Ambassador",
+    team: "External",
     program: "Chemistry",
     image: execPhotoPrefix("laura.jpeg"),
     linkedin: "https://www.linkedin.com/in/laura-mereweather-341338276/",
