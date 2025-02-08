@@ -2,68 +2,104 @@ const leadershipRoles = ["Co-President", "President", "Vice President Internal",
 const internalRoles = ["Treasurer", "Administration", "Graphic Designer", "Web Developer"];
 const externalRoles = ["Marketing", "Event Coordinator", "External Affairs"];
 
-let leadershipHTML = "";
-let executiveHTML = '<ul id="hexGrid">';
+const teamSections = ["Core", "Internal", "External"];
+
+let leadershipHTML = ``;
 
 function display() {
   replaceMembersWithHTML(members);
-
-  executiveHTML = executiveHTML.concat("</ul>");
-  $("#leadership").append(leadershipHTML);
-  $("#executive").append(executiveHTML);
+  $("#team-display").append(leadershipHTML);
 }
 
 function execMemberCircle(member) {
-  return `<div class="col-md-6 col-lg-4 team-member-container">
-                <div class="core-team-container center-block">
-                    <div class="core-team-photo" style="background-image:url(${member.image});" alt="${member.name}"></div>
-                    <div class="overlay">
-                        <div class="team-member-info">
-                            <div class="team-member-name">${member.name}</div>
-                                <div class="team-member-position">${member.position}</div>
-                                ${
-                                  member.linkedin !== ""
-                                    ? `<img src="img/linkedin.svg" 
-                                alt="LinkedIn image for ${member.name}" 
-                                onclick="window.open('${member.linkedin}','mywindow');" 
-                                class="member-linkedin"/>`
-                                    : ""
-                                }
-                        </div>
-                    </div>
-                </div>
-            </div>`;
+  return `
+    <div 
+      style="
+        width: 200px; 
+        margin: 20px;
+        text-align: center;
+        box-sizing: border-box;
+      "
+    >
+      <div 
+        style="
+          display: flex; 
+          flex-direction: column; 
+          align-items: center;
+        "
+      >
+        <div 
+          style="
+            width: 200px; 
+            height: 200px; 
+            background-size: cover; 
+            background-position: 50% 50%; 
+            border-radius: 50%; 
+            margin-bottom: 10px; 
+            background-image: url(${member.image});
+            margin: 0 auto;
+          "
+          aria-label="${member.name}"
+        >
+        </div>
+        <h4 style="font-weight: bold; margin: 8px auto; 4px;">
+          ${member.name}
+        </h4>
+        <h4 style="margin: 0px auto;">
+          ${member.position}
+          </h4>
+      </div>
+    </div>
+  `;
 }
 
-function regMemberHex(member) {
-    return `<li class="hex">
-        <div class="hexIn">
-            <div class="hexLink">
-                <img src="${member.image}" alt="${member.name}"/>
-                <div class="overlay">
-                    <div class="team-member-info">
-                        <div class="team-member-name">${member.name}</div>
-                        <div class="team-member-position">${member.position}</div>
-                        ${member.linkedin !== "" ? 
-                        `<img src="img/linkedin.svg" 
-                        alt="LinkedIn image for ${member.name}" 
-                        onclick="window.open('${member.linkedin}','mywindow');" 
-                        class="member-linkedin"/>` : ""}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>`
-}
+const groupBy = (key) => (array) =>
+  array.reduce((objectsByKeyValue, obj) => {
+    const value = obj[key];
+    objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj);
+    return objectsByKeyValue;
+  }, {});
 
 function replaceMembersWithHTML(executives) {
-  executives.forEach((member) => {
-    if (leadershipRoles.includes(member.position)) {
-      leadershipHTML = leadershipHTML.concat(execMemberCircle(member));
-    } else {
-      executiveHTML = executiveHTML.concat(regMemberHex(member));
+  const groupedExecs = groupBy("team")(executives);
+
+  for (const team in groupedExecs) {
+    if (teamSections.includes(team)) {
+      leadershipHTML += `
+        <div 
+          style="
+            margin: 50px auto;
+            max-width: 1200px;
+          "
+        >
+          <h2 
+            style="
+              text-align: center; 
+              margin-bottom: 10px;
+            "
+          >
+            ${team}
+          </h2>
+          <div 
+            style="
+              display: flex; 
+              flex-wrap: wrap; 
+              justify-content: center;
+            "
+          >
+      `;
+
+      groupedExecs[team].forEach((member) => {
+        leadershipHTML += execMemberCircle(member);
+      });
+
+      leadershipHTML += `
+          </div>
+        </div>
+      `;
     }
-  });
+  }
 }
 
+// Finally, render the team members
 display();
