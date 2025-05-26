@@ -50,7 +50,7 @@ const members = [
   },
   {
     name: "Abisha Y.",
-    position: "Marketing Coordinator",
+    position: "Marketing Lead",
     team: "External",
     program: "Honour Science, 3rd year",
     image: execPhotoPrefix("abisha.png"),
@@ -63,6 +63,14 @@ const members = [
     program: "Health Sciences, 2nd year",
     image: execPhotoPrefix("flesha_s25.png"),
     linkedin: "https://www.linkedin.com/in/flesha",
+  },
+  {
+    name: "Kavya D.",
+    position: "Marketing Coordinator",
+    team: "External",
+    program: "Honours Biology, 2nd year",
+    image: execPhotoPrefix("kavya_s25.png"),
+    linkedin: "https://www.linkedin.com/in/-kavyadesai/",
   },
   {
     name: "Amrin S.",
@@ -95,14 +103,6 @@ const members = [
     program: "Chemistry, 3rd year",
     image: execPhotoPrefix("laura_s25.png"),
     linkedin: "https://www.linkedin.com/in/laura-mereweather-341338276/",
-  },
-  {
-    name: "Kavya D.",
-    position: "Volunteer Drive Coordinator",
-    team: "External",
-    program: "Honours Biology, 2nd year",
-    image: execPhotoPrefix("kavya_s25.png"),
-    linkedin: "https://www.linkedin.com/in/-kavyadesai/",
   },
   {
     name: "Kaitlyn B.",
