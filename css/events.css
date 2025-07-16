@@ -163,4 +163,11 @@
       padding: 16px 36px;
     }
   }
+
+  .centered-events {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
   
