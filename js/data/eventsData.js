@@ -1,6 +1,40 @@
 const eventsData = {
-  upcomingevents: [],
+  upcomingevents: [
+    { 
+      title: "WiSTEM Summer Bingo – July Challenge",
+      date: "All of July",
+      time: "Due July 31st 11:59pm",
+      location: "Online",
+      description:
+        "Get ready to make the most of your summer with our WiSTEM Bingo! 🌼 5 fun activities in a row, column, or diagonally gives you a chance to win a $50 gift card of your choice! Each extra line = another entry, so don’t hold back! 🛍️✨ Click to submit your form by July 31 @ 11:59 PM! 🌞💫",
+      link: "https://forms.gle/MnF3CHkRCYjRSWWDA",
+      image: addEventImagePath("bingo25.png"),
+
+    },
+  ],
   pastevents: [
+    { 
+      title: "General MCAT Information Session",
+      date: "July 9",
+      time: "6-7pm",
+      location: "Online",
+      description:
+        "WiSTEM and The Princeton Review brings you an Info Session that’ll break it all! Learn what the MCAT is all about, how to prep effectively, and what resources are available to help you succeed.📚✨ Whether you’re just starting to explore or already knee-deep in prep, this session is for you! 💡",
+      link: "https://www.instagram.com/p/DLXqAnYRZKj/",
+      image: addEventImagePath("mcatInfoSession25.png"),
+
+    },
+    { 
+      title: "Women in STEM Trivia Night",
+      date: "June 19",
+      time: "6:30-7:30pm",
+      location: "DC 1351 or Online ",
+      description:
+        "Think you’ve got what it takes? 🤓🧠 Test your knowledge, connect with brilliant minds, and celebrate women making waves in science, technology, engineering, and mathematics. 🧠✨ Bring your A-game and win some cool prizes 🏆",
+      link: "https://www.instagram.com/p/DLA2vjXyHmg/",
+      image: addEventImagePath("triviaNight25.png"),
+
+    },
     { 
       title: "Galentines Day Celebration",
       date: "Feb 13",
@@ -122,7 +156,7 @@ const eventsData = {
       time: "",
       location: "Zoom",
       description:
-        "Are you in high school and looking to pursue a career in STEM? Do you want to learn more about opportunities available in the STEM field? If so, attend out virtual Step Into STEM confernece happening from Nov 5-13th where you have the chance to learn more about the different careers and opportunities in STEM and gain new skills at our Hackathon!",
+        "Are you in high school and looking to pursue a career in STEM? Do you want to learn more about STEM opportunities? If so, attend out virtual Step Into STEM confernece from Nov 5-13th where you can learn more about the different careers and opportunities in STEM and gain new skills at our Hackathon!",
       link: "https://www.instagram.com/p/CjWwyG-gIl3/?hl=en",
       image: addEventImagePath("stepintostem22.png"),
     },
@@ -162,7 +196,7 @@ const eventsData = {
       time: "4:30pm",
       location: "DC 1302 OR Zoom",
       description:
-        "Do you want to work in tech but are intimidated and unsure of how to get there? WiSTEM is excited to be collaborating with Goggle and @uwaterloowics to bring you a Women in Tech panel followed by a Q&A session, that is sure to empower you to achieve your career goals and help you break down barriers along the way!",
+        "Want to work in tech but feel intimidated about how to get there? WiSTEM, partnered with Google & @uwaterloowics, brings you a Women in Tech panel followed by a Q&A session, that is sure to empower you to achieve your career goals and help you break down barriers along the way!",
       link: "https://www.instagram.com/p/Ch-jJgPOkRS/?hl=en",
       image: addEventImagePath("googlewistem.png"),
     },

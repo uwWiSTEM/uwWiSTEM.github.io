@@ -1,6 +1,6 @@
 var mostRecentEvents = [];
 
-var eventCard = (link, image, title, time, description) => {
+var eventCard = (link, image, title, date, time, description) => {
   if(link != "") {
       return `<div class="col-md-4 eventp-upcoming-container">
       <div class="eventp-border-container">
@@ -12,7 +12,7 @@ var eventCard = (link, image, title, time, description) => {
         </a>
         <div class="eventp-description-container">
           <h2 class="eventp-title">${title}</h2>
-          <h6 class="eventp-time">${time}</h6>
+          <h6 class="eventp-time">${date}: ${time}</h6>
           <h6 class="eventp-description">${description}</h6>
           <br>
         </div>
@@ -27,7 +27,7 @@ var eventCard = (link, image, title, time, description) => {
           <div class="event-photo-upcoming" style="background-image:url(${image});"></div>
           <div class="eventp-description-container">
             <h2 class="eventp-title">${title}</h2>
-            <h6 class="eventp-time">${time}</h6>
+            <h6 class="eventp-time">${date}: ${time}</h6>
             <h6 class="eventp-description">${description}</h6>
             <br>
           </div>
@@ -58,11 +58,22 @@ function displayEvents() {
   populateEventsOnIndex();
   initializeSubheadings();
 
-  eventsData.upcomingevents.forEach(function (event) {
-    $('#upcomingevents').append(eventCard(event.link, event.image, event.title, event.time, event.description));
-  });
+  const $upcoming = $('#upcomingevents');
+
+  if (eventsData.upcomingevents.length > 0) {
+    if (eventsData.upcomingevents.length < 3) {
+      $upcoming.addClass('centered-events');
+    } else {
+      $upcoming.removeClass('centered-events');
+    }
+
+    eventsData.upcomingevents.forEach(function (event) {
+      $upcoming.append(eventCard(event.link, event.image, event.title, event.date, event.time, event.description, event.date));
+    });
+  }
+
   eventsData.pastevents.forEach(function (event) {
-    $('#pastevents').append(eventCard(event.link, event.image, event.title, event.time, event.description));
+    $('#pastevents').append(eventCard(event.link, event.image, event.title,  event.date, event.time, event.description));
   });
 }
 
