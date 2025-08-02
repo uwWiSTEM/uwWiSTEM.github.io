@@ -1,5 +1,6 @@
 const eventsData = {
-  upcomingevents: [
+  upcomingevents: [],
+  pastevents: [
     { 
       title: "WiSTEM Summer Bingo – July Challenge",
       date: "All of July",
@@ -7,12 +8,10 @@ const eventsData = {
       location: "Online",
       description:
         "Get ready to make the most of your summer with our WiSTEM Bingo! 🌼 5 fun activities in a row, column, or diagonally gives you a chance to win a $50 gift card of your choice! Each extra line = another entry, so don’t hold back! 🛍️✨ Click to submit your form by July 31 @ 11:59 PM! 🌞💫",
-      link: "https://forms.gle/MnF3CHkRCYjRSWWDA",
+      link: "https://www.instagram.com/p/DLgmI_YsJRw/",
       image: addEventImagePath("bingo25.png"),
 
     },
-  ],
-  pastevents: [
     { 
       title: "General MCAT Information Session",
       date: "July 9",
