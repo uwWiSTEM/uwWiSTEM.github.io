@@ -1639,6 +1639,15 @@ footer .social-icon {
   padding-top: 30px;
 }
 
+.sponsorlogo6 {
+  max-height: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: -25px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
 .sponsor-container {
   display: flex;
   justify-content: center;
@@ -1667,12 +1676,12 @@ footer .social-icon {
 }
 
 .sponsorlogo4 {
-  max-width: 400px;
+  max-width: 475px;
   display: flex;
   margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  margin-right: 25px;
+  padding-bottom: 25px;
+  padding-top: 5px;
 }
 
 .sponsorlogo5 {
@@ -1755,15 +1764,6 @@ footer .social-icon {
     font-size: 12pt;
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  .sponsorlogo1 {
-    max-height: 200px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 25px;
-    padding-top: 25px;
   }
   
   .sponsor-container {
