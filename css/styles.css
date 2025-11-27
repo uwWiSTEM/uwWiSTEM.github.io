@@ -1644,7 +1644,7 @@ footer .social-icon {
   display: flex;
   margin-left: auto;
   margin-right: -25px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-top: 0px;
 }
 
@@ -1658,12 +1658,12 @@ footer .social-icon {
 }
 
 .sponsorlogo2 {
-  max-width: 360px;
+  max-width: 460px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 15px;
-  padding-top: 15px;
+  padding-top: 0px;
 }
 
 .sponsorlogo3 {
@@ -1680,7 +1680,7 @@ footer .social-icon {
   display: flex;
   margin-left: auto;
   margin-right: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   padding-top: 5px;
 }
 
