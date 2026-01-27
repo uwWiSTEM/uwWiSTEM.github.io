@@ -4,7 +4,7 @@ const members = [
     position: "Co-President",
     team: "Core",
     program: "Applied Mathematics, 3rd year",
-    image: execPhotoPrefix("alexisf25.jpg"),
+    image: execPhotoPrefix("alexisT.png"),
     linkedin: "https://www.linkedin.com/in/alexistakyi/",
   },
   {
@@ -12,7 +12,7 @@ const members = [
     position: "Co-President",
     team: "Core",
     program: "Systems Design Engineering",
-    image: execPhotoPrefix("anaellef25.jpg"),
+    image: execPhotoPrefix("anaelleY.png"),
     linkedin: "http://linkedin.com/in/anaelle-youbissi",
   },
   {
@@ -20,7 +20,7 @@ const members = [
     position: "Co-President",
     team: "Core",
     program: "Chemistry, 4th year",
-    image: execPhotoPrefix("lauraf25.png"),
+    image: execPhotoPrefix("lauraM.png"),
     linkedin: "https://www.linkedin.com/in/laura-mereweather/",
   },
   {
@@ -28,7 +28,7 @@ const members = [
     position: "Vice President Internal",
     team: "Core",
     program: "Honours Science, 4th year",
-    image: execPhotoPrefix("abishaf25.jpg"),
+    image: execPhotoPrefix("abishaY.png"),
     linkedin: "",
   },
   {
@@ -36,7 +36,7 @@ const members = [
     position: "External Affairs",
     team: "External",
     program: "Science and Business, 4th year",
-    image: execPhotoPrefix("soaibaf25.png"),
+    image: execPhotoPrefix("soaibaR.png"),
     linkedin: "https://www.linkedin.com/in/soaibariaz/",
   },
   {
@@ -44,7 +44,7 @@ const members = [
     position: "External Affairs",
     team: "External",
     program: "Medicinal Chemistry, 2nd year",
-    image: execPhotoPrefix("kellif25.jpg"),
+    image: execPhotoPrefix("noorA.png"),
     linkedin: "https://www.linkedin.com/in/noor-ibrahim-abrar-555853356",
   },
   {
@@ -52,7 +52,7 @@ const members = [
     position: "Marketing Coordinator",
     team: "External",
     program: "Health Sciences, 3rd year",
-    image: execPhotoPrefix("fleshaf25.png"),
+    image: execPhotoPrefix("fleshaP.png"),
     linkedin: "https://www.linkedin.com/in/flesha",
   },
   {
@@ -60,7 +60,7 @@ const members = [
     position: "Marketing Coordinator",
     team: "External",
     program: "Environmental Science (Geoscience), 3rd year",
-    image: execPhotoPrefix("noorf25.png"),
+    image: execPhotoPrefix("aryaJ.png"),
     linkedin: "www.linkedin.com/in/arya-joshi-623083328",
   },
   {
@@ -76,7 +76,7 @@ const members = [
     position: "Outreach Coordinator",
     team: "External",
     program: "Geography and Aviation, 3rd year",
-    image: execPhotoPrefix("ashveenf25.png"),
+    image: execPhotoPrefix("ashveenA.png"),
     linkedin: "https://ca.linkedin.com/in/ashveenassokan/",
   },
   {
@@ -84,7 +84,7 @@ const members = [
     position: "WiSTEM Ambassador",
     team: "External",
     program: "Biomedical Science, 1st year",
-    image: execPhotoPrefix("ankitaf25.png"),
+    image: execPhotoPrefix("sarahS.png"),
     linkedin: "",
   },
   {
@@ -92,7 +92,7 @@ const members = [
     position: "WiSTEM Ambassador",
     team: "External",
     program: "Health Sciences, 2nd year",
-    image: execPhotoPrefix("lauraf25.png"),
+    image: execPhotoPrefix("daliaP.png"),
     linkedin: "https://www.linkedin.com/in/dalia-phares-043854398/",
   },
   {
@@ -108,7 +108,7 @@ const members = [
     position: "Event Coordinator",
     team: "Internal",
     program: "Kinesiology, 3rd year",
-    image: execPhotoPrefix("ramneetf25.png"),
+    image: execPhotoPrefix("emilyW.png"),
     linkedin: "",
   },
   {
@@ -132,7 +132,7 @@ const members = [
     position: "Treasurer",
     team: "Internal",
     program: "Math & Business Administration, 3rd Year",
-    image: execPhotoPrefix("hazelf25.png"),
+    image: execPhotoPrefix("hazelO.png"),
     linkedin: "https://www.linkedin.com/in/hazel-olabode/",
   },
   {
@@ -140,7 +140,7 @@ const members = [
     position: "Advocacy Coordinator",
     team: "Internal",
     program: "Honours Health Sciences, 3rd year",
-    image: execPhotoPrefix("meghaf25.png"),
+    image: execPhotoPrefix("meghaN.png"),
     linkedin: "",
   },
   {
@@ -156,7 +156,7 @@ const members = [
     position: "Web Developer",
     team: "Internal",
     program: "Computer Engineering, 4th year",
-    image: execPhotoPrefix("avril_f25.png"),
+    image: execPhotoPrefix("avrilA.png"),
     linkedin: "https://ca.linkedin.com/in/avril-alphonse",
   },
 ];
