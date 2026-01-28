@@ -17,7 +17,7 @@ const members = [
   },
   {
     name: "Laura M.",
-    position: "Co-President",
+    position: "Vice President External",
     team: "Core",
     program: "Chemistry, 4th year",
     image: execPhotoPrefix("lauraM.png"),
