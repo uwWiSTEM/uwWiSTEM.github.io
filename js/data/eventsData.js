@@ -1,6 +1,34 @@
 const eventsData = {
-  upcomingevents: [],
+  upcomingevents: [
+    {
+      title: "MCAT Srategy Session",
+      date: "June 11",
+      time: "7pm",
+      location: "Online",
+      description: "Thinking about medical school? Let’s build your MCAT strategy 🩺🚀 Whether you’re just beginning your prep or looking to refine your study plan, join WiSTEM and The Princeton Review for an informative MCAT Strategy Session designed to help you navigate the MCAT with confidence 💫",
+      link: "https://www.instagram.com/p/DZK3k81s3fJ/",
+      image: addEventImagePath("mcatSpring26.png")
+    }
+  ],
   pastevents: [
+    {
+      title: "Women's Day Movie Night",
+      date: "March 18",
+      time: "6:30-8:30pm",
+      location: "STC 0060",
+      description: "Join us for a Women’s Day movie night! 🎬✨ Celebrate with a film, good energy, and a night dedicated to empowering women 🌸💕",
+      link: "https://www.instagram.com/p/DV4MBxjkQb2/",
+      image: addEventImagePath("movienightw26.png")
+    },
+    {
+      title: "Valentine's Day Movie Night",
+      date: "February 11",
+      time: "6:30-8:30pm",
+      location: "STC 0050",
+      description: "Love is in the air… and on the screen 🎬💘 Join us for our Valentine’s Movie Night",
+      link: "https://www.instagram.com/p/DUcRdEFDClB/",
+      image: addEventImagePath("valentinesnightw26.png")
+    },
     { 
       title: "WiSTEM Summer Bingo – July Challenge",
       date: "All of July",
@@ -99,6 +127,8 @@ const eventsData = {
       link: "https://www.instagram.com/p/Cu-N8GBAoSt/",
       image: addEventImagePath("restapi.png"),
     },
+  ],
+  archivedevents: [
     {
       title: "Women's History Month Mixer",
       date: "March 27th",
