@@ -1,6 +1,17 @@
 const eventsData = {
   upcomingevents: [
     {
+      title: "Midterm Destressor",
+      date: "June 24",
+      time: "6pm-8pm",
+      location: "STC 0060",
+      description: "Closed the laptop yet? If not, this is your sign 🎨🎞️✨ 🌼 Join us for a cozy de-stressor event filled with tote bag painting, a movie, snacks, and great vibes! Bring your friends and come unwind!",
+      link: "https://www.instagram.com/p/DZu7NDIM7EU/",
+      image: addEventImagePath("midtermdestress26.png")
+    }
+  ],
+  pastevents: [
+    {
       title: "MCAT Srategy Session",
       date: "June 11",
       time: "7pm",
@@ -8,9 +19,7 @@ const eventsData = {
       description: "Thinking about medical school? Let’s build your MCAT strategy 🩺🚀 Whether you’re just beginning your prep or looking to refine your study plan, join WiSTEM and The Princeton Review for an informative MCAT Strategy Session designed to help you navigate the MCAT with confidence 💫",
       link: "https://www.instagram.com/p/DZK3k81s3fJ/",
       image: addEventImagePath("mcatSpring26.png")
-    }
-  ],
-  pastevents: [
+    },
     {
       title: "Women's Day Movie Night",
       date: "March 18",
