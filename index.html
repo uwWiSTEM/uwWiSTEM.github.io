@@ -44,6 +44,16 @@
   gtag('config', 'G-6FD0M7P5HJ');
 </script>
 
+<!-- Email copying -->
+<script>
+  function copy() {
+    var copyText = document.querySelector("#wistemEmail"); 
+    copyText.select(); document.execCommand("copy");
+    alert("Email was copied to clipboard!")
+  }
+  document.querySelector("#copyEmail").addEventListener("click", copy);
+</script>
+
 <body id="page-top">
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -97,8 +107,8 @@
           <div class="landing-divider"></div>
           <h4 class="landing-description">Women in STEM, a club that advocates for diversity.</h4>
           <div class="buttons-lp">
-            <a href="#subscribe_row" class="lp-outline">subscribe</a>
-            <a href="events.html" class="lp-solid">our events</a>
+            <a href="#emailus" class="lp-outline">Email us!</a>
+            <a href="events.html" class="lp-solid">Our events</a>
           </div>
           <div class="container">
             <div class="social">
@@ -1212,22 +1222,25 @@
       <h4 class="emailus-description black text-left">Got any questions or feedback?</h4>
       <!-- <h4 class="emailus-description black text-left">Send us an email! Name and email are required if a response is needed.</h4> -->
       <div class="buttons-lp">
-        <a href="mailto:uwwistem@gmail.com" class="lp-solid email-btn">
+        <!-- <a href="mailto:uwwistem@gmail.com" class="lp-solid email-btn">
           Send us an email!
-        </a>
+        </a> -->
+        <button onclick="copy()" id="copyEmail" class="email-button" style="z-index: 99; margin-left: 30px;">Send us an email!</button>
+        <input id="wistemEmail" value="uwwistem@gmail.com" style="visibility: hidden;">
       </div>
     </div>
   </div>
+  
 
 
 
-  <div class="row subscribe" id="subscribe_row">
+  <!-- <div class="row subscribe" id="subscribe_row">
     <div class="col-md-12" id="subscribe">
       <h2 class="title text-center">Subscribe</h2>
       <h4 class="description text-center">Join our mailing list to keep up to date with our events!</h4>
       <br>
 
-      <!-- MailChimp Signup Form -->
+      MailChimp Signup Form
       <div id="mc_embed_signup" class="text-center">
         <form action="https://github.us14.list-manage.com/subscribe/post?u=70c076a870c35371915de2e81&amp;id=8a6297e20b"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
@@ -1242,7 +1255,7 @@
         </form>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <footer>
     <div class="container footer-content" id="social">

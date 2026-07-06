@@ -1,5 +1,7 @@
 const eventsData = {
   upcomingevents: [
+  ],
+  pastevents: [
     {
       title: "Midterm Destressor",
       date: "June 24",
@@ -8,9 +10,7 @@ const eventsData = {
       description: "Closed the laptop yet? If not, this is your sign 🎨🎞️✨ 🌼 Join us for a cozy de-stressor event filled with tote bag painting, a movie, snacks, and great vibes! Bring your friends and come unwind!",
       link: "https://www.instagram.com/p/DZu7NDIM7EU/",
       image: addEventImagePath("midtermdestress26.png")
-    }
-  ],
-  pastevents: [
+    },
     {
       title: "MCAT Srategy Session",
       date: "June 11",
