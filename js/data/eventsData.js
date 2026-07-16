@@ -1,5 +1,14 @@
 const eventsData = {
   upcomingevents: [
+    {
+      title: "Match & Yoga",
+      date: "July 22",
+      time: "5:30pm-6:30pm",
+      location: "PAC Studio 2",
+      description: "Stretch, sip, smile – join us for some movement, mindfulness, and matcha! 🧘🏻‍♀️🍵 Flow into a relaxing evening of yoga, delicious matcha, and great company. Whether you’re looking to unwind, make new friends, or simply treat yourself to a midweek reset, we’d love to see you there!",
+      link: "https://www.instagram.com/p/Daie0XxM1JK/",
+      image: addEventImagePath("matchayoga26.png")
+    }
   ],
   pastevents: [
     {
