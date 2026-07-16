@@ -1575,6 +1575,87 @@ footer .social-icon {
   min-height: 175px;
 }
 
+/* test sponsor */
+* {
+  box-sizing: border-box;
+}
+
+sponsor-test {
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:20vh;
+  width: 90vw;
+  left: auto;
+}
+
+.button-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: #162c52;
+}
+
+.button-cont, button {
+  border: none;
+  background-color: transparent;
+}
+
+.wrapper {
+  height: 300px;
+  max-height: 50vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  padding: 0.5rem;
+  flex-shrink: 0;
+  height: 80%;
+  width: auto;
+  min-width: 150px;
+}
+
+.box__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 10rem;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.sponsor_logo {
+  max-height: 75%;
+  max-width: 70%;
+}
+
+/* end test sponsor */
+
 .sponsor-text-ml {
   font-size: 10pt;
   width: 540px;

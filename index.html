@@ -35,23 +35,28 @@
 </head>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6FD0M7P5HJ"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FD0M7P5HJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-6FD0M7P5HJ');
-</script>
+</script> -->
 
 <!-- Email copying -->
 <script>
+  
   function copy() {
     var copyText = document.querySelector("#wistemEmail"); 
     copyText.select(); document.execCommand("copy");
     alert("Email was copied to clipboard!")
   }
-  document.querySelector("#copyEmail").addEventListener("click", copy);
+
+  window.addEventListener("DOMContentLoaded", (event) => {
+    document.querySelector("#copyEmail").addEventListener('click', copy);
+  });
+
 </script>
 
 <body id="page-top">
@@ -1114,14 +1119,84 @@
         here</a>.
       </h4>
 
-      <div class="sponsor-container">
+      <div class="sponsor-test">
+      
+      <div class="wrapper">
+        <div class="box">
+          <div class="box__inner">
+            <img class="sponsor_logo" src="img/sponsors/princetonreview.png">
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__inner">
+            <img class="sponsor_logo" src="img/sponsors/eylogo.png">
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__inner">
+            <img class="sponsor_logo" src="img/sponsors/hubspotlogo.png" >
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__inner">
+            <img class="sponsor_logo" src="img/sponsors/fidelitylogo.png">
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__inner">
+            <img class="sponsor_logo" src="img/sponsors/scotiabanklogo.png">
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__inner">
+            <img class="sponsor_logo" src="img/sponsors/princetonreview.png">
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__inner">
+            <img class="sponsor_logo" src="img/sponsors/eylogo.png">
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__inner">
+            <img class="sponsor_logo" src="img/sponsors/hubspotlogo.png" >
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__inner">
+            <img class="sponsor_logo" src="img/sponsors/fidelitylogo.png">
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__inner">
+            <img class="sponsor_logo" src="img/sponsors/scotiabanklogo.png">
+          </div>
+        </div>
+      </div>
+
+      <div class="button-cont">
+        <button class="prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-left-square-fill" viewBox="0 0 16 16">
+            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm10.5 10V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4A.5.5 0 0 0 10.5 12"/>
+          </svg>
+        </button>
+        <button class="next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
+            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4z"/>
+          </svg>
+        </button>
+      </div>
+      </div>
+
+      <!-- <div class="sponsor-container">
         <img class="sponsorlogo1" src="img/sponsors/princetonreview.png">
         <img class="sponsorlogo1" src="img/sponsors/eylogo.png">
         <img class="sponsorlogo6" src="img/sponsors/hubspotlogo.png" >
         <img class="sponsorlogo4" src="img/sponsors/fidelitylogo.png">
         <img class="sponsorlogo2" src="img/sponsors/scotiabanklogo.png">
 
-      </div>
+      </div> -->
+
       <!--
       <div class="partners-lp">
         <div class="partners-lp-gold">
@@ -1162,59 +1237,6 @@
   </div>
 -->
 
-
-  <!-- <div class="row emailus" id="">
-    <div class="col-md-3"></div>
-    <div class="col-md-7 emailus-content">
-      <h2 class="title black">Questions?</h2>
-      <h4 class="emailus-description black text-left">Let us know anonymously below!</h4>
-      <form class="emailus-form validate-form" action="https://formspree.io/f/######" method="POST">
-        <div class="wrap-input1 validate-input" data-validate="Subject is required">
-          <input class="input1" type="text" name="subject" placeholder="Subject">
-        </div>
-  
-        <div class="wrap-input1 validate-input" data-validate="Question is required">
-          <textarea class="input1" name="message" placeholder="Question"></textarea>
-        </div>
-  
-        <div class="container-contact1-form-btn">
-          <button class="contact1-form-btn">
-            <span>
-              send
-            </span>
-          </button>
-        </div>
-      </form>
-    </div>
-    
-  </div>
-
-  <div class="row text-center" id="">
-    <div class="col-md-12 text-center">
-      <h2 class="title text-center">Need some help?</h2>
-      <h4 class="description text-center">Click the links below to navigate our website!</h4>
-      <div class="d-flex justify-content-center" style="margin-top: 40px;">
-      <div class="col-md-6">
-        <h3 class="faq-title">Looking for Resources?</h3>
-        <h4 class="description text-center">Scroll up to find links to our advocacy resources and co-op guide or <a href="#resources">click here</a>!<h4>
-      </div>
-      <div class="col-md-6">
-        <h3 class="faq-title">Hoping to join our team?</h3>
-        <h4 class="description text-center">Applications go up a few weeks before each term, follow us on our <a href="#social">social media</a> for updates!</h4>
-      </div>
-      
-      <div class="col-md-6">
-        <h3 class="faq-title">Interested in sponsoring WiSTEM?</h3>
-        <h4 class="description text-center">Send us an email <a href="#emailus">below</a> to learn more about becoming a partner!</h4>
-      </div>
-      <div class="col-md-6">
-        <h3 class="text-center faq-title">Want to sign up for an event?</h3>
-        <h4 class="description text-center">Check our <a href="#events">events</a> page or the WiSTEM <a href="https://linktr.ee/uwwistem">linktree</a> for registration info!</h4>
-      </div>
-    </div>
-    </div>
-  </div> -->
-
   <div class="row emailus" id="emailus">
     <div class="col-md-6"></div>
     <div class="col-md-6 emailus-content">
@@ -1231,32 +1253,6 @@
     </div>
   </div>
   
-
-
-
-  <!-- <div class="row subscribe" id="subscribe_row">
-    <div class="col-md-12" id="subscribe">
-      <h2 class="title text-center">Subscribe</h2>
-      <h4 class="description text-center">Join our mailing list to keep up to date with our events!</h4>
-      <br>
-
-      MailChimp Signup Form
-      <div id="mc_embed_signup" class="text-center">
-        <form action="https://github.us14.list-manage.com/subscribe/post?u=70c076a870c35371915de2e81&amp;id=8a6297e20b"
-          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-          target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll">
-            <div class="wrap-email">
-              <div class="clear">
-                <input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="lp-solid">
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div> -->
-
   <footer>
     <div class="container footer-content" id="social">
       <div class="social">
@@ -1289,6 +1285,11 @@
   <script src="js/team.js"></script>
 
   <script src="js/validate.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/InertiaPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Draggable.min.js"></script>
+  <script src="js/sponsor-banner.js"></script>
 
 </body>
 

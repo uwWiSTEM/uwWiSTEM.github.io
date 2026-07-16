@@ -15,20 +15,22 @@
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
     "font-awesome": "^4.6.3",
-    "gulp": "^4.0.0",
+    "gulp": "^5.0.1",
     "gulp-clean-css": "^2.0.10",
     "gulp-header": "^1.8.7",
     "gulp-less": "^3.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.4",
+    "gulp-uglify": "^3.0.2",
     "jquery": "^3.5.0",
-    "less": "^2.7.3"
+    "less": "^4.6.7"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
   },
   "dependencies": {
+    "bootstrap-icons": "^1.13.1",
+    "gsap": "^3.15.0",
     "simple-line-icons": "^2.3.2"
   }
 }
