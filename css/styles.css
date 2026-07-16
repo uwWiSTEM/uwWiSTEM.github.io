@@ -803,7 +803,19 @@ header {
     align-items: center;
   }
 
+  .resources-title {
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .resources-subtitle {
+    opacity: 70%;
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+
   .resources-title,
+  .resources.subtitle,
   .resources-description {
     text-align: left;
   }
