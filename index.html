@@ -46,17 +46,19 @@
 
 <!-- Email copying -->
 <script>
-  
-  function copy() {
-    var copyText = document.querySelector("#wistemEmail"); 
-    copyText.select(); document.execCommand("copy");
-    alert("Email was copied to clipboard!")
-  }
+  window.addEventListener("DOMContentLoaded", () => {
+    const btn = document.querySelector("#copyEmail");
+    const email = "uwwistem@gmail.com";
 
-  window.addEventListener("DOMContentLoaded", (event) => {
-    document.querySelector("#copyEmail").addEventListener('click', copy);
+    btn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(email);
+        alert("Email was copied to clipboard!");
+      } catch (err) {
+        alert("Couldn't copy automatically. Our email is: " + email);
+      }
+    });
   });
-
 </script>
 
 <body id="page-top">
@@ -966,7 +968,7 @@
         <!-- <a href="mailto:uwwistem@gmail.com" class="lp-solid email-btn">
           Send us an email!
         </a> -->
-        <button onclick="copy()" id="copyEmail" class="email-button" style="z-index: 99;">Send us an email!</button>
+        <button id="copyEmail" class="email-button" style="z-index: 99;">Send us an email!</button>
         <input id="wistemEmail" value="uwwistem@gmail.com" style="visibility: hidden;">
       </div>
     </div>
